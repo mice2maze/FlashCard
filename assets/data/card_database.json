@@ -1,0 +1,371 @@
+[
+  {
+    "Title": "あした",
+    "Subtitle": "明日",
+    "Pronoun": "ashita",
+    "Description": "明日, tomorrow",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "わたし",
+    "Subtitle": "私",
+    "Pronoun": "watashi",
+    "Description": "我, I",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "あなた",
+    "Subtitle": "",
+    "Pronoun": "anata",
+    "Description": "你, you",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "さん",
+    "Subtitle": "",
+    "Pronoun": "san",
+    "Description": "先生/女士, Mr./Ms.",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "にほん",
+    "Subtitle": "日本",
+    "Pronoun": "nihon",
+    "Description": "日本, Japan",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "ちゅうごく",
+    "Subtitle": "中国",
+    "Pronoun": "chuugoku",
+    "Description": "中國, China",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "かんこく",
+    "Subtitle": "韓国",
+    "Pronoun": "kankoku",
+    "Description": "韓國, Korea",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "アメリカ",
+    "Subtitle": "",
+    "Pronoun": "amerika",
+    "Description": "美國, USA/America",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "インド",
+    "Subtitle": "",
+    "Pronoun": "indo",
+    "Description": "印度, India",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "ドイツ",
+    "Subtitle": "",
+    "Pronoun": "doitsu",
+    "Description": "德國, Germany",
+    "URL": "",
+    "Category": "JPN5",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "だいがく",
+    "Subtitle": "大学",
+    "Pronoun": "daigaku",
+    "Description": "大學, university",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "こうこう",
+    "Subtitle": "高校",
+    "Pronoun": "kookoo",
+    "Description": "高中, high school",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "がっこう",
+    "Subtitle": "学校",
+    "Pronoun": "gakkoo",
+    "Description": "學校, school",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "せんせい",
+    "Subtitle": "先生",
+    "Pronoun": "sensee",
+    "Description": "老師, teacher",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "がくせい",
+    "Subtitle": "学生",
+    "Pronoun": "gakusee",
+    "Description": "學生, student",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "なまえ",
+    "Subtitle": "名前",
+    "Pronoun": "namae",
+    "Description": "姓名, name",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "あのかた",
+    "Subtitle": "あの方",
+    "Pronoun": "anokata",
+    "Description": "那人, that person",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "から",
+    "Subtitle": "",
+    "Pronoun": "kara",
+    "Description": "來自, from",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "くる",
+    "Subtitle": "来る",
+    "Pronoun": "kuru",
+    "Description": "來, to come",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "いく",
+    "Subtitle": "行く",
+    "Pronoun": "iku",
+    "Description": "去, to go",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "どなた",
+    "Subtitle": "",
+    "Pronoun": "donata",
+    "Description": "誰(禮貌), who (a polite way)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "ともだち",
+    "Subtitle": "友達",
+    "Pronoun": "tomodachi",
+    "Description": "朋友, friend",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "いしゃ",
+    "Subtitle": "医者",
+    "Pronoun": "isha",
+    "Description": "醫生, doctor",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "エンジニア",
+    "Subtitle": "",
+    "Pronoun": "enjinia",
+    "Description": "工程師, engineer",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "かいしゃいん",
+    "Subtitle": "会社員",
+    "Pronoun": "kaishain",
+    "Description": "雇員, employee",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "サラリーマン",
+    "Subtitle": "",
+    "Pronoun": "sarariiman",
+    "Description": "雇員, salaryman",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "おいしい",
+    "Subtitle": "美味しい",
+    "Pronoun": "oishii",
+    "Description": "好味, delicious",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "おおきい",
+    "Subtitle": "大きい",
+    "Pronoun": "ookii",
+    "Description": "大, big",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "くに",
+    "Subtitle": "国",
+    "Pronoun": "kuni",
+    "Description": "國家, country/nation",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "ご",
+    "Subtitle": "～語",
+    "Pronoun": "go",
+    "Description": "語, language",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "じん",
+    "Subtitle": "～人",
+    "Pronoun": "jin",
+    "Description": "~人, a country's people",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "コーヒー",
+    "Subtitle": "",
+    "Pronoun": "koohii",
+    "Description": "咖啡, coffee",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "あつい",
+    "Subtitle": "熱い",
+    "Pronoun": "atsui",
+    "Description": "熱, hot",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "さむい",
+    "Subtitle": "寒い",
+    "Pronoun": "samui",
+    "Description": "冷, cold",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "の",
+    "Subtitle": "",
+    "Pronoun": "no",
+    "Description": "之,  ~'s/of/belonging to",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "ほん",
+    "Subtitle": "本",
+    "Pronoun": "hon",
+    "Description": "書, book",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "くるま",
+    "Subtitle": "車",
+    "Pronoun": "kuruma",
+    "Description": "車, car",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "やまだ",
+    "Subtitle": "山田",
+    "Pronoun": "yamada",
+    "Description": "山田(姓), Yamada(surname)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "さとう",
+    "Subtitle": "佐藤",
+    "Pronoun": "sato",
+    "Description": "佐藤(姓), Sato(surname)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "すずき",
+    "Subtitle": "鈴木",
+    "Pronoun": "Suzuki",
+    "Description": "鈴木(姓), Suzuki(surname)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  },
+  {
+    "Title": "きょうしつ",
+    "Subtitle": "教室",
+    "Pronoun": "kyooshitsu",
+    "Description": "課室, classroom",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": ""
+  }
+]
