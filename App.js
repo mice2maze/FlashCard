@@ -26,7 +26,6 @@ export default function App() {
   // Tts.addEventListener('tts-start', event => console.log('start', event));
   // Tts.addEventListener('tts-finish', event => console.log('finish', event));
   // Tts.addEventListener('tts-cancel', event => console.log('cancel', event));
-
 function readWord( theWord ) {
   //Tts.stop();
   //Tts.speak(theWord)
@@ -114,6 +113,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 35,
     alignItems: 'center',
+    marginTop:30,
     justifyContent: 'center',
     shadowColor: '#000',
     shadowOffset: {
