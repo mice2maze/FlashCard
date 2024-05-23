@@ -6,7 +6,9 @@
     "Description": "明日, tomorrow",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "わたし",
@@ -15,7 +17,9 @@
     "Description": "我, I",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "あなた",
@@ -24,7 +28,9 @@
     "Description": "你, you",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "さん",
@@ -33,7 +39,9 @@
     "Description": "先生/女士, Mr./Ms.",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "にほん",
@@ -42,7 +50,9 @@
     "Description": "日本, Japan",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "ちゅうごく",
@@ -51,7 +61,9 @@
     "Description": "中國, China",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "かんこく",
@@ -60,7 +72,9 @@
     "Description": "韓國, Korea",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "アメリカ",
@@ -69,7 +83,9 @@
     "Description": "美國, USA/America",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "インド",
@@ -78,7 +94,9 @@
     "Description": "印度, India",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "ドイツ",
@@ -87,7 +105,9 @@
     "Description": "德國, Germany",
     "URL": "",
     "Category": "JPN5",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "だいがく",
@@ -96,7 +116,9 @@
     "Description": "大學, university",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "こうこう",
@@ -105,7 +127,9 @@
     "Description": "高中, high school",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "がっこう",
@@ -114,7 +138,9 @@
     "Description": "學校, school",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "せんせい",
@@ -123,7 +149,9 @@
     "Description": "老師, teacher",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "がくせい",
@@ -132,7 +160,9 @@
     "Description": "學生, student",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "なまえ",
@@ -141,7 +171,9 @@
     "Description": "姓名, name",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "あのかた",
@@ -150,7 +182,9 @@
     "Description": "那人, that person",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "から",
@@ -159,7 +193,9 @@
     "Description": "來自, from",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "くる",
@@ -168,7 +204,9 @@
     "Description": "來, to come",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "いく",
@@ -177,7 +215,9 @@
     "Description": "去, to go",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "どなた",
@@ -186,7 +226,9 @@
     "Description": "誰(禮貌), who (a polite way)",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "ともだち",
@@ -195,7 +237,9 @@
     "Description": "朋友, friend",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "いしゃ",
@@ -204,7 +248,9 @@
     "Description": "醫生, doctor",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "エンジニア",
@@ -213,7 +259,9 @@
     "Description": "工程師, engineer",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "かいしゃいん",
@@ -222,7 +270,9 @@
     "Description": "雇員, employee",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "サラリーマン",
@@ -231,7 +281,9 @@
     "Description": "雇員, salaryman",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "おいしい",
@@ -240,7 +292,9 @@
     "Description": "好味, delicious",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "おおきい",
@@ -249,7 +303,9 @@
     "Description": "大, big",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "くに",
@@ -258,7 +314,9 @@
     "Description": "國家, country/nation",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "ご",
@@ -267,7 +325,9 @@
     "Description": "語, language",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "じん",
@@ -276,7 +336,9 @@
     "Description": "~人, a country's people",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "コーヒー",
@@ -285,7 +347,9 @@
     "Description": "咖啡, coffee",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "あつい",
@@ -294,7 +358,9 @@
     "Description": "熱, hot",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "さむい",
@@ -303,7 +369,9 @@
     "Description": "冷, cold",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "の",
@@ -312,7 +380,9 @@
     "Description": "之,  ~'s/of/belonging to",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "ほん",
@@ -321,7 +391,9 @@
     "Description": "書, book",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "くるま",
@@ -330,7 +402,9 @@
     "Description": "車, car",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "やまだ",
@@ -339,7 +413,9 @@
     "Description": "山田(姓), Yamada(surname)",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "さとう",
@@ -348,7 +424,9 @@
     "Description": "佐藤(姓), Sato(surname)",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "すずき",
@@ -357,7 +435,9 @@
     "Description": "鈴木(姓), Suzuki(surname)",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   },
   {
     "Title": "きょうしつ",
@@ -366,6 +446,1779 @@
     "Description": "課室, classroom",
     "URL": "",
     "Category": "",
-    "Image_FileName": ""
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "いいえ",
+    "Subtitle": "",
+    "Pronoun": "iie",
+    "Description": "不, no",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おなじ",
+    "Subtitle": "同じ",
+    "Pronoun": "onaji",
+    "Description": "相同,same",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かいしゃ",
+    "Subtitle": "会社",
+    "Pronoun": "kaisha",
+    "Description": "公司,company",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しごと",
+    "Subtitle": "仕事",
+    "Pronoun": "shigoto",
+    "Description": "工作,work",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しりょう",
+    "Subtitle": "資料",
+    "Pronoun": "shiryoo",
+    "Description": "資料,information / materials",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ざっし",
+    "Subtitle": "雑誌",
+    "Pronoun": "zasshi",
+    "Description": "雜誌,magazine",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しんぶん",
+    "Subtitle": "新聞",
+    "Pronoun": "shimbun",
+    "Description": "報紙,newspaper",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しゃしん",
+    "Subtitle": "写真",
+    "Pronoun": "shashin",
+    "Description": "写真,photograph",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かさ",
+    "Subtitle": "傘",
+    "Pronoun": "kasa",
+    "Description": "傘,umbrella",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かばん",
+    "Subtitle": "鞄",
+    "Pronoun": "kaban",
+    "Description": "錢包,bag",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ああ",
+    "Subtitle": "",
+    "Pronoun": "aa",
+    "Description": "啊,Ah! / Oh!",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "どうぞ",
+    "Subtitle": "",
+    "Pronoun": "doozo",
+    "Description": "請,please, here you are",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "はいる",
+    "Subtitle": "入る",
+    "Pronoun": "hairu",
+    "Description": "進入,to enter",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おちゃ",
+    "Subtitle": "お茶",
+    "Pronoun": "ocha",
+    "Description": "茶,tea",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "みず",
+    "Subtitle": "水",
+    "Pronoun": "mizu",
+    "Description": "水,water",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "こうちゃ",
+    "Subtitle": "紅茶",
+    "Pronoun": "koocha",
+    "Description": "紅茶, black tea",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ジュース",
+    "Subtitle": "",
+    "Pronoun": "juusu",
+    "Description": "果汁, juice",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "この",
+    "Subtitle": "",
+    "Pronoun": "kono",
+    "Description": "這, this",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "その",
+    "Subtitle": "",
+    "Pronoun": "sono",
+    "Description": "那, that",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あの",
+    "Subtitle": "",
+    "Pronoun": "ano",
+    "Description": "那, that",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "どの",
+    "Subtitle": "",
+    "Pronoun": "dono",
+    "Description": "哪個, which",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "これ",
+    "Subtitle": "",
+    "Pronoun": "kore",
+    "Description": "這,this",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "それ",
+    "Subtitle": "",
+    "Pronoun": "sore",
+    "Description": "那,that",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あれ",
+    "Subtitle": "",
+    "Pronoun": "are",
+    "Description": "那,that",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "どれ",
+    "Subtitle": "",
+    "Pronoun": "dore",
+    "Description": "哪個,which",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ひと",
+    "Subtitle": "人",
+    "Pronoun": "hito",
+    "Description": "人,human / people",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "はは",
+    "Subtitle": "母",
+    "Pronoun": "haha",
+    "Description": "母親(自己的), mother(When talking about your own mom)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おかあさん",
+    "Subtitle": "お母さん",
+    "Pronoun": "okaasan",
+    "Description": "母親(別人),mom (when referring to someone else's mother)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "きれい",
+    "Subtitle": "綺麗",
+    "Pronoun": "kiree",
+    "Description": "美麗,beautiful",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おとうと",
+    "Subtitle": "弟",
+    "Pronoun": "otooto",
+    "Description": "弟弟,younger brother",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かぞく",
+    "Subtitle": "家族",
+    "Pronoun": "Kazoku",
+    "Description": "家族,family",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんにん",
+    "Subtitle": "何人",
+    "Pronoun": "nannin",
+    "Description": "多少人,how many people",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あに",
+    "Subtitle": "兄",
+    "Pronoun": "ani",
+    "Description": "兄(自己),elder brother",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おにいさん",
+    "Subtitle": "お兄さん",
+    "Pronoun": "oniisan",
+    "Description": "兄(別人), elder brother",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ちち",
+    "Subtitle": "父",
+    "Pronoun": "chichi",
+    "Description": "父親(自己),father (When talking about your own father)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ぜんぶ",
+    "Subtitle": "全部",
+    "Pronoun": "zembu",
+    "Description": "全部,all",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "つま",
+    "Subtitle": "妻",
+    "Pronoun": "tsuma",
+    "Description": "妻子(自己),wife (When talking to your own wife)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おくさん",
+    "Subtitle": "奥さん",
+    "Pronoun": "okusan",
+    "Description": "妻子(別人),wife (when referring to someone else's wife)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ふたり",
+    "Subtitle": "二人",
+    "Pronoun": "futari",
+    "Description": "兩人,two people",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "じゅう",
+    "Subtitle": "十",
+    "Pronoun": "juu",
+    "Description": "十,ten",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ひゃく",
+    "Subtitle": "百",
+    "Pronoun": "hyaku",
+    "Description": "百,hundred",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "せん",
+    "Subtitle": "千",
+    "Pronoun": "sen",
+    "Description": "千,thousand",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "まん",
+    "Subtitle": "万",
+    "Pronoun": "man",
+    "Description": "萬,ten thousand",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "と",
+    "Subtitle": "",
+    "Pronoun": "to",
+    "Description": "和/與, and / with",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "だれ",
+    "Subtitle": "誰",
+    "Pronoun": "dare",
+    "Description": "誰,who",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かいがい",
+    "Subtitle": "海外",
+    "Pronoun": "kaigai",
+    "Description": "海外,overseas",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～ぶ",
+    "Subtitle": "～部",
+    "Pronoun": "～bu",
+    "Description": "部門,department (in an organization)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "じむ",
+    "Subtitle": "事務",
+    "Pronoun": "jimu",
+    "Description": "事務/公事,office work",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "てちょう",
+    "Subtitle": "手帳",
+    "Pronoun": "techoo",
+    "Description": "手帳,pocket notebook",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ノート",
+    "Subtitle": "",
+    "Pronoun": "nooto",
+    "Description": "筆記簿,notebook",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "めいし",
+    "Subtitle": "名刺",
+    "Pronoun": "meeshi",
+    "Description": "名片,business card",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "まんねんひつ",
+    "Subtitle": "万年筆",
+    "Pronoun": "mannenhitsu",
+    "Description": "鋼筆,fountain pen",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "えんぴつ",
+    "Subtitle": "鉛筆",
+    "Pronoun": "empitsu",
+    "Description": "鉛筆,pencil",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ボールペン",
+    "Subtitle": "",
+    "Pronoun": "boorupen",
+    "Description": "原子筆,ballpoint pen",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "パソコン",
+    "Subtitle": "",
+    "Pronoun": "pasokon",
+    "Description": "個人電腦,personal computer",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "コンピューター",
+    "Subtitle": "",
+    "Pronoun": "kompyuutaa",
+    "Description": "電腦,computer",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "つくえ",
+    "Subtitle": "机",
+    "Pronoun": "tsukue",
+    "Description": "書桌,desk",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "いす",
+    "Subtitle": "椅子",
+    "Pronoun": "isu",
+    "Description": "椅子,chair",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "とけい",
+    "Subtitle": "時計",
+    "Pronoun": "tokei",
+    "Description": "鐘,clock",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "え",
+    "Subtitle": "絵",
+    "Pronoun": "e",
+    "Description": "畫,picture",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ねこ",
+    "Subtitle": "猫",
+    "Pronoun": "neko",
+    "Description": "貓,cat",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "いぬ",
+    "Subtitle": "犬",
+    "Pronoun": "inu",
+    "Description": "狗,dog",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "うえ",
+    "Subtitle": "上",
+    "Pronoun": "ue",
+    "Description": "上, top / on / above",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "した",
+    "Subtitle": "下",
+    "Pronoun": "shita",
+    "Description": "下, under / below",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ひだり",
+    "Subtitle": "左",
+    "Pronoun": "hidari",
+    "Description": "左, left",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "みぎ",
+    "Subtitle": "右",
+    "Pronoun": "migi",
+    "Description": "右, right",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "となり",
+    "Subtitle": "隣",
+    "Pronoun": "tonari",
+    "Description": "隔壁, next to",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かいぎ",
+    "Subtitle": "会議",
+    "Pronoun": "kaigi",
+    "Description": "會議, meeting",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かいぎしつ",
+    "Subtitle": "会議室",
+    "Pronoun": "kaigishitsu",
+    "Description": "會議室, meeting room",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ごぜん",
+    "Subtitle": "午前",
+    "Pronoun": "gozen",
+    "Description": "早上, morning / am",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ごご",
+    "Subtitle": "午後",
+    "Pronoun": "gogo",
+    "Description": "下午, afternoon / pm",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ここ",
+    "Subtitle": "",
+    "Pronoun": "koko",
+    "Description": "這裏, here",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "そこ",
+    "Subtitle": "",
+    "Pronoun": "soko",
+    "Description": "那裏, there",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あそこ",
+    "Subtitle": "",
+    "Pronoun": "asoko",
+    "Description": "那裏(遠), over there",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "どこ",
+    "Subtitle": "",
+    "Pronoun": "doko",
+    "Description": "哪裏, where",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "こちら",
+    "Subtitle": "",
+    "Pronoun": "kochira",
+    "Description": "這兒(方位), this side / this place (polite) this place (polite)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "そちら",
+    "Subtitle": "",
+    "Pronoun": "sochira",
+    "Description": "那兒(方位), that side / that place (polite) that place (polite)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あちら",
+    "Subtitle": "",
+    "Pronoun": "achira",
+    "Description": "那兒(方位), over there (polite)",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "どちら",
+    "Subtitle": "",
+    "Pronoun": "dochira",
+    "Description": "哪兒, which /where (polite) where",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ある",
+    "Subtitle": "",
+    "Pronoun": "aru",
+    "Description": "那裏有, there is / are",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しょくどう",
+    "Subtitle": "食堂",
+    "Pronoun": "shokudoo",
+    "Description": "食堂, dining hall / cafeteria",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "へや",
+    "Subtitle": "部屋",
+    "Pronoun": "heya",
+    "Description": "房間, room",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "そと",
+    "Subtitle": "外",
+    "Pronoun": "soto",
+    "Description": "外面, outside",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なか",
+    "Subtitle": "中",
+    "Pronoun": "naka",
+    "Description": "裏面, inside",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "うけつけ",
+    "Subtitle": "受付",
+    "Pronoun": "uketsuke",
+    "Description": "接待處, reception desk",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "トイレ",
+    "Subtitle": "",
+    "Pronoun": "toire",
+    "Description": "厠所, toilet",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おてあらい",
+    "Subtitle": "お手洗い",
+    "Pronoun": "otearai",
+    "Description": "洗手間, restroom",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～かい",
+    "Subtitle": "～階",
+    "Pronoun": "～kai",
+    "Description": "~層, ～floor",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かいだん",
+    "Subtitle": "階段",
+    "Pronoun": "kaidan",
+    "Description": "臺階, stairs",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんかい",
+    "Subtitle": "何階",
+    "Pronoun": "nankai",
+    "Description": "哪一層, which floor",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "エレベーター",
+    "Subtitle": "",
+    "Pronoun": "erebeetaa",
+    "Description": "電梯, elevator",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～まい",
+    "Subtitle": "～枚",
+    "Pronoun": "～mai",
+    "Description": "枚, counter for thin objects",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "じどうはんばいき",
+    "Subtitle": "自動販売機",
+    "Pronoun": "jidoohambaiki",
+    "Description": "自動售賣機, vending machine",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かちょう",
+    "Subtitle": "課長",
+    "Pronoun": "kachoo",
+    "Description": "課長, section chief",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ぶちょう",
+    "Subtitle": "部長",
+    "Pronoun": "buchoo",
+    "Description": "經理, manager",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しゃちょう",
+    "Subtitle": "社長",
+    "Pronoun": "shachoo",
+    "Description": "社長, company president",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おく",
+    "Subtitle": "億",
+    "Pronoun": "oku",
+    "Description": "億, one hundred million",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～ねん",
+    "Subtitle": "～年",
+    "Pronoun": "~nen",
+    "Description": "~年, ～th year",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんねん",
+    "Subtitle": "何年",
+    "Pronoun": "nannen",
+    "Description": "哪年, which year",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ことし",
+    "Subtitle": "今年",
+    "Pronoun": "kotoshi",
+    "Description": "這年, this year",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "らいねん",
+    "Subtitle": "来年",
+    "Pronoun": "rainen",
+    "Description": "明年, next year",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "きょねん",
+    "Subtitle": "去年",
+    "Pronoun": "kyonen",
+    "Description": "去年, last year",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～がつ",
+    "Subtitle": "～月",
+    "Pronoun": "gatsu",
+    "Description": "~月, ~mth",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんがつ",
+    "Subtitle": "何月",
+    "Pronoun": "nangatsu",
+    "Description": "哪月, what month",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "こんげつ",
+    "Subtitle": "今月",
+    "Pronoun": "konketsu",
+    "Description": "這月, this month",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "らいげつ",
+    "Subtitle": "来月",
+    "Pronoun": "raigetsu",
+    "Description": "下個月, next month",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "せんげつ",
+    "Subtitle": "先月",
+    "Pronoun": "sengetsu",
+    "Description": "上月, last month",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しゅう",
+    "Subtitle": "週",
+    "Pronoun": "shuu",
+    "Description": "周, week",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "こんしゅう",
+    "Subtitle": "今週",
+    "Pronoun": "konshuu",
+    "Description": "今周, this week",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "らいしゅう",
+    "Subtitle": "来週",
+    "Pronoun": "raishuu",
+    "Description": "下周, next week",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "せんしゅう",
+    "Subtitle": "先週",
+    "Pronoun": "senshuu",
+    "Description": "上周, last week",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ひ／にち",
+    "Subtitle": "日",
+    "Pronoun": "hi/nichi",
+    "Description": "日, day",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "きょう",
+    "Subtitle": "今日",
+    "Pronoun": "kyou",
+    "Description": "今日, today",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "きのう",
+    "Subtitle": "昨日",
+    "Pronoun": "kinou",
+    "Description": "昨天, yesterday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "おととい",
+    "Subtitle": "",
+    "Pronoun": "ototoi",
+    "Description": "前天, the day before",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あさって",
+    "Subtitle": "",
+    "Pronoun": "asatte",
+    "Description": "後天, the day after tomorrow",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～じ",
+    "Subtitle": "～時",
+    "Pronoun": "~ji",
+    "Description": "時, ～o'clock",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんじ",
+    "Subtitle": "何時",
+    "Pronoun": "nanji",
+    "Description": "幾點, what time",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～ふん",
+    "Subtitle": "～分",
+    "Pronoun": "fun",
+    "Description": "分鐘, ～minute",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんぷん",
+    "Subtitle": "何分",
+    "Pronoun": "nanpun",
+    "Description": "幾分, what minute",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～びょう",
+    "Subtitle": "～秒",
+    "Pronoun": "byou",
+    "Description": "幾秒, ～second",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "いつ",
+    "Subtitle": "",
+    "Pronoun": "itsu",
+    "Description": "何時, when",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "はん",
+    "Subtitle": "半",
+    "Pronoun": "han",
+    "Description": "半, half",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "まえ",
+    "Subtitle": "前",
+    "Pronoun": "mae",
+    "Description": "前, the front",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "うしろ",
+    "Subtitle": "後ろ",
+    "Pronoun": "ushiro",
+    "Description": "后, the back",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "いま",
+    "Subtitle": "今",
+    "Pronoun": "ima",
+    "Description": "現在, now",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "あさ",
+    "Subtitle": "朝",
+    "Pronoun": "asa",
+    "Description": "朝, morning",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ひる",
+    "Subtitle": "昼",
+    "Pronoun": "hiru",
+    "Description": "日間, daytime",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ばん",
+    "Subtitle": "晩",
+    "Pronoun": "han",
+    "Description": "晚上, evening",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "よる",
+    "Subtitle": "夜",
+    "Pronoun": "yoru",
+    "Description": "夜晚, night",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "けさ",
+    "Subtitle": "今朝",
+    "Pronoun": "kesa",
+    "Description": "今朝, this morning",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "こんばん",
+    "Subtitle": "今晩",
+    "Pronoun": "konban",
+    "Description": "今晚, this evening",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "やすみ",
+    "Subtitle": "休み",
+    "Pronoun": "yasumi",
+    "Description": "假期, rest/a day off",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "まいにち",
+    "Subtitle": "毎日",
+    "Pronoun": "mainichi",
+    "Description": "每天, every day",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "まい",
+    "Subtitle": "毎～",
+    "Pronoun": "mai",
+    "Description": "每, every ～",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "たんじょうび",
+    "Subtitle": "誕生日",
+    "Pronoun": "tanjoubi",
+    "Description": "生日, birthday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "パーティー",
+    "Subtitle": "ぱあてぃい",
+    "Pronoun": "paatii",
+    "Description": "派對, party",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "デパート",
+    "Subtitle": "でぱあと",
+    "Pronoun": "depaato",
+    "Description": "百貨公司, department store",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ぎんこう",
+    "Subtitle": "銀行",
+    "Pronoun": "ginkou",
+    "Description": "銀行, bank",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ゆうびんきょく",
+    "Subtitle": "郵便局",
+    "Pronoun": "yuubinkyoku",
+    "Description": "郵局, post office",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "としょかん",
+    "Subtitle": "図書館",
+    "Pronoun": "toshokan",
+    "Description": "圖書館, library",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "えいがかん",
+    "Subtitle": "映画館",
+    "Pronoun": "eigakan",
+    "Description": "戲院, movie theatre",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "スーパー",
+    "Subtitle": "すうぱあ",
+    "Pronoun": "suupaa",
+    "Description": "超級市場, supermarket",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "びょういん",
+    "Subtitle": "病院",
+    "Pronoun": "byouin",
+    "Description": "醫院, hospital",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "やおや",
+    "Subtitle": "八百屋",
+    "Pronoun": "yaoya",
+    "Description": "蔬果店, vegetable shop",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "びじゅつかん",
+    "Subtitle": "美術館",
+    "Pronoun": "bijutsukan",
+    "Description": "美術館, art museum",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～がわ",
+    "Subtitle": "～側",
+    "Pronoun": "gawa",
+    "Description": "旁邊, ～side",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "げつようび",
+    "Subtitle": "月曜日",
+    "Pronoun": "getsuyoubi",
+    "Description": "星期一, Monday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "かようび",
+    "Subtitle": "火曜日",
+    "Pronoun": "kayoubi",
+    "Description": "星期二, Tuesday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "すいようび",
+    "Subtitle": "水曜日",
+    "Pronoun": "suiyoubi",
+    "Description": "星期三, Wednesday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "もくようび",
+    "Subtitle": "木曜日",
+    "Pronoun": "mokuyoubi",
+    "Description": "星期四, Thursday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "きんようび",
+    "Subtitle": "金曜日",
+    "Pronoun": "kinyoubi",
+    "Description": "星期五, Friday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "どようび",
+    "Subtitle": "土曜日",
+    "Pronoun": "doyoubi",
+    "Description": "星期六, Saturday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "にちようび",
+    "Subtitle": "日曜日",
+    "Pronoun": "nichiyoubi",
+    "Description": "星期天, Sunday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "なんようび",
+    "Subtitle": "何曜日",
+    "Pronoun": "nanyoubi",
+    "Description": "星期幾, what day of the week",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しゅくじつ",
+    "Subtitle": "祝日",
+    "Pronoun": "shukujitsu",
+    "Description": "假日, holiday",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "しゅうまつ",
+    "Subtitle": "週末",
+    "Pronoun": "shuumatsu",
+    "Description": "周末, weekend",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "プレゼント",
+    "Subtitle": "ぷれぜんと",
+    "Pronoun": "purezento",
+    "Description": "禮物, present",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "だいじょうぶ",
+    "Subtitle": "大丈夫",
+    "Pronoun": "daijoubu",
+    "Description": "沒問題, all right/ok",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "ほんとう",
+    "Subtitle": "本当",
+    "Pronoun": "hontou",
+    "Description": "真的, truth/really",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
+  },
+  {
+    "Title": "～まで",
+    "Subtitle": "",
+    "Pronoun": "made",
+    "Description": "直到~, until ~",
+    "URL": "",
+    "Category": "",
+    "Image_FileName": "",
+    "": "",
+    "__1": ""
   }
 ]

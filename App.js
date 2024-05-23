@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, Pressable, ImageBackground,useWindowDimensions,SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView } from 'react-native';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
-import bgImg from "./assets/images/background-image.png";
+import bgImg from "./assets/images/background.jpg";
 
 //import Tts from 'react-native-tts';
 
@@ -17,7 +17,6 @@ export default function App() {
   const noPronounImg = "./assets/images/no-audio-50.png";
   const showPronounImg = "./assets/images/speaker-50.png";
   const randomImg = "./assets/images/dice-80.png";
-  const {winHeight, winWidth} = useWindowDimensions();
 
   const [itemSeq, setItemSeq] = useState(0);
   const [showTranslate, setShowTranslate] = useState(1);
@@ -27,6 +26,7 @@ export default function App() {
   // Tts.addEventListener('tts-start', event => console.log('start', event));
   // Tts.addEventListener('tts-finish', event => console.log('finish', event));
   // Tts.addEventListener('tts-cancel', event => console.log('cancel', event));
+
 function readWord( theWord ) {
   //Tts.stop();
   //Tts.speak(theWord)
@@ -37,15 +37,14 @@ function readWord( theWord ) {
     if (itemSeq < card_database.length-1) {
       setItemSeq(itemSeq+1);
     }
-    console.log("items ", itemSeq,card_database.length )
-    console.log("width - height", winWidth, winHeight, bgImg)
+    //console.log("items ", itemSeq,card_database.length )
   }
 
   function prevCard() {
     if (itemSeq >= 1) {
       setItemSeq(itemSeq-1);
     }
-    console.log("items ", itemSeq,card_database.length )
+    //console.log("items ", itemSeq,card_database.length )
 
   }
   function randomCard() {
@@ -60,13 +59,13 @@ function readWord( theWord ) {
   }
   return (
     <SafeAreaView style={styles.container}>
-      <ImageBackground style={styles.img} source={bgImg} resizeMode='cover' />     
+      <ImageBackground style={styles.img} source={bgImg} resizeMode='cover'>     
       <View style={styles.modalView}>
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
         <Text style={styles.subtitle}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
         <Text style={styles.blank}></Text>
         <Pressable style={styles.barView} 
-              onPress={() => {Speech.speak((card_database[itemSeq].Subtitle === "" ? card_database[itemSeq].Title:card_database[itemSeq].Subtitle), {language:'ja-JP'});}}>
+              onPress={() => {showPronoun===1? Speech.speak((card_database[itemSeq].Subtitle === "" ? card_database[itemSeq].Title:card_database[itemSeq].Subtitle), {language:'ja-JP'}):0;}}>
             <Image style={[styles.speakerImg,{opacity:showPronoun}]} source={require(speakerImg) }/>
             <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card_database[itemSeq].Pronoun}</Text>
         </Pressable>
@@ -97,6 +96,7 @@ function readWord( theWord ) {
         </Pressable>
 
       </View>
+      </ImageBackground>
     </SafeAreaView>
   );
 }
@@ -104,13 +104,13 @@ function readWord( theWord ) {
 const styles = StyleSheet.create({
   container: {
     top:'10%',
-    alignItems: 'center',
+    //alignItems: 'top',
     marginTop:30,
-    justifyContent: 'center',
+    //justifyContent: 'center',
   },
   modalView: {
-    margin: 20,
-    width:"95%",
+    marginLeft:"5%",
+    marginRight:"5%",
     borderRadius: 20,
     padding: 35,
     alignItems: 'center',
@@ -123,28 +123,31 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5,
-    backgroundColor: 'white',
+    backgroundColor: 'snow',
   },
   barView: {
+    marginVertical:"2%",
+    marginLeft:"8%",
+    marginRight:"8%",
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
   },
   buttonImg:{
-    width: 32,
-    height: 32,
+    width: 64,
+    height: 24,
   },
   translateImgSize:{
-    width: 20,
-    height: 20,
+    width: 28,
+    height: 28,
   },
   noPronounImgSize:{
-    width: 20,
-    height: 20,
+    width: 28,
+    height: 28,
   },
   speakerImg:{
-    width: 16,
-    height: 16,
+    width: 20,
+    height: 20,
   },
   title: {
     fontSize: 40,
@@ -164,7 +167,6 @@ const styles = StyleSheet.create({
     fontSize: 10,
   },
   img: { 
-    justifyContent: 'center', 
     width:"100%",
     height:"100%",
   }, 
