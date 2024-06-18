@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
       width: 2,
       height: 2,
     },
-    shadowOpacity: 0.25,
+    //shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5,
     backgroundColor: 'snow',
