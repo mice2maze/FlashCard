@@ -70,7 +70,8 @@ export default function App() {
             <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card_database[itemSeq].Pronoun}</Text>
         </Pressable>
         <Text style={styles.blank}></Text>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Description}</Text>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Chinese}</Text>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].English}</Text>
         <StatusBar style="auto"/>
       </View>
 
