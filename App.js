@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView } from 'react-native';
+import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
@@ -22,6 +23,10 @@ export default function App() {
   const [showTranslate, setShowTranslate] = useState(1);
   const [showPronoun, setShowPronoun] = useState(1);
 
+  // const [swipeDirection, setSwipeDirection] = useState('');
+  const {SWIPE_LEFT, SWIPE_RIGHT, SWIPE_DOWN, SWIPE_UP} = swipeDirections;
+
+
   //Tts.setDefaultLanguage('en-IE');
   // Tts.addEventListener('tts-start', event => console.log('start', event));
   // Tts.addEventListener('tts-finish', event => console.log('finish', event));
@@ -30,12 +35,17 @@ export default function App() {
   function readWord( theWord ) {
     //Tts.stop();
     //Tts.speak(theWord)
-      Speech.speak(theWord, {language:'ja-JP'});
+    // Speech.speak(theWord, {language:'ja-JP'});
+    if (showPronoun === 1) {
+      Speech.speak((theWord.Subtitle === "" ? theWord.Title:theWord.Subtitle), {language:'ja-JP'});
+    }
   }
 
   function nextCard() {
     if (itemSeq < card_database.length-1) {
       setItemSeq(itemSeq+1);
+    } else {
+      setItemSeq(1);
     }
     //console.log("items ", itemSeq,card_database.length )
   }
@@ -43,6 +53,8 @@ export default function App() {
   function prevCard() {
     if (itemSeq >= 1) {
       setItemSeq(itemSeq-1);
+    } else {
+      setItemSeq(card_database.length-1)
     }
     //console.log("items ", itemSeq,card_database.length )
 
@@ -57,22 +69,49 @@ export default function App() {
   function pronounOnOff() {
     setShowPronoun(showPronoun===0?1:0);
   }
+
+  function onSwipe(gestureName, currentWord){
+   // setSwipeDirection(gestureName);
+    switch (gestureName) {
+      case SWIPE_LEFT:
+        nextCard();
+        break;
+      case SWIPE_RIGHT:
+        prevCard();           
+        break;
+      case SWIPE_UP:ß
+        readWord(currentWord);
+        break;
+      case SWIPE_DOWN:
+        randomCard();
+        break;
+    }
+  }
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground style={styles.img} source={bgImg} resizeMode='cover'>     
+      <View style={styles.heading}> 
+        <Text style={styles.heading}>日文N5單字</Text>
+        <Text style={styles.heading}>Japanese N5 Vocabulary</Text>
+      </View>
+      <GestureRecognizer
+        onSwipe={(direction) => onSwipe(direction,card_database[itemSeq])}
+      >
       <View style={styles.modalView}>
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
         <Text style={styles.subtitle}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
         <Text style={styles.blank}></Text>
         <Pressable style={styles.barView} 
-              onPress={() => {showPronoun===1? Speech.speak((card_database[itemSeq].Subtitle === "" ? card_database[itemSeq].Title:card_database[itemSeq].Subtitle), {language:'ja-JP'}):0;}}>
+              onPress={()=>readWord(card_database[itemSeq])}>
             <Image style={[styles.speakerImg,{opacity:showPronoun}]} source={require(speakerImg) }/>
             <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card_database[itemSeq].Pronoun}</Text>
         </Pressable>
         <Text style={styles.blank}></Text>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Description}</Text>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Chinese}</Text>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].English}</Text>
         <StatusBar style="auto"/>
       </View>
+      </GestureRecognizer>
 
       <View style={styles.barView}>
         <Pressable onPress={showOnOff}>
@@ -95,6 +134,10 @@ export default function App() {
           <Image style={[styles.buttonImg,{opacity:(itemSeq+1 === card_database.length ?0.1:1)}]} source={require(nextButtonImg)}/>
         </Pressable>
 
+      </View>
+      <View style={styles.lowerVew}></View>
+      <View style={styles.footer}>
+        <Text style={styles.bottomText}> presented by Kosaon @2024</Text>
       </View>
       </ImageBackground>
     </SafeAreaView>
@@ -134,6 +177,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },
+  lowerVew:{
+    marginVertical:"2%",
+    marginLeft:"8%",
+    marginRight:"8%",
+    flexDirection: 'row',
+    alignItems: 'center',
+    height:"35%",
+    justifyContent: 'space-evenly',
+  },
   buttonImg:{
     width: 64,
     height: 24,
@@ -171,4 +223,17 @@ const styles = StyleSheet.create({
     width:"100%",
     height:"100%",
   }, 
+  heading: {
+    fontSize: 20,
+    justifyContent:'center',
+    alignItems: 'center',
+  },
+  footer: {
+    justifyContent:'center',
+    alignItems:'center',
+  },
+  bottomText: {
+    fontSize:9,
+    fontStyle:'italic',
+  },
 });
