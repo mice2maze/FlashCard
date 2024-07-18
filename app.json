@@ -15,7 +15,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "4",
+      "bundleIdentifier": "com.micemaze.FlashCard"
     },
     "android": {
       "adaptiveIcon": {
