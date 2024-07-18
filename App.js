@@ -5,6 +5,7 @@ import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
+//import {Audio} from 'expo-av';
 import bgImg from "./assets/images/background.jpg";
 
 //import Tts from 'react-native-tts';
@@ -32,10 +33,20 @@ export default function App() {
   // Tts.addEventListener('tts-finish', event => console.log('finish', event));
   // Tts.addEventListener('tts-cancel', event => console.log('cancel', event));
   
-  function readWord( theWord ) {
+  async function readWord( theWord ) {
     //Tts.stop();
     //Tts.speak(theWord)
     // Speech.speak(theWord, {language:'ja-JP'});
+    // try {
+    //   await Audio.setAudioModeAsync({
+    //     allowsRecordingIOS: true,
+    //     playsInSilentModeIOS: true
+    //   })
+    //     const {sound} = await Audio.Sound.createAsync(require('./assets/beep.mp3'));
+    //     await sound.playAsync();
+    // } catch (error) {
+    //   console.error('Failed to play sound', error);
+    // }
     if (showPronoun === 1) {
       Speech.speak((theWord.Subtitle === "" ? theWord.Title:theWord.Subtitle), {language:'ja-JP'});
     }
@@ -79,7 +90,7 @@ export default function App() {
       case SWIPE_RIGHT:
         prevCard();           
         break;
-      case SWIPE_UP:ß
+      case SWIPE_UP:
         readWord(currentWord);
         break;
       case SWIPE_DOWN:
