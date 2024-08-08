@@ -108,7 +108,7 @@ export default function App() {
       <GestureRecognizer
         onSwipe={(direction) => onSwipe(direction,card_database[itemSeq])}
       >
-      <View style={styles.modalView}>
+      <View style={styles.mainView}>
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
         <Text style={styles.subtitle}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
         <Text style={styles.blank}></Text>
@@ -146,6 +146,9 @@ export default function App() {
         </Pressable>
 
       </View>
+      <View style={styles.middleVew}>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Category}</Text>
+      </View>
       <View style={styles.lowerVew}></View>
       <View style={styles.footer}>
         <Text style={styles.bottomText}> presented by Kosaon @2024</Text>
@@ -162,7 +165,7 @@ const styles = StyleSheet.create({
     marginTop:30,
     //justifyContent: 'center',
   },
-  modalView: {
+  mainView: {
     marginLeft:"5%",
     marginRight:"5%",
     borderRadius: 20,
@@ -188,13 +191,22 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-evenly',
   },
+  middleVew:{
+    marginVertical:"2%",
+    marginLeft:"8%",
+    marginRight:"8%",
+    flexDirection: 'row',
+    alignItems: 'center',
+    height:"25%",
+    justifyContent: 'space-evenly',
+  },
   lowerVew:{
     marginVertical:"2%",
     marginLeft:"8%",
     marginRight:"8%",
     flexDirection: 'row',
     alignItems: 'center',
-    height:"35%",
+    height:"10%",
     justifyContent: 'space-evenly',
   },
   buttonImg:{
