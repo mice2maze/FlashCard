@@ -52,6 +52,10 @@ export default function App() {
     }
   }
 
+  async function readSample ( Sample_in_JP ) {
+    Speech.speak(Sample_in_JP,{language:'ja-JP'} );
+  }
+
   function nextCard() {
     if (itemSeq < card_database.length-1) {
       setItemSeq(itemSeq+1);
@@ -146,8 +150,14 @@ export default function App() {
         </Pressable>
 
       </View>
-      <View style={styles.middleVew}>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Category}</Text>
+      <View style={styles.middleVew}>        
+        <Text style={styles.subtitle}>Example</Text>
+        <Pressable style={styles.barView} 
+              onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_JP}</Text>
+        </Pressable>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
+
       </View>
       <View style={styles.lowerVew}></View>
       <View style={styles.footer}>
@@ -195,7 +205,7 @@ const styles = StyleSheet.create({
     marginVertical:"2%",
     marginLeft:"8%",
     marginRight:"8%",
-    flexDirection: 'row',
+//    flexDirection: 'row',
     alignItems: 'center',
     height:"25%",
     justifyContent: 'space-evenly',
