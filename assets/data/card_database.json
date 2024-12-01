@@ -496,8 +496,8 @@
     "Chinese": "那兒(方位)",
     "English": "over there (polite)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あちらまで歩きましょう。",
+    "Sample_En": "Let's walk over there."
   },
   {
     "Title": "あつい",
@@ -506,8 +506,8 @@
     "Chinese": "熱的(天氣/物件)",
     "English": "hot (for weather/objects)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "このスープはとても熱い。",
+    "Sample_En": "This soup is very hot."
   },
   {
     "Title": "あっち",
@@ -516,8 +516,8 @@
     "Chinese": "在那邊",
     "English": "over there",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あっちへ行って！",
+    "Sample_En": "go away!"
   },
   {
     "Title": "あと",
@@ -526,8 +526,8 @@
     "Chinese": "後",
     "English": "after",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "コンサートのあとは体験コーナーも。",
+    "Sample_En": "There will also be an experience corner after the concert."
   },
   {
     "Title": "あなた",
@@ -536,8 +536,8 @@
     "Chinese": "你",
     "English": "you",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あなたのいえはどこですか",
+    "Sample_En": "Where is your house?"
   },
   {
     "Title": "あに",
@@ -545,9 +545,9 @@
     "Pronoun": "ani",
     "Chinese": "兄(自己)",
     "English": "elder brother",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "n.",
+    "Sample_JP": "兄はサッカーが好きです",
+    "Sample_En": "My big brother likes soccer."
   },
   {
     "Title": "アニメ",
@@ -556,8 +556,8 @@
     "Chinese": "日本卡通",
     "English": "animation / cartoons",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "アニメが見たいです",
+    "Sample_En": "I want to watch anime"
   },
   {
     "Title": "あね",
@@ -566,8 +566,8 @@
     "Chinese": "姐姐",
     "English": "elder sister(When talking about your own mom)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "姉は口に手をあてた",
+    "Sample_En": "My sister put her hand to her mouth"
   },
   {
     "Title": "あの",
@@ -576,8 +576,8 @@
     "Chinese": "那",
     "English": "that",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あのねこはおおきいですか。",
+    "Sample_En": "Is that cat big?"
   },
   {
     "Title": "あのかた",
@@ -586,8 +586,8 @@
     "Chinese": "那人",
     "English": "that person",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "パソコンの使いかたがわかりません。",
+    "Sample_En": "I don't know how to use a computer."
   },
   {
     "Title": "アパート",
@@ -595,9 +595,9 @@
     "Pronoun": "apato",
     "Chinese": "公寓",
     "English": "apartment house",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "n.",
+    "Sample_JP": "私はそのアパートを見に行きたい。",
+    "Sample_En": "I want to go see that apartment."
   },
   {
     "Title": "あびる",
@@ -605,9 +605,9 @@
     "Pronoun": "abiru",
     "Chinese": "沐浴",
     "English": "to take (a shower)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "v",
+    "Sample_JP": "彼女は毎朝シャワーを浴びる。",
+    "Sample_En": "She showers every morning."
   },
   {
     "Title": "あぶない",
@@ -615,9 +615,9 @@
     "Pronoun": "abunai",
     "Chinese": "危險",
     "English": "dangerous",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "い-adjective",
+    "Sample_JP": "かれはとてもあぶないひとだ。",
+    "Sample_En": "He is very dangerous man."
   },
   {
     "Title": "あまい",
@@ -625,9 +625,9 @@
     "Pronoun": "amai",
     "Chinese": "甜",
     "English": "sweet",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "い-adjective",
+    "Sample_JP": "あまいたべものがすきです。",
+    "Sample_En": "I like sweet foods."
   },
   {
     "Title": "あまり",
@@ -635,9 +635,9 @@
     "Pronoun": "amari",
     "Chinese": "不多",
     "English": "not much",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "い-adjective",
+    "Sample_JP": "今、にほんはあまり暑くないです。",
+    "Sample_En": "It is not very hot now in Japan."
   },
   {
     "Title": "あめ",
@@ -645,9 +645,9 @@
     "Pronoun": "ame",
     "Chinese": "雨",
     "English": "rain",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "n.",
+    "Sample_JP": "雨が降っています。",
+    "Sample_En": "It’s raining."
   },
   {
     "Title": "アメリカ",
@@ -656,8 +656,8 @@
     "Chinese": "美國",
     "English": "USA/America",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あなたはアメリカじんですか。",
+    "Sample_En": "re you an American?"
   },
   {
     "Title": "あらう",
@@ -666,18 +666,18 @@
     "Chinese": "洗",
     "English": "to wash",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "食器を洗っています。",
+    "Sample_En": "I'm washing the dishes."
   },
   {
     "Title": "ある",
     "Subtitle": "",
     "Pronoun": "aru",
     "Chinese": "那裏有",
-    "English": "there is / are",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "English": "there is / are (for non-living thing)",
+    "URL": "adverb",
+    "Sample_JP": "山がある。",
+    "Sample_En": "There is a mountain."
   },
   {
     "Title": "あるいて",
@@ -685,9 +685,9 @@
     "Pronoun": "aruite",
     "Chinese": "走",
     "English": "on foot",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "n.",
+    "Sample_JP": "毎朝、歩いて学校にいきます。",
+    "Sample_En": "I go to school on foot every morning"
   },
   {
     "Title": "あるく",
@@ -696,8 +696,8 @@
     "Chinese": "走",
     "English": "to walk",
     "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "たいてい歩いて行きます。",
+    "Sample_En": "I usually go by walking."
   },
   {
     "Title": "アルバイト",
@@ -706,8 +706,8 @@
     "Chinese": "兼職工作",
     "English": "part-time job",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "お弁 当を 作ってから、アルバイトに 行きます",
+    "Sample_En": "I will make a lunch box, and then go to my part-time job."
   },
   {
     "Title": "あれ",
@@ -716,8 +716,8 @@
     "Chinese": "那",
     "English": "that",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あれはコンビニです。",
+    "Sample_En": "That is a convenience store."
   },
   {
     "Title": "いい、よい",
@@ -726,8 +726,8 @@
     "Chinese": "好的",
     "English": "good",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あれはコンビニです。",
+    "Sample_En": "Here is a good place."
   },
   {
     "Title": "いいえ",
@@ -736,8 +736,8 @@
     "Chinese": "不",
     "English": "no",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "いいえ、持っていません",
+    "Sample_En": "No, it is not my car."
   },
   {
     "Title": "いう",
@@ -745,9 +745,9 @@
     "Pronoun": "iu",
     "Chinese": "說/講",
     "English": "to say",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "v.",
+    "Sample_JP": "何を言っていますか？",
+    "Sample_En": "What are you saying?"
   },
   {
     "Title": "いえ",
@@ -756,8 +756,8 @@
     "Chinese": "家",
     "English": "house",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あなたの家はどこですか？",
+    "Sample_En": "Where is your house?"
   },
   {
     "Title": "いく",
@@ -765,9 +765,9 @@
     "Pronoun": "iku",
     "Chinese": "去",
     "English": "to go",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "v.",
+    "Sample_JP": "らいしゅうのすいようびにそちらへいく。",
+    "Sample_En": "I'll go over there next Wednesday."
   },
   {
     "Title": "いくつ",
@@ -776,8 +776,8 @@
     "Chinese": "幾個/幾歲",
     "English": "how old / how many",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "りんごはいくつ入っている？",
+    "Sample_En": "How many apples?"
   },
   {
     "Title": "いくら",
@@ -786,8 +786,8 @@
     "Chinese": "多少錢",
     "English": "how much",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "この車は、いくらですか？",
+    "Sample_En": "How much is this car?"
   },
   {
     "Title": "いしゃ",
@@ -796,8 +796,8 @@
     "Chinese": "醫生",
     "English": "doctor",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "私の父は医者です。",
+    "Sample_En": "My father is a doctor."
   },
   {
     "Title": "いす",
@@ -805,9 +805,9 @@
     "Pronoun": "isu",
     "Chinese": "椅子",
     "English": "chair",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "n.",
+    "Sample_JP": "猫はいすの上で寝ている。",
+    "Sample_En": "The cat is sleeping on the chair."
   },
   {
     "Title": "いそがしい",
@@ -816,8 +816,8 @@
     "Chinese": "忙碌的",
     "English": "busy",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "今日は忙しいです。",
+    "Sample_En": "I am busy today."
   },
   {
     "Title": "いたい",
@@ -826,8 +826,8 @@
     "Chinese": "痛",
     "English": "painful",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "お腹が常に痛いです。",
+    "Sample_En": "My stomach hurts all the time."
   },
   {
     "Title": "イタリア",
@@ -836,8 +836,8 @@
     "Chinese": "義大利",
     "English": "Italy",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "イタリアへ行く",
+    "Sample_En": "I will go to Italy."
   },
   {
     "Title": "いち",
@@ -846,8 +846,8 @@
     "Chinese": "一",
     "English": "one",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "一から十まで数える。\nいちからじゅうまでかぞえる。",
+    "Sample_En": "Count from one to ten."
   },
   {
     "Title": "いちばん",
@@ -856,8 +856,8 @@
     "Chinese": "第一",
     "English": "best / most",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あきがいちばんすきなきせつです。",
+    "Sample_En": "Fall is my favorite season."
   },
   {
     "Title": "いつ",
@@ -865,19 +865,19 @@
     "Pronoun": "itsu",
     "Chinese": "何時",
     "English": "when",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "adverb",
+    "Sample_JP": "わたしたちはいつあえますか。",
+    "Sample_En": "When can we meet?"
   },
   {
     "Title": "いっしょ",
-    "Subtitle": "",
+    "Subtitle": "一緒",
     "Pronoun": "issho",
     "Chinese": "一起",
     "English": "together / with",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "URL": "adverb",
+    "Sample_JP": "一緒に英語を勉強しましょう。",
+    "Sample_En": "Let’s learn English together."
   },
   {
     "Title": "いつも",
@@ -886,8 +886,8 @@
     "Chinese": "每次",
     "English": "always",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "いつも けいたいんわを もっいます。",
+    "Sample_En": "I always have a mobile phone."
   },
   {
     "Title": "いぬ",
@@ -896,8 +896,8 @@
     "Chinese": "狗",
     "English": "dog",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしはいぬをかっています。",
+    "Sample_En": "I have a dog"
   },
   {
     "Title": "いま",
@@ -906,8 +906,8 @@
     "Chinese": "現在",
     "English": "now",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "今 んじすか。",
+    "Sample_En": "What time is it now?"
   },
   {
     "Title": "いみ",
@@ -916,8 +916,8 @@
     "Chinese": "意義",
     "English": "meaning",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "この文の意味が分かりません。",
+    "Sample_En": "I don't understand the meaning of this sentence."
   },
   {
     "Title": "いもうと",
@@ -926,8 +926,8 @@
     "Chinese": "妹妹",
     "English": "younger sister",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "いもう はいま いえ いません。",
+    "Sample_En": "My sister isn't at home right now."
   },
   {
     "Title": "いもうとさん",
@@ -936,8 +936,8 @@
     "Chinese": "妹妹",
     "English": "younger sister (others)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "いもうとさんはどこにいますか。",
+    "Sample_En": "Where is your younger sister?"
   },
   {
     "Title": "いりぐち",
@@ -946,8 +946,8 @@
     "Chinese": "入口",
     "English": "entrance",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "入口はこちらです",
+    "Sample_En": "The entrance is this way."
   },
   {
     "Title": "いろ",
@@ -956,8 +956,8 @@
     "Chinese": "顏色",
     "English": "Colour",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "どんな色が好きですか？",
+    "Sample_En": "What color do you like?"
   },
   {
     "Title": "いろいろ",
@@ -966,8 +966,8 @@
     "Chinese": "各種各樣的",
     "English": "various",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしはいろいろなところにいきました。",
+    "Sample_En": "I went various places."
   },
   {
     "Title": "インターネット",
@@ -976,8 +976,8 @@
     "Chinese": "互聯網",
     "English": "Internet",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "よくインターネット でニュースを みます",
+    "Sample_En": "I often watch the news on the internet."
   },
   {
     "Title": "インド",
@@ -986,8 +986,8 @@
     "Chinese": "印度",
     "English": "India",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "かれはインドりょうりがきらいです。",
+    "Sample_En": "He doesn’t like Indian cuisine."
   },
   {
     "Title": "インドネシア",
@@ -996,8 +996,8 @@
     "Chinese": "印尼",
     "English": "Indonesia",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "私の国籍はインドネシア人です",
+    "Sample_En": "My nationality is Indonesian"
   },
   {
     "Title": "うえ",
@@ -1006,8 +1006,8 @@
     "Chinese": "上",
     "English": "top / on / above",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "は上の階にいます",
+    "Sample_En": "He is on the upper floor."
   },
   {
     "Title": "ウェイトレス",
@@ -1026,8 +1026,8 @@
     "Chinese": "上野",
     "English": "Ueno",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "上野駅についたぞ。",
+    "Sample_En": "Here we are at Ueno Station."
   },
   {
     "Title": "うけつけ",
@@ -1036,8 +1036,8 @@
     "Chinese": "接待處",
     "English": "reception desk",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "うけつけは どこですか？",
+    "Sample_En": "Where is the reception desk?"
   },
   {
     "Title": "うしろ",
@@ -1046,8 +1046,8 @@
     "Chinese": "后",
     "English": "the back",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしはあなたのうしろにつづきます。",
+    "Sample_En": "I will follow you."
   },
   {
     "Title": "うすい",
@@ -1056,8 +1056,8 @@
     "Chinese": "薄",
     "English": "thin",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "このうすいほんはわたしのです。",
+    "Sample_En": "This thin book is mine."
   },
   {
     "Title": "うた",
@@ -1066,8 +1066,8 @@
     "Chinese": "歌曲",
     "English": "song",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "うたをうたう。",
+    "Sample_En": "To sing a song."
   },
   {
     "Title": "うたう",
@@ -1076,8 +1076,8 @@
     "Chinese": "唱歌",
     "English": "to sing",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "うたをうたう。",
+    "Sample_En": "To sing a song."
   },
   {
     "Title": "うち",
@@ -1086,8 +1086,8 @@
     "Chinese": "家",
     "English": "home",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしのうちはあおいです",
+    "Sample_En": "My house is blue."
   },
   {
     "Title": "うでどけい",
@@ -1096,8 +1096,8 @@
     "Chinese": "手錶",
     "English": "watch",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "腕時計はどこにも見つからなかった。",
+    "Sample_En": "The watch was not to be found anywhere."
   },
   {
     "Title": "うどん",
@@ -1106,8 +1106,8 @@
     "Chinese": "烏冬",
     "English": "wuudon",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "今日の朝ご飯はうどんです。",
+    "Sample_En": "Today's breakfast is udon."
   },
   {
     "Title": "うまい",
@@ -1116,8 +1116,8 @@
     "Chinese": "好的",
     "English": "delicious / skillful / good (at)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "納豆はくさいが、うまい。",
+    "Sample_En": "Although natto smells awful, it is delicious."
   },
   {
     "Title": "うまれる",
@@ -1126,8 +1126,8 @@
     "Chinese": "出生",
     "English": "to be born",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "赤ちゃんはいつ生まれましたか？",
+    "Sample_En": "When was your baby born?"
   },
   {
     "Title": "うみ",
@@ -1136,8 +1136,8 @@
     "Chinese": "海",
     "English": "sea",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "海の近くに住みたいです。",
+    "Sample_En": "I want to live near the ocean."
   },
   {
     "Title": "うる",
@@ -1146,8 +1146,8 @@
     "Chinese": "賣",
     "English": "to sell",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "せんしゅうわたしのくるまをうりました。",
+    "Sample_En": "I sold my car last week.(past tense)"
   },
   {
     "Title": "うわぎ",
@@ -1156,8 +1156,8 @@
     "Chinese": "上衣",
     "English": "jacket",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "このうわぎはわたしにぴったりあう。",
+    "Sample_En": "This coat fits me very well."
   },
   {
     "Title": "うんてん",
@@ -1166,8 +1166,8 @@
     "Chinese": "駕駛",
     "English": "driving / to drive",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "かれはくるまをうんてんするのがじょうずです。",
+    "Sample_En": "He is good at driving a car."
   },
   {
     "Title": "うんてんしゅ",
@@ -1176,8 +1176,8 @@
     "Chinese": "司機",
     "English": "driver",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "かれはバスのうんてんしゅだ。",
+    "Sample_En": "He is a bus driver."
   },
   {
     "Title": "え",
@@ -1186,8 +1186,8 @@
     "Chinese": "畫",
     "English": "picture",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "絵をかいているの。",
+    "Sample_En": "Are you drawing?"
   },
   {
     "Title": "エアコン",
@@ -1196,8 +1196,8 @@
     "Chinese": "冷氣機",
     "English": "air conditioner",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "エアコンが強く利いている。",
+    "Sample_En": "The air conditioning is on high."
   },
   {
     "Title": "えいが",
@@ -1206,8 +1206,8 @@
     "Chinese": "電影",
     "English": "movie",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "映画を見ることが趣味だ。",
+    "Sample_En": "It is my hobby to watch movies."
   },
   {
     "Title": "えいがかん",
@@ -1216,8 +1216,8 @@
     "Chinese": "戲院",
     "English": "movie theatre",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしはしばしばえいがかんにいきます。",
+    "Sample_En": "I often go to the movie theater."
   },
   {
     "Title": "えいご",
@@ -1226,8 +1226,8 @@
     "Chinese": "英語",
     "English": "English",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "英語が上手になりたいです。",
+    "Sample_En": "I want to become good at English."
   },
   {
     "Title": "えがく",
@@ -1236,8 +1236,8 @@
     "Chinese": "畫畫",
     "English": "to draw",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "彼は３０歳になってから絵をかき始めた。",
+    "Sample_En": "He didn't start to paint until he was thirty."
   },
   {
     "Title": "えき",
@@ -1256,8 +1256,8 @@
     "Chinese": "車站工作人員",
     "English": "station attendant",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "あの駅員さんの名前は何ですか？",
+    "Sample_En": "What is the name of that station attendant?"
   },
   {
     "Title": "エレベーター",
@@ -1266,8 +1266,8 @@
     "Chinese": "電梯",
     "English": "elevator",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "エレベーターは非常な高速で下降した。",
+    "Sample_En": "The elevator sank rapidly."
   },
   {
     "Title": "えん",
@@ -1276,8 +1276,8 @@
     "Chinese": "日元/圓",
     "English": "yen",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "千円がありますか？",
+    "Sample_En": "Do you have 1000 yen?"
   },
   {
     "Title": "エンジニア",
@@ -1286,8 +1286,8 @@
     "Chinese": "工程師",
     "English": "engineer",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "父は私をエンジニアにするつもりです。",
+    "Sample_En": "My father intends that I should become an engineer."
   },
   {
     "Title": "えんぴつ",
@@ -1296,8 +1296,8 @@
     "Chinese": "鉛筆",
     "English": "pencil",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "これは君のえんぴつですか？",
+    "Sample_En": "Is this your pencil?"
   },
   {
     "Title": "おいしい",
@@ -1306,38 +1306,18 @@
     "Chinese": "美味",
     "English": "delicious",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
-  },
-  {
-    "Title": "おいしい",
-    "Subtitle": "美味しい",
-    "Pronoun": "oishii",
-    "Chinese": "好味",
-    "English": "delicious",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
-  },
-  {
-    "Title": "おおきい",
-    "Subtitle": "大きい",
-    "Pronoun": "oki",
-    "Chinese": "大的",
-    "English": "big",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "それはおいしいです。",
+    "Sample_En": "That is really delicious."
   },
   {
     "Title": "おおきい",
     "Subtitle": "大きい",
     "Pronoun": "ookii",
-    "Chinese": "大",
+    "Chinese": "大的",
     "English": "big",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "この犬は大きい。",
+    "Sample_En": "This dog is big."
   },
   {
     "Title": "おおさかじょう",
@@ -1356,8 +1336,8 @@
     "Chinese": "母親(別人)",
     "English": "mom (when referring to someone else's mother)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "お母さんはどこですか？",
+    "Sample_En": "Where is your mother?"
   },
   {
     "Title": "おかし",
@@ -1366,8 +1346,8 @@
     "Chinese": "糖果",
     "English": "sweets",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "お菓子をご自由に取ってください。",
+    "Sample_En": "Please help yourself to the sweets."
   },
   {
     "Title": "おきなわ",
@@ -1376,8 +1356,8 @@
     "Chinese": "沖縄",
     "English": "Okinawa",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "まつやすみにおきなわにいきたいです。",
+    "Sample_En": "I want to go to Okinawa during summer vacation."
   },
   {
     "Title": "おきる",
@@ -1386,8 +1366,8 @@
     "Chinese": "起床",
     "English": "to get up",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "きょうはおきるのがおそかった。",
+    "Sample_En": "I was late waking up today."
   },
   {
     "Title": "おく",
@@ -1406,8 +1386,8 @@
     "Chinese": "留下/放下",
     "English": "to put down",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "ここにおくよ。",
+    "Sample_En": "I'll place it here."
   },
   {
     "Title": "おくさん",
@@ -1416,8 +1396,8 @@
     "Chinese": "妻子(別人)",
     "English": "wife (when referring to someone else's wife)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "トムのおくさんは、日本語にほんごができます。",
+    "Sample_En": "Tom’s wife can speak Japanese."
   },
   {
     "Title": "おくる",
@@ -1426,8 +1406,8 @@
     "Chinese": "送/寄",
     "English": "to send",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "このえをかれのいえにおくってください。",
+    "Sample_En": "Please send this painting to his home."
   },
   {
     "Title": "おこのみやき",
@@ -1436,8 +1416,8 @@
     "Chinese": "禦好燒",
     "English": "okonomiyaki(savory pancake)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "私は初めてお好み焼きを作った。",
+    "Sample_En": "I made okonomiyaki for the first time."
   },
   {
     "Title": "おさけ",
@@ -1446,8 +1426,8 @@
     "Chinese": "酒",
     "English": "alcohol",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "ときどき おさけを のみます。",
+    "Sample_En": "I drink alcohol sometimes"
   },
   {
     "Title": "おじ",
@@ -1466,8 +1446,8 @@
     "Chinese": "祖父",
     "English": "grandfather (other's)",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしのおじいさんはきゅうじゅうさいです",
+    "Sample_En": "My grandfather is 90 years old."
   },
   {
     "Title": "おしえる",
@@ -1476,8 +1456,8 @@
     "Chinese": "教",
     "English": "to teach",
     "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "わたしのしごとは　にほんごを おしえる",
+    "Sample_En": "My job is to teach Japanese."
   },
   {
     "Title": "おじさん",
@@ -1496,8 +1476,8 @@
     "Chinese": "慢的",
     "English": "late/slow",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "どうして今日は遅いのですか？",
+    "Sample_En": "Why were you late today?"
   },
   {
     "Title": "おちゃ",
@@ -1506,8 +1486,8 @@
     "Chinese": "茶",
     "English": "tea",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "お茶をいただきましょう。",
+    "Sample_En": "I think I would like some tea."
   },
   {
     "Title": "おてあらい",
@@ -1516,8 +1496,8 @@
     "Chinese": "洗手間",
     "English": "restroom",
     "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "Sample_JP": "お手洗いはどこにありますか？",
+    "Sample_En": "Where’s the bathroom?"
   },
   {
     "Title": "おとうと",
@@ -2075,7 +2055,7 @@
     "Pronoun": "katsu",
     "Chinese": "勝",
     "English": "to win",
-    "URL": "",
+    "URL": "v",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2155,7 +2135,7 @@
     "Pronoun": "kaburu",
     "Chinese": "戴上",
     "English": "put on (one's hat)",
-    "URL": "",
+    "URL": "v",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4505,7 +4485,7 @@
     "Pronoun": "daijoubu",
     "Chinese": "沒問題",
     "English": "all right/ok",
-    "URL": "",
+    "URL": "な-adj.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4895,7 +4875,7 @@
     "Pronoun": "tsukareru",
     "Chinese": "疲勞的",
     "English": "to get tired",
-    "URL": "",
+    "URL": "v. 2",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6935,7 +6915,7 @@
     "Pronoun": "hontou",
     "Chinese": "真的",
     "English": "truth/really",
-    "URL": "",
+    "URL": "n./な-adj.",
     "Sample_JP": "",
     "Sample_En": ""
   },
