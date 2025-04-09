@@ -16,7 +16,7 @@
     <string>6.0</string>
     <key>CFBundleName</key>
     <string>$(PRODUCT_NAME)</string>
-    <key>CFBundlePackageType</key>
+    <key>CFBundlePackageType</key>P
     <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0.3</string>
