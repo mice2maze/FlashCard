@@ -5,7 +5,7 @@
     "Pronoun": "～kai",
     "Chinese": "~層",
     "English": "～floor",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "わたしのへやは 2かいです。",
     "Sample_En": "My room is on the second floor."
   },
@@ -15,7 +15,7 @@
     "Pronoun": "kai",
     "Chinese": "次數",
     "English": "counters for frequency",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "このえいがを 2かい みました。",
     "Sample_En": "I watched this movie twice."
   },
@@ -25,8 +25,8 @@
     "Pronoun": "gatsu",
     "Chinese": "~月",
     "English": "~mth",
-    "URL": "",
-    "Sample_JP": "1月、2月、3月、4月、5月、6月・・・",
+    "WordType": "",
+    "Sample_JP": "いちがつ、にがつ、さんがつ、しがつ、ごがつ、ろくがつ、しちがつ、はちがつ、くがつ、じゅうがつ、じゅういちがつ、じゅうにがつ",
     "Sample_En": "January, February, March …"
   },
   {
@@ -35,7 +35,7 @@
     "Pronoun": "gawa",
     "Chinese": "旁邊",
     "English": "～side",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "ひだりがわを あるきます。",
     "Sample_En": "Walk on the left side."
   },
@@ -45,7 +45,7 @@
     "Pronoun": "kun",
     "Chinese": "君\",男孩稱呼",
     "English": "suffix added to a boy's first name",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "僕はコガネイ生まれのクッキーくんです。",
     "Sample_En": "I'm Cookie-kun, born in Koganei."
   },
@@ -55,7 +55,7 @@
     "Pronoun": "~ko",
     "Chinese": "個",
     "English": "counter suffix for small things",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "今朝、かのじょはパンをいっこかった",
     "Sample_En": "She bought a loaf of bread this morning"
   },
@@ -65,7 +65,7 @@
     "Pronoun": "satsu",
     "Chinese": "冊子",
     "English": "counters for books",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "図書館で絵本を8冊借りてきた。",
     "Sample_En": "I borrowed eight picture books from the library."
   },
@@ -75,7 +75,7 @@
     "Pronoun": "~ji",
     "Chinese": "時",
     "English": "～o'clock",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "いま 3時です。",
     "Sample_En": "It's 3 o'clock now."
   },
@@ -85,7 +85,7 @@
     "Pronoun": "churu",
     "Chinese": "中間",
     "English": "in the middle of",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "いま かいぎ中です。",
     "Sample_En": "I'm in a meeting now."
   },
@@ -95,7 +95,7 @@
     "Pronoun": "utena",
     "Chinese": "台",
     "English": "counters for machines and vehicles",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "いちだい、にだい、さんだい・・・",
     "Sample_En": "one, two three (machines)"
   },
@@ -105,7 +105,7 @@
     "Pronoun": "chan",
     "Chinese": "醬\",女孩稱呼",
     "English": "suffix added to a girl's first name",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "なおちゃんありがとう。",
     "Sample_En": "Thank you Nao(chan)."
   },
@@ -115,7 +115,7 @@
     "Pronoun": "~nen",
     "Chinese": "~年",
     "English": "～th year",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "2004年ヘッドフォン・アンプとして設計開始.",
     "Sample_En": "The design was started as a headphone amplifier in 2004."
   },
@@ -125,7 +125,7 @@
     "Pronoun": "nensei",
     "Chinese": "~年級",
     "English": "student in～year",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "そうそう、中学生3年生くらいの子がボランティアとしてやって来て。",
     "Sample_En": "One time, a junior high school 3 grade boy came as a volunteer."
   },
@@ -135,7 +135,7 @@
     "Pronoun": "hai",
     "Chinese": "杯",
     "English": "counters for drinks in cups and glasses",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "1杯のコーヒーと、ドーナッツ。",
     "Sample_En": "A cup of coffee and doughnuts."
   },
@@ -145,7 +145,7 @@
     "Pronoun": "ban",
     "Chinese": "號碼",
     "English": "number",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "1ばん、2ばん、3ばん・・・",
     "Sample_En": "No.1, No.2, No.3 …"
   },
@@ -155,7 +155,7 @@
     "Pronoun": "hiki",
     "Chinese": "隻/匹",
     "English": "counters for small animals",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "わたしのちいさいころからいえに犬いぬがいっぴきいます",
     "Sample_En": "Since I was little, there has been a dog in my house."
   },
@@ -165,7 +165,7 @@
     "Pronoun": "byou",
     "Chinese": "幾秒",
     "English": "～second",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "彼は100mを11秒フラットで走った。",
     "Sample_En": "He ran 100 meters 11 seconds flat."
   },
@@ -175,7 +175,7 @@
     "Pronoun": "～bu",
     "Chinese": "部門",
     "English": "department (in an organization)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "梨奈は家政部で、主に洋裁をやっている。",
     "Sample_En": "Rina is in the home economics club. Her main activity is dressmaking."
   },
@@ -185,7 +185,7 @@
     "Pronoun": "fun",
     "Chinese": "分鐘",
     "English": "～minute",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "いっぷん、にふん、さんぷん・・・",
     "Sample_En": "1 minute, 2 minutes, 3 minutes"
   },
@@ -195,7 +195,7 @@
     "Pronoun": "hon",
     "Chinese": "本",
     "English": "counters for thin and long things",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "かさが 3本 あります。",
     "Sample_En": "I have three umbrellas."
   },
@@ -205,7 +205,7 @@
     "Pronoun": "～mai",
     "Chinese": "枚",
     "English": "counter for thin objects",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "かみを 1まい ください。",
     "Sample_En": "Please give me a piece of paper."
   },
@@ -215,7 +215,7 @@
     "Pronoun": "made",
     "Chinese": "直到~",
     "English": "until ~",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "きのうまでおやすみでした。",
     "Sample_En": "I was on vacation until yesterday."
   },
@@ -225,7 +225,7 @@
     "Pronoun": "IT kigyo",
     "Chinese": "資訊科技公司",
     "English": "IT company",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "就職先は、IT企業のコンサルタント職です。",
     "Sample_En": "I will be working as a consultant at an IT company."
   },
@@ -235,7 +235,7 @@
     "Pronoun": "aa",
     "Chinese": "啊",
     "English": "Ah! / Oh!",
-    "URL": "",
+    "WordType": "adv",
     "Sample_JP": "ああ, よかった",
     "Sample_En": "Oh, good!"
   },
@@ -245,7 +245,7 @@
     "Pronoun": "au",
     "Chinese": "見面",
     "English": "to meet",
-    "URL": "v",
+    "WordType": "v.",
     "Sample_JP": "私は明日彼に会う。",
     "Sample_En": "I'll be seeing him tomorrow."
   },
@@ -255,7 +255,7 @@
     "Pronoun": "ao",
     "Chinese": "藍色的",
     "English": "blue",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "メアリーは淡い青色のドレスを着た。",
     "Sample_En": "Mary wore a pale blue dress."
   },
@@ -265,7 +265,7 @@
     "Pronoun": "aoi",
     "Chinese": "藍色的",
     "English": "blue",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "あおいボールペン。",
     "Sample_En": "Blue ballpoint pen"
   },
@@ -275,7 +275,7 @@
     "Pronoun": "aka",
     "Chinese": "紅色的",
     "English": "red",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "赤でかきます。",
     "Sample_En": "Write in red."
   },
@@ -285,7 +285,7 @@
     "Pronoun": "akai",
     "Chinese": "紅色的",
     "English": "red",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "赤いボールペン",
     "Sample_En": "Red ballpoint pen"
   },
@@ -295,7 +295,7 @@
     "Pronoun": "akarui",
     "Chinese": "明亮",
     "English": "bright",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "このへやは あかるいです。",
     "Sample_En": "The room is bright."
   },
@@ -305,7 +305,7 @@
     "Pronoun": "aki",
     "Chinese": "秋",
     "English": "fall",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あきが すきです。",
     "Sample_En": "I like autumn."
   },
@@ -315,7 +315,7 @@
     "Pronoun": "akihabara",
     "Chinese": "秋葉原",
     "English": "Akihabara",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "秋葉原らしい体験としてもピッタリです。",
     "Sample_En": "It is a perfect experience of Akihabara too."
   },
@@ -325,7 +325,7 @@
     "Pronoun": "aku",
     "Chinese": "空的",
     "English": "to become empty / become vacant",
-    "URL": "",
+    "WordType": "adj",
     "Sample_JP": "手が空いたら手伝うよ。",
     "Sample_En": "I will help you if I can finish my work."
   },
@@ -335,7 +335,7 @@
     "Pronoun": "akeru",
     "Chinese": "打開",
     "English": "open",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "わたしはドアをあけます。",
     "Sample_En": "I open the door."
   },
@@ -345,7 +345,7 @@
     "Pronoun": "ageru",
     "Chinese": "給",
     "English": "to give",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "ははのたんじょうびに プレゼントを あげました。",
     "Sample_En": "I gave a present on my mother's birthday."
   },
@@ -355,7 +355,7 @@
     "Pronoun": "ageru",
     "Chinese": "提高",
     "English": "to raise / lift (up)",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "荷物を網棚に上げる",
     "Sample_En": "Put your luggage on the rack"
   },
@@ -365,7 +365,7 @@
     "Pronoun": "asa",
     "Chinese": "朝",
     "English": "morning",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あしたの朝は 6じにおきます。",
     "Sample_En": "I will get up at 6 o'clock tomorrow morning."
   },
@@ -375,7 +375,7 @@
     "Pronoun": "asakusa",
     "Chinese": "浅草",
     "English": "Asakusa",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "浅草には外国人観光客が多い",
     "Sample_En": "There are many foreign tourists in Asakusa"
   },
@@ -385,7 +385,7 @@
     "Pronoun": "asagohan",
     "Chinese": "早餐",
     "English": "breakfast",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "もう 朝ごはんを たべましたか。",
     "Sample_En": "Have you eaten breakfast yet?"
   },
@@ -395,7 +395,7 @@
     "Pronoun": "asatte",
     "Chinese": "後天",
     "English": "the day after tomorrow",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あさってはにほんごの テストです。",
     "Sample_En": "The day after tomorrow will be a Japanese test."
   },
@@ -405,7 +405,7 @@
     "Pronoun": "ashi",
     "Chinese": "腳",
     "English": "foot",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "かのじょは足がながいです。",
     "Sample_En": "She has long legs."
   },
@@ -415,7 +415,7 @@
     "Pronoun": "ajia",
     "Chinese": "亞洲",
     "English": "Asia",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "日本、中国、韓国などは、アジアの国です。",
     "Sample_En": "Japan, China, Korea, etc. are Asian countries."
   },
@@ -425,7 +425,7 @@
     "Pronoun": "ashita",
     "Chinese": "明日",
     "English": "tomorrow",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "では、また あした。",
     "Sample_En": "See you tomorrow."
   },
@@ -435,7 +435,7 @@
     "Pronoun": "asoko",
     "Chinese": "那裏(遠)",
     "English": "over there",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "あそこでバスにのります。",
     "Sample_En": "Get on the bus over there."
   },
@@ -445,7 +445,7 @@
     "Pronoun": "asobu",
     "Chinese": "玩",
     "English": "to play",
-    "URL": "v",
+    "WordType": "v",
     "Sample_JP": "サッカーを遊ぶ",
     "Sample_En": "Play soccer"
   },
@@ -455,7 +455,7 @@
     "Pronoun": "asobi",
     "Chinese": "玩",
     "English": "play",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "子供たちの遊びがうるさい。",
     "Sample_En": "The children are playing noisily."
   },
@@ -465,7 +465,7 @@
     "Pronoun": "attakai",
     "Chinese": "溫暖的",
     "English": "warm",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "きょうは きのうより あたたかいです。",
     "Sample_En": "Today is warmer than yesterday."
   },
@@ -475,7 +475,7 @@
     "Pronoun": "atama",
     "Chinese": "頭",
     "English": "head",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あたまがいたい",
     "Sample_En": "I have headache"
   },
@@ -485,7 +485,7 @@
     "Pronoun": "atarashī",
     "Chinese": "新的",
     "English": "new",
-    "URL": "adj",
+    "WordType": "い-adjective",
     "Sample_JP": "あなたの新しい車は調子よく動いていますか。",
     "Sample_En": "Is your new car running well?"
   },
@@ -495,7 +495,7 @@
     "Pronoun": "achira",
     "Chinese": "那兒(方位)",
     "English": "over there (polite)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "あちらまで歩きましょう。",
     "Sample_En": "Let's walk over there."
   },
@@ -505,7 +505,7 @@
     "Pronoun": "atsui",
     "Chinese": "熱的(天氣/物件)",
     "English": "hot (for weather/objects)",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "このスープはとても熱い。",
     "Sample_En": "This soup is very hot."
   },
@@ -515,7 +515,7 @@
     "Pronoun": "acchi",
     "Chinese": "在那邊",
     "English": "over there",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "あっちへ行って！",
     "Sample_En": "go away!"
   },
@@ -525,7 +525,7 @@
     "Pronoun": "ato",
     "Chinese": "後",
     "English": "after",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "コンサートのあとは体験コーナーも。",
     "Sample_En": "There will also be an experience corner after the concert."
   },
@@ -535,7 +535,7 @@
     "Pronoun": "anata",
     "Chinese": "你",
     "English": "you",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あなたのいえはどこですか",
     "Sample_En": "Where is your house?"
   },
@@ -545,7 +545,7 @@
     "Pronoun": "ani",
     "Chinese": "兄(自己)",
     "English": "elder brother",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "兄はサッカーが好きです",
     "Sample_En": "My big brother likes soccer."
   },
@@ -555,7 +555,7 @@
     "Pronoun": "anime",
     "Chinese": "日本卡通",
     "English": "animation / cartoons",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "アニメが見たいです",
     "Sample_En": "I want to watch anime"
   },
@@ -565,7 +565,7 @@
     "Pronoun": "ane",
     "Chinese": "姐姐",
     "English": "elder sister(When talking about your own mom)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "姉は口に手をあてた",
     "Sample_En": "My sister put her hand to her mouth"
   },
@@ -575,7 +575,7 @@
     "Pronoun": "ano",
     "Chinese": "那",
     "English": "that",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "あのねこはおおきいですか。",
     "Sample_En": "Is that cat big?"
   },
@@ -585,7 +585,7 @@
     "Pronoun": "anokata",
     "Chinese": "那人",
     "English": "that person",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "パソコンの使いかたがわかりません。",
     "Sample_En": "I don't know how to use a computer."
   },
@@ -595,7 +595,7 @@
     "Pronoun": "apato",
     "Chinese": "公寓",
     "English": "apartment house",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "私はそのアパートを見に行きたい。",
     "Sample_En": "I want to go see that apartment."
   },
@@ -605,7 +605,7 @@
     "Pronoun": "abiru",
     "Chinese": "沐浴",
     "English": "to take (a shower)",
-    "URL": "v",
+    "WordType": "v",
     "Sample_JP": "彼女は毎朝シャワーを浴びる。",
     "Sample_En": "She showers every morning."
   },
@@ -615,7 +615,7 @@
     "Pronoun": "abunai",
     "Chinese": "危險",
     "English": "dangerous",
-    "URL": "い-adjective",
+    "WordType": "い-adjective",
     "Sample_JP": "かれはとてもあぶないひとだ。",
     "Sample_En": "He is very dangerous man."
   },
@@ -625,7 +625,7 @@
     "Pronoun": "amai",
     "Chinese": "甜",
     "English": "sweet",
-    "URL": "い-adjective",
+    "WordType": "い-adjective",
     "Sample_JP": "あまいたべものがすきです。",
     "Sample_En": "I like sweet foods."
   },
@@ -635,7 +635,7 @@
     "Pronoun": "amari",
     "Chinese": "不多",
     "English": "not much",
-    "URL": "い-adjective",
+    "WordType": "い-adjective",
     "Sample_JP": "今、にほんはあまり暑くないです。",
     "Sample_En": "It is not very hot now in Japan."
   },
@@ -645,7 +645,7 @@
     "Pronoun": "ame",
     "Chinese": "雨",
     "English": "rain",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "雨が降っています。",
     "Sample_En": "It’s raining."
   },
@@ -655,7 +655,7 @@
     "Pronoun": "amerika",
     "Chinese": "美國",
     "English": "USA/America",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あなたはアメリカじんですか。",
     "Sample_En": "re you an American?"
   },
@@ -665,7 +665,7 @@
     "Pronoun": "arau",
     "Chinese": "洗",
     "English": "to wash",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "食器を洗っています。",
     "Sample_En": "I'm washing the dishes."
   },
@@ -675,7 +675,7 @@
     "Pronoun": "aru",
     "Chinese": "那裏有",
     "English": "there is / are (for non-living thing)",
-    "URL": "adverb",
+    "WordType": "adverb",
     "Sample_JP": "山がある。",
     "Sample_En": "There is a mountain."
   },
@@ -685,7 +685,7 @@
     "Pronoun": "aruite",
     "Chinese": "走",
     "English": "on foot",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "毎朝、歩いて学校にいきます。",
     "Sample_En": "I go to school on foot every morning"
   },
@@ -695,7 +695,7 @@
     "Pronoun": "aruku",
     "Chinese": "走",
     "English": "to walk",
-    "URL": "G1",
+    "WordType": "v.",
     "Sample_JP": "たいてい歩いて行きます。",
     "Sample_En": "I usually go by walking."
   },
@@ -705,7 +705,7 @@
     "Pronoun": "arubaito",
     "Chinese": "兼職工作",
     "English": "part-time job",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "お弁 当を 作ってから、アルバイトに 行きます",
     "Sample_En": "I will make a lunch box, and then go to my part-time job."
   },
@@ -715,7 +715,7 @@
     "Pronoun": "are",
     "Chinese": "那",
     "English": "that",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "あれはコンビニです。",
     "Sample_En": "That is a convenience store."
   },
@@ -725,7 +725,7 @@
     "Pronoun": "yori",
     "Chinese": "好的",
     "English": "good",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "あれはコンビニです。",
     "Sample_En": "Here is a good place."
   },
@@ -735,7 +735,7 @@
     "Pronoun": "iie",
     "Chinese": "不",
     "English": "no",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "いいえ、持っていません",
     "Sample_En": "No, it is not my car."
   },
@@ -745,7 +745,7 @@
     "Pronoun": "iu",
     "Chinese": "說/講",
     "English": "to say",
-    "URL": "v.",
+    "WordType": "v.",
     "Sample_JP": "何を言っていますか？",
     "Sample_En": "What are you saying?"
   },
@@ -755,7 +755,7 @@
     "Pronoun": "ie",
     "Chinese": "家",
     "English": "house",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あなたの家はどこですか？",
     "Sample_En": "Where is your house?"
   },
@@ -765,7 +765,7 @@
     "Pronoun": "iku",
     "Chinese": "去",
     "English": "to go",
-    "URL": "v.",
+    "WordType": "v.",
     "Sample_JP": "らいしゅうのすいようびにそちらへいく。",
     "Sample_En": "I'll go over there next Wednesday."
   },
@@ -775,7 +775,7 @@
     "Pronoun": "ikutsu",
     "Chinese": "幾個/幾歲",
     "English": "how old / how many",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "りんごはいくつ入っている？",
     "Sample_En": "How many apples?"
   },
@@ -785,7 +785,7 @@
     "Pronoun": "ikura",
     "Chinese": "多少錢",
     "English": "how much",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "この車は、いくらですか？",
     "Sample_En": "How much is this car?"
   },
@@ -795,7 +795,7 @@
     "Pronoun": "isha",
     "Chinese": "醫生",
     "English": "doctor",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "私の父は医者です。",
     "Sample_En": "My father is a doctor."
   },
@@ -805,7 +805,7 @@
     "Pronoun": "isu",
     "Chinese": "椅子",
     "English": "chair",
-    "URL": "n.",
+    "WordType": "n.",
     "Sample_JP": "猫はいすの上で寝ている。",
     "Sample_En": "The cat is sleeping on the chair."
   },
@@ -815,7 +815,7 @@
     "Pronoun": "isogashī",
     "Chinese": "忙碌的",
     "English": "busy",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "今日は忙しいです。",
     "Sample_En": "I am busy today."
   },
@@ -825,7 +825,7 @@
     "Pronoun": "itai",
     "Chinese": "痛",
     "English": "painful",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "お腹が常に痛いです。",
     "Sample_En": "My stomach hurts all the time."
   },
@@ -835,7 +835,7 @@
     "Pronoun": "itaria",
     "Chinese": "義大利",
     "English": "Italy",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "イタリアへ行く",
     "Sample_En": "I will go to Italy."
   },
@@ -845,7 +845,7 @@
     "Pronoun": "ichi",
     "Chinese": "一",
     "English": "one",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "一から十まで数える。\nいちからじゅうまでかぞえる。",
     "Sample_En": "Count from one to ten."
   },
@@ -855,7 +855,7 @@
     "Pronoun": "ichiban",
     "Chinese": "第一",
     "English": "best / most",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "あきがいちばんすきなきせつです。",
     "Sample_En": "Fall is my favorite season."
   },
@@ -865,7 +865,7 @@
     "Pronoun": "itsu",
     "Chinese": "何時",
     "English": "when",
-    "URL": "adverb",
+    "WordType": "adverb",
     "Sample_JP": "わたしたちはいつあえますか。",
     "Sample_En": "When can we meet?"
   },
@@ -875,7 +875,7 @@
     "Pronoun": "issho",
     "Chinese": "一起",
     "English": "together / with",
-    "URL": "adverb",
+    "WordType": "adverb",
     "Sample_JP": "一緒に英語を勉強しましょう。",
     "Sample_En": "Let’s learn English together."
   },
@@ -885,7 +885,7 @@
     "Pronoun": "itsumo",
     "Chinese": "每次",
     "English": "always",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "いつも けいたいんわを もっいます。",
     "Sample_En": "I always have a mobile phone."
   },
@@ -895,7 +895,7 @@
     "Pronoun": "inu",
     "Chinese": "狗",
     "English": "dog",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "わたしはいぬをかっています。",
     "Sample_En": "I have a dog"
   },
@@ -905,7 +905,7 @@
     "Pronoun": "ima",
     "Chinese": "現在",
     "English": "now",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "今 んじすか。",
     "Sample_En": "What time is it now?"
   },
@@ -915,7 +915,7 @@
     "Pronoun": "imi",
     "Chinese": "意義",
     "English": "meaning",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "この文の意味が分かりません。",
     "Sample_En": "I don't understand the meaning of this sentence."
   },
@@ -925,7 +925,7 @@
     "Pronoun": "imoto",
     "Chinese": "妹妹",
     "English": "younger sister",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "いもう はいま いえ いません。",
     "Sample_En": "My sister isn't at home right now."
   },
@@ -935,7 +935,7 @@
     "Pronoun": "imootosan",
     "Chinese": "妹妹",
     "English": "younger sister (others)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "いもうとさんはどこにいますか。",
     "Sample_En": "Where is your younger sister?"
   },
@@ -945,7 +945,7 @@
     "Pronoun": "iriguchi",
     "Chinese": "入口",
     "English": "entrance",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "入口はこちらです",
     "Sample_En": "The entrance is this way."
   },
@@ -955,7 +955,7 @@
     "Pronoun": "iro",
     "Chinese": "顏色",
     "English": "Colour",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "どんな色が好きですか？",
     "Sample_En": "What color do you like?"
   },
@@ -965,7 +965,7 @@
     "Pronoun": "iroiro",
     "Chinese": "各種各樣的",
     "English": "various",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "わたしはいろいろなところにいきました。",
     "Sample_En": "I went various places."
   },
@@ -975,7 +975,7 @@
     "Pronoun": "intaanetto",
     "Chinese": "互聯網",
     "English": "Internet",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "よくインターネット でニュースを みます",
     "Sample_En": "I often watch the news on the internet."
   },
@@ -985,7 +985,7 @@
     "Pronoun": "indo",
     "Chinese": "印度",
     "English": "India",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "かれはインドりょうりがきらいです。",
     "Sample_En": "He doesn’t like Indian cuisine."
   },
@@ -995,7 +995,7 @@
     "Pronoun": "indoneshia",
     "Chinese": "印尼",
     "English": "Indonesia",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "私の国籍はインドネシア人です",
     "Sample_En": "My nationality is Indonesian"
   },
@@ -1005,7 +1005,7 @@
     "Pronoun": "ue",
     "Chinese": "上",
     "English": "top / on / above",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "は上の階にいます",
     "Sample_En": "He is on the upper floor."
   },
@@ -1015,7 +1015,7 @@
     "Pronoun": "waetoresu",
     "Chinese": "女服務生",
     "English": "waitress",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -1025,7 +1025,7 @@
     "Pronoun": "ueno",
     "Chinese": "上野",
     "English": "Ueno",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "上野駅についたぞ。",
     "Sample_En": "Here we are at Ueno Station."
   },
@@ -1035,7 +1035,7 @@
     "Pronoun": "uketsuke",
     "Chinese": "接待處",
     "English": "reception desk",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "うけつけは どこですか？",
     "Sample_En": "Where is the reception desk?"
   },
@@ -1045,7 +1045,7 @@
     "Pronoun": "ushiro",
     "Chinese": "后",
     "English": "the back",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "わたしはあなたのうしろにつづきます。",
     "Sample_En": "I will follow you."
   },
@@ -1055,7 +1055,7 @@
     "Pronoun": "usui",
     "Chinese": "薄",
     "English": "thin",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "このうすいほんはわたしのです。",
     "Sample_En": "This thin book is mine."
   },
@@ -1065,7 +1065,7 @@
     "Pronoun": "uta",
     "Chinese": "歌曲",
     "English": "song",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "うたをうたう。",
     "Sample_En": "To sing a song."
   },
@@ -1075,7 +1075,7 @@
     "Pronoun": "utau",
     "Chinese": "唱歌",
     "English": "to sing",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "うたをうたう。",
     "Sample_En": "To sing a song."
   },
@@ -1085,7 +1085,7 @@
     "Pronoun": "uchi",
     "Chinese": "家",
     "English": "home",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "わたしのうちはあおいです",
     "Sample_En": "My house is blue."
   },
@@ -1095,7 +1095,7 @@
     "Pronoun": "udedokei",
     "Chinese": "手錶",
     "English": "watch",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "腕時計はどこにも見つからなかった。",
     "Sample_En": "The watch was not to be found anywhere."
   },
@@ -1105,7 +1105,7 @@
     "Pronoun": "udon",
     "Chinese": "烏冬",
     "English": "wuudon",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "今日の朝ご飯はうどんです。",
     "Sample_En": "Today's breakfast is udon."
   },
@@ -1115,7 +1115,7 @@
     "Pronoun": "umai",
     "Chinese": "好的",
     "English": "delicious / skillful / good (at)",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "納豆はくさいが、うまい。",
     "Sample_En": "Although natto smells awful, it is delicious."
   },
@@ -1125,7 +1125,7 @@
     "Pronoun": "umareru",
     "Chinese": "出生",
     "English": "to be born",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "赤ちゃんはいつ生まれましたか？",
     "Sample_En": "When was your baby born?"
   },
@@ -1135,7 +1135,7 @@
     "Pronoun": "umi",
     "Chinese": "海",
     "English": "sea",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "海の近くに住みたいです。",
     "Sample_En": "I want to live near the ocean."
   },
@@ -1145,7 +1145,7 @@
     "Pronoun": "uru",
     "Chinese": "賣",
     "English": "to sell",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "せんしゅうわたしのくるまをうりました。",
     "Sample_En": "I sold my car last week.(past tense)"
   },
@@ -1155,7 +1155,7 @@
     "Pronoun": "uwagi",
     "Chinese": "上衣",
     "English": "jacket",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "このうわぎはわたしにぴったりあう。",
     "Sample_En": "This coat fits me very well."
   },
@@ -1165,7 +1165,7 @@
     "Pronoun": "unten",
     "Chinese": "駕駛",
     "English": "driving / to drive",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "かれはくるまをうんてんするのがじょうずです。",
     "Sample_En": "He is good at driving a car."
   },
@@ -1175,7 +1175,7 @@
     "Pronoun": "untenshu",
     "Chinese": "司機",
     "English": "driver",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "かれはバスのうんてんしゅだ。",
     "Sample_En": "He is a bus driver."
   },
@@ -1185,7 +1185,7 @@
     "Pronoun": "e",
     "Chinese": "畫",
     "English": "picture",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "絵をかいているの。",
     "Sample_En": "Are you drawing?"
   },
@@ -1195,7 +1195,7 @@
     "Pronoun": "eakon",
     "Chinese": "冷氣機",
     "English": "air conditioner",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "エアコンが強く利いている。",
     "Sample_En": "The air conditioning is on high."
   },
@@ -1205,7 +1205,7 @@
     "Pronoun": "eega",
     "Chinese": "電影",
     "English": "movie",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "映画を見ることが趣味だ。",
     "Sample_En": "It is my hobby to watch movies."
   },
@@ -1215,7 +1215,7 @@
     "Pronoun": "eigakan",
     "Chinese": "戲院",
     "English": "movie theatre",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "わたしはしばしばえいがかんにいきます。",
     "Sample_En": "I often go to the movie theater."
   },
@@ -1225,7 +1225,7 @@
     "Pronoun": "eigo",
     "Chinese": "英語",
     "English": "English",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "英語が上手になりたいです。",
     "Sample_En": "I want to become good at English."
   },
@@ -1235,7 +1235,7 @@
     "Pronoun": "egaku",
     "Chinese": "畫畫",
     "English": "to draw",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "彼は３０歳になってから絵をかき始めた。",
     "Sample_En": "He didn't start to paint until he was thirty."
   },
@@ -1245,7 +1245,7 @@
     "Pronoun": "eki",
     "Chinese": "車站",
     "English": "station",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "めぐろ駅から あるいて3ぷんぐらいです。",
     "Sample_En": "It's about 3 minutes walk from Meguro station."
   },
@@ -1255,7 +1255,7 @@
     "Pronoun": "ekiin",
     "Chinese": "車站工作人員",
     "English": "station attendant",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "あの駅員さんの名前は何ですか？",
     "Sample_En": "What is the name of that station attendant?"
   },
@@ -1265,7 +1265,7 @@
     "Pronoun": "erebeetaa",
     "Chinese": "電梯",
     "English": "elevator",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "エレベーターは非常な高速で下降した。",
     "Sample_En": "The elevator sank rapidly."
   },
@@ -1275,7 +1275,7 @@
     "Pronoun": "yen",
     "Chinese": "日元/圓",
     "English": "yen",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "千円がありますか？",
     "Sample_En": "Do you have 1000 yen?"
   },
@@ -1285,7 +1285,7 @@
     "Pronoun": "enjinia",
     "Chinese": "工程師",
     "English": "engineer",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "父は私をエンジニアにするつもりです。",
     "Sample_En": "My father intends that I should become an engineer."
   },
@@ -1295,7 +1295,7 @@
     "Pronoun": "empitsu",
     "Chinese": "鉛筆",
     "English": "pencil",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "これは君のえんぴつですか？",
     "Sample_En": "Is this your pencil?"
   },
@@ -1305,7 +1305,7 @@
     "Pronoun": "oishī",
     "Chinese": "美味",
     "English": "delicious",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "それはおいしいです。",
     "Sample_En": "That is really delicious."
   },
@@ -1315,7 +1315,7 @@
     "Pronoun": "ookii",
     "Chinese": "大的",
     "English": "big",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "この犬は大きい。",
     "Sample_En": "This dog is big."
   },
@@ -1325,7 +1325,7 @@
     "Pronoun": "Ōsakajiyou",
     "Chinese": "大阪城",
     "English": "Osaka Castle",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -1335,7 +1335,7 @@
     "Pronoun": "okaasan",
     "Chinese": "母親(別人)",
     "English": "mom (when referring to someone else's mother)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "お母さんはどこですか？",
     "Sample_En": "Where is your mother?"
   },
@@ -1345,7 +1345,7 @@
     "Pronoun": "okashi",
     "Chinese": "糖果",
     "English": "sweets",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "お菓子をご自由に取ってください。",
     "Sample_En": "Please help yourself to the sweets."
   },
@@ -1355,7 +1355,7 @@
     "Pronoun": "okinawa",
     "Chinese": "沖縄",
     "English": "Okinawa",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "まつやすみにおきなわにいきたいです。",
     "Sample_En": "I want to go to Okinawa during summer vacation."
   },
@@ -1365,7 +1365,7 @@
     "Pronoun": "okiru",
     "Chinese": "起床",
     "English": "to get up",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "きょうはおきるのがおそかった。",
     "Sample_En": "I was late waking up today."
   },
@@ -1375,7 +1375,7 @@
     "Pronoun": "oku",
     "Chinese": "億",
     "English": "one hundred million",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -1385,7 +1385,7 @@
     "Pronoun": "oku",
     "Chinese": "留下/放下",
     "English": "to put down",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "ここにおくよ。",
     "Sample_En": "I'll place it here."
   },
@@ -1395,7 +1395,7 @@
     "Pronoun": "okusan",
     "Chinese": "妻子(別人)",
     "English": "wife (when referring to someone else's wife)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "トムのおくさんは、日本語にほんごができます。",
     "Sample_En": "Tom’s wife can speak Japanese."
   },
@@ -1405,7 +1405,7 @@
     "Pronoun": "okuru",
     "Chinese": "送/寄",
     "English": "to send",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "このえをかれのいえにおくってください。",
     "Sample_En": "Please send this painting to his home."
   },
@@ -1415,7 +1415,7 @@
     "Pronoun": "okonomiyaki",
     "Chinese": "禦好燒",
     "English": "okonomiyaki(savory pancake)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "私は初めてお好み焼きを作った。",
     "Sample_En": "I made okonomiyaki for the first time."
   },
@@ -1425,7 +1425,7 @@
     "Pronoun": "osake",
     "Chinese": "酒",
     "English": "alcohol",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "ときどき おさけを のみます。",
     "Sample_En": "I drink alcohol sometimes"
   },
@@ -1435,7 +1435,7 @@
     "Pronoun": "oji",
     "Chinese": "叔叔",
     "English": "uncle(When talking about your own uncle)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -1445,7 +1445,7 @@
     "Pronoun": "ojiisan",
     "Chinese": "祖父",
     "English": "grandfather (other's)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "わたしのおじいさんはきゅうじゅうさいです",
     "Sample_En": "My grandfather is 90 years old."
   },
@@ -1455,7 +1455,7 @@
     "Pronoun": "oshieru",
     "Chinese": "教",
     "English": "to teach",
-    "URL": "G1",
+    "WordType": "G1",
     "Sample_JP": "わたしのしごとは　にほんごを おしえる",
     "Sample_En": "My job is to teach Japanese."
   },
@@ -1465,7 +1465,7 @@
     "Pronoun": "ojisan",
     "Chinese": "叔叔",
     "English": "uncle",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -1475,8 +1475,8 @@
     "Pronoun": "osoi",
     "Chinese": "慢的",
     "English": "late/slow",
-    "URL": "",
-    "Sample_JP": "どうして今日は遅いのですか？",
+    "WordType": "い-adjective",
+    "Sample_JP": "どうして今日は遅(おそ)いのですか？",
     "Sample_En": "Why were you late today?"
   },
   {
@@ -1485,7 +1485,7 @@
     "Pronoun": "ocha",
     "Chinese": "茶",
     "English": "tea",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "お茶をいただきましょう。",
     "Sample_En": "I think I would like some tea."
   },
@@ -1495,7 +1495,7 @@
     "Pronoun": "otearai",
     "Chinese": "洗手間",
     "English": "restroom",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "お手洗いはどこにありますか？",
     "Sample_En": "Where’s the bathroom?"
   },
@@ -1505,9 +1505,9 @@
     "Pronoun": "otooto",
     "Chinese": "弟弟",
     "English": "younger brother",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "おとうとはがっこうにいっています",
+    "Sample_En": "My younger brother is going to school."
   },
   {
     "Title": "おとうとさん",
@@ -1515,9 +1515,9 @@
     "Pronoun": "otootosan",
     "Chinese": "弟弟",
     "English": "younger brother (other's)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "わたしは弟(おとうと)さんに辞書(じしょ)をあげました。",
+    "Sample_En": "I gave my younger brother a dictionary."
   },
   {
     "Title": "おとこ",
@@ -1525,9 +1525,9 @@
     "Pronoun": "otoko",
     "Chinese": "男人",
     "English": "man",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "あの男(おとこ)の人はハンサムですね。",
+    "Sample_En": "That man is handsome."
   },
   {
     "Title": "おとこのこ",
@@ -1535,9 +1535,9 @@
     "Pronoun": "otokonoko",
     "Chinese": "男生",
     "English": "boy",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "赤(あか)ちゃんは男の子(おとこのこ)です",
+    "Sample_En": "The baby is a boy"
   },
   {
     "Title": "おととい",
@@ -1545,9 +1545,9 @@
     "Pronoun": "ototoi",
     "Chinese": "前天",
     "English": "the day before",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "昨日(おととい)は大雨(おおあめ)でした",
+    "Sample_En": "It rained heavily the day before yesterday."
   },
   {
     "Title": "おととし",
@@ -1555,9 +1555,9 @@
     "Pronoun": "ototoshi",
     "Chinese": "前年",
     "English": "year before last year",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私(わたし)の弟(おとうと)は一昨年(おととし)生(う)まれました。",
+    "Sample_En": "My brother was born the year before last."
   },
   {
     "Title": "おとな",
@@ -1565,9 +1565,9 @@
     "Pronoun": "otona",
     "Chinese": "成人",
     "English": "adult",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私(わたし)は大人(おとな)になりたい。",
+    "Sample_En": "I want to become an adult."
   },
   {
     "Title": "おなか",
@@ -1575,9 +1575,9 @@
     "Pronoun": "onaka",
     "Chinese": "胃",
     "English": "stomach",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "お腹(なか)が痛(いた)い",
+    "Sample_En": "My stomach hurts."
   },
   {
     "Title": "おなじ",
@@ -1585,9 +1585,9 @@
     "Pronoun": "onaji",
     "Chinese": "相同",
     "English": "same",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "",
+    "Sample_JP": "わたしも同じ(おなじ)いけんです。",
+    "Sample_En": "I am the same"
   },
   {
     "Title": "おにいさん",
@@ -1595,9 +1595,9 @@
     "Pronoun": "oniisan",
     "Chinese": "兄(別人)",
     "English": "elder brother",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "彼(かれ)のお兄(にい)さんは有名(ゆうめ)なサッカーの選手(せんしゅ)です。",
+    "Sample_En": "His brother is a famous soccer player."
   },
   {
     "Title": "おにぎり",
@@ -1605,9 +1605,9 @@
     "Pronoun": "onigiri",
     "Chinese": "飯糰",
     "English": "rice ball",
-    "URL": "n",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n",
+    "Sample_JP": "おにぎりを作(つく)る。",
+    "Sample_En": "I will make rice balls."
   },
   {
     "Title": "おねえさん",
@@ -1615,9 +1615,9 @@
     "Pronoun": "onesan",
     "Chinese": "年輕的女士",
     "English": "elder sister",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "あなたのお姉(ねえ)さん(はどこにいるの？",
+    "Sample_En": "Where is your older sister?"
   },
   {
     "Title": "おば",
@@ -1625,9 +1625,9 @@
     "Pronoun": "oba",
     "Chinese": "阿姨",
     "English": "aunt(When talking about your own aunt)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "叔母 ( おば ) さんと 叔父 ( おじ ) さんからお 小遣 ( こづか ) いをちょっともらった。",
+    "Sample_En": "My aunt and uncle gave me some pocket money."
   },
   {
     "Title": "おばあさん",
@@ -1635,19 +1635,9 @@
     "Pronoun": "obaasan",
     "Chinese": "祖母",
     "English": "grandmother (other's)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
-  },
-  {
-    "Title": "おばさん",
-    "Subtitle": "",
-    "Pronoun": "obasan",
-    "Chinese": "阿姨",
-    "English": "aunt",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私(わたし)はおばあさんに会(あい)に行(いき)ました",
+    "Sample_En": "I went to meet my grandmother."
   },
   {
     "Title": "おぼえる",
@@ -1655,9 +1645,9 @@
     "Pronoun": "oboeru",
     "Chinese": "記住",
     "English": "to remember",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "私(わたし)の名前(なまえ)を覚(おぽ)えていますか？",
+    "Sample_En": "Do you remember my name?"
   },
   {
     "Title": "おまわりさん",
@@ -1665,19 +1655,19 @@
     "Pronoun": "omawarisan",
     "Chinese": "警察",
     "English": "police officer",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私(わたし)の父(ちち)はお巡(まわ)りさんです。",
+    "Sample_En": "My father is a police officer."
   },
   {
     "Title": "おみやげ",
-    "Subtitle": "",
+    "Subtitle": "お土産",
     "Pronoun": "omiyage",
     "Chinese": "手信",
     "English": "souvenir",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "これはにほんからのお土産(おみやげ)です。",
+    "Sample_En": "This is a gift from Japan."
   },
   {
     "Title": "おもう",
@@ -1685,9 +1675,9 @@
     "Pronoun": "omou",
     "Chinese": "想",
     "English": "to think",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "",
+    "Sample_JP": "父より母の方が友達を作るのが上手だと思う。",
+    "Sample_En": "I think my mother is better at making friends than my father."
   },
   {
     "Title": "おもしろい",
@@ -1695,9 +1685,9 @@
     "Pronoun": "omoshiroi",
     "Chinese": "有趣的",
     "English": "interesting",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "adj",
+    "Sample_JP": "そのアイデアは面白い(おもしろい)んじゃないか？",
+    "Sample_En": "Isn't that idea interesting?"
   },
   {
     "Title": "おや",
@@ -1705,9 +1695,9 @@
     "Pronoun": "oya",
     "Chinese": "家長",
     "English": "parent",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "かれのおやはふたりともいしゃです。",
+    "Sample_En": "Both his parents are doctors."
   },
   {
     "Title": "およぐ",
@@ -1715,9 +1705,9 @@
     "Pronoun": "oyugu",
     "Chinese": "游泳",
     "English": "to swim",
-    "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "G1",
+    "Sample_JP": "夏休み(なつやすみ)の目標(もくひょう)、千メートル泳(およ)げるようになること！",
+    "Sample_En": "My goal this summer is to swim 1000 meters!"
   },
   {
     "Title": "おりる",
@@ -1725,9 +1715,9 @@
     "Pronoun": "oriru",
     "Chinese": "下車",
     "English": "get off",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "どこで電車(でんしゃ)を降りる(おりる)のですか？",
+    "Sample_En": "Where do you get off the train?"
   },
   {
     "Title": "おれ",
@@ -1735,9 +1725,9 @@
     "Pronoun": "ore",
     "Chinese": "我(男子用自稱)",
     "English": "I (used by men)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "俺(おれ)の誕生日(たんじようび)パーティーには誰(だれ)も来(こ)なかった。",
+    "Sample_En": "No one came to my birthday party."
   },
   {
     "Title": "おわる",
@@ -1745,9 +1735,9 @@
     "Pronoun": "owaru",
     "Chinese": "結束",
     "English": "to end",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "しあいは9じにおわった。",
+    "Sample_En": "The game ended at nine o'clock."
   },
   {
     "Title": "おんがく",
@@ -1755,9 +1745,9 @@
     "Pronoun": "ongaku",
     "Chinese": "音樂",
     "English": "music",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "音楽(おんがく)のボリューム下げて！",
+    "Sample_En": "Turn down the music!"
   },
   {
     "Title": "おんせん",
@@ -1765,9 +1755,9 @@
     "Pronoun": "onsen",
     "Chinese": "溫泉",
     "English": "Onsen",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "温泉(おんせん)に入(はい)る。",
+    "Sample_En": "I go in an onsen."
   },
   {
     "Title": "おんな",
@@ -1775,9 +1765,9 @@
     "Pronoun": "onna",
     "Chinese": "女人",
     "English": "woman",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "このお店(みせ)は女(おんな)だけ入(はい)れます。",
+    "Sample_En": "Only women can enter this shop."
   },
   {
     "Title": "おんなのこ",
@@ -1785,9 +1775,9 @@
     "Pronoun": "onnanoko",
     "Chinese": "女孩",
     "English": "girl",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "その女(おんな)の子(こ)は誰(だれ)ですか？",
+    "Sample_En": "Who is that girl?"
   },
   {
     "Title": "かいがい",
@@ -1795,9 +1785,9 @@
     "Pronoun": "kaigai",
     "Chinese": "海外",
     "English": "overseas",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "彼(かれ)は10日(とおか)から海外(かいがい )出張(しゅっちょう)です。",
+    "Sample_En": "He will be on a business trip from the 10th."
   },
   {
     "Title": "かいぎ",
@@ -1805,9 +1795,9 @@
     "Pronoun": "kaigi",
     "Chinese": "會議",
     "English": "meeting",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "おおさかにおいて、こくさいかいぎがおこなわれた。",
+    "Sample_En": "There was an international meeting held in Osaka."
   },
   {
     "Title": "かいぎしつ",
@@ -1815,9 +1805,9 @@
     "Pronoun": "kaigishitsu",
     "Chinese": "會議室",
     "English": "meeting room",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "今(いま)、会議室(かいぎしつ)はだれかが使(つか)っていますか？",
+    "Sample_En": "Is someone using the meeting room now?"
   },
   {
     "Title": "かいけい",
@@ -1825,9 +1815,9 @@
     "Pronoun": "kaikei",
     "Chinese": "會計/",
     "English": "payment / to pay",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "おかいけいをおねがいします。",
+    "Sample_En": "May I have the check please?"
   },
   {
     "Title": "がいこく",
@@ -1835,9 +1825,9 @@
     "Pronoun": "gaikoku",
     "Chinese": "外國",
     "English": "foreign",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "これはがいこくのしんぶんです。",
+    "Sample_En": "This is a a newspaper of a foreign country."
   },
   {
     "Title": "かいしゃ",
@@ -1845,9 +1835,9 @@
     "Pronoun": "kaisha",
     "Chinese": "公司",
     "English": "company",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "あなたの会社(かいしや)で働(はたら)きたいです。",
+    "Sample_En": "I want to work at your company."
   },
   {
     "Title": "かいしゃいん",
@@ -1855,9 +1845,9 @@
     "Pronoun": "kaishain",
     "Chinese": "雇員",
     "English": "employee",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私は会社員です。",
+    "Sample_En": "I am a company employee."
   },
   {
     "Title": "かいだん",
@@ -1865,9 +1855,9 @@
     "Pronoun": "kaidan",
     "Chinese": "臺階",
     "English": "stairs",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "階段(かいだん)を下(お)りる。",
+    "Sample_En": "I go down the stairs."
   },
   {
     "Title": "かいもの",
@@ -1875,9 +1865,9 @@
     "Pronoun": "kaimono",
     "Chinese": "購物",
     "English": "shopping / to go shopping",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "",
+    "Sample_JP": "きょう、かいものにいきました。",
+    "Sample_En": "I went shopping today."
   },
   {
     "Title": "かいわ",
@@ -1885,9 +1875,9 @@
     "Pronoun": "kaiwa",
     "Chinese": "會話",
     "English": "conversation / to converse",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "誰(だれ)と会話(かいわ)しているの？",
+    "Sample_En": "Who are you having a conversation with?"
   },
   {
     "Title": "かう",
@@ -1895,9 +1885,9 @@
     "Pronoun": "kau",
     "Chinese": "買",
     "English": "to buy",
-    "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "G1",
+    "Sample_JP": "新(あたら)しい車(くるま)を買(か)いたいですがお金がない。",
+    "Sample_En": "I want to buy a new car, but I have no money."
   },
   {
     "Title": "かえす",
@@ -1905,9 +1895,9 @@
     "Pronoun": "kaesu",
     "Chinese": "歸還",
     "English": "to return",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "お金(かね)を返(かえ)すのがわすれていました。",
+    "Sample_En": "I forgot to return the money."
   },
   {
     "Title": "かえる",
@@ -1915,9 +1905,9 @@
     "Pronoun": "kaeru",
     "Chinese": "回家",
     "English": "to go back / return",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "今日(きょう)はなんじにかえるの？",
+    "Sample_En": "What time will you be home this evening?"
   },
   {
     "Title": "かお",
@@ -1925,19 +1915,19 @@
     "Pronoun": "kao",
     "Chinese": "臉",
     "English": "face",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "彼女(かのじよ)の顔(かお)はとても小(ちい)さいです。",
+    "Sample_En": "Her face is very small."
   },
   {
     "Title": "かかる",
-    "Subtitle": "",
+    "Subtitle": "掛かる",
     "Pronoun": "kakaru",
     "Chinese": "需要(時間/金錢)",
     "English": "to take time / money",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "このしごとはじかんがかかる。",
+    "Sample_En": "This work takes time."
   },
   {
     "Title": "かく",
@@ -1945,9 +1935,9 @@
     "Pronoun": "kaku",
     "Chinese": "寫",
     "English": "to write",
-    "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "G1",
+    "Sample_JP": "ここにお名前(なまえ)を書(か)いてください。",
+    "Sample_En": "Please write your name here."
   },
   {
     "Title": "かぐ",
@@ -1955,9 +1945,9 @@
     "Pronoun": "kagu",
     "Chinese": "家具",
     "English": "furniture",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "家具(かぐ)らしいものはなにもない。",
+    "Sample_En": "There’s no furniture."
   },
   {
     "Title": "がくせい",
@@ -1965,9 +1955,9 @@
     "Pronoun": "gakusee",
     "Chinese": "學生",
     "English": "student",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "わたしはがくせいです。",
+    "Sample_En": "I am a student."
   },
   {
     "Title": "かさ",
@@ -1975,9 +1965,9 @@
     "Pronoun": "kasa",
     "Chinese": "傘",
     "English": "umbrella",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私は傘をなくした。",
+    "Sample_En": "I lost my umbrella."
   },
   {
     "Title": "かす",
@@ -1985,9 +1975,9 @@
     "Pronoun": "kasu",
     "Chinese": "借出",
     "English": "to lend",
-    "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "G1",
+    "Sample_JP": "お金をかしてください。",
+    "Sample_En": "Please lend me money."
   },
   {
     "Title": "かずこ",
@@ -1995,9 +1985,9 @@
     "Pronoun": "kazuko",
     "Chinese": "和子",
     "English": "Kazuko (a Japanese girl's first name)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "和子は私の親友(しんゆう)です。",
+    "Sample_En": "Kazuko is my best friend."
   },
   {
     "Title": "かぜ",
@@ -2005,9 +1995,9 @@
     "Pronoun": "kaze",
     "Chinese": "風",
     "English": "wind",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "今朝(けさ)は風が強(つよ)いですね。",
+    "Sample_En": "Windy this morning, isn't it?"
   },
   {
     "Title": "かぜ",
@@ -2015,9 +2005,9 @@
     "Pronoun": "kaze",
     "Chinese": "傷風/感冒",
     "English": "a cold (illness)",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私は風邪を引(ひ)いています。",
+    "Sample_En": "I have a cold."
   },
   {
     "Title": "かぞく",
@@ -2025,9 +2015,9 @@
     "Pronoun": "Kazoku",
     "Chinese": "家族",
     "English": "family",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "家族は何人いますか？",
+    "Sample_En": "How many people are in your family?"
   },
   {
     "Title": "カタカナ",
@@ -2035,7 +2025,7 @@
     "Pronoun": "katakana",
     "Chinese": "片假名",
     "English": "katakana (syllabic writing)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2045,9 +2035,9 @@
     "Pronoun": "kachoo",
     "Chinese": "課長",
     "English": "section chief",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "私は、課長に仕事(しごと)をやめたいと言(い)いました。",
+    "Sample_En": "I told my section manager that I want to quit my job."
   },
   {
     "Title": "かつ",
@@ -2055,9 +2045,9 @@
     "Pronoun": "katsu",
     "Chinese": "勝",
     "English": "to win",
-    "URL": "v",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v",
+    "Sample_JP": "今(いま)はどちらが勝っているのですか。",
+    "Sample_En": "Which side is winning now?"
   },
   {
     "Title": "がっこう",
@@ -2065,9 +2055,9 @@
     "Pronoun": "gakkoo",
     "Chinese": "學校",
     "English": "school",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "学校は、勉強(べんきよう)をする場所(ばしょ)だ。",
+    "Sample_En": "School is a place to study"
   },
   {
     "Title": "かながわ",
@@ -2075,7 +2065,7 @@
     "Pronoun": "kanagawa",
     "Chinese": "神奈川",
     "English": "Kanagawa",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2085,9 +2075,9 @@
     "Pronoun": "kane",
     "Chinese": "金錢",
     "English": "money",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "お金を貸して下(くだ)さい。",
+    "Sample_En": "Please lend me money."
   },
   {
     "Title": "かのじょ",
@@ -2095,9 +2085,9 @@
     "Pronoun": "kanojo",
     "Chinese": "她",
     "English": "she",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "彼女はピアノを弾(ひ)くのが上手(じょうず)。",
+    "Sample_En": "She's good at playing piano."
   },
   {
     "Title": "かばん",
@@ -2105,9 +2095,9 @@
     "Pronoun": "kaban",
     "Chinese": "錢包",
     "English": "bag",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "その鞄は誰(だれ)の物(もの)ですか？",
+    "Sample_En": "Who does that bag belong to?"
   },
   {
     "Title": "かびん",
@@ -2115,9 +2105,9 @@
     "Pronoun": "kabin",
     "Chinese": "花瓶",
     "English": "(flower) vase",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "この花瓶は安(やす)かったです。",
+    "Sample_En": "This vase was cheap."
   },
   {
     "Title": "かぶしきがいしゃ",
@@ -2125,7 +2115,7 @@
     "Pronoun": "kabushikigaisha",
     "Chinese": "有限公司",
     "English": "Co. Ltd.",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2135,9 +2125,9 @@
     "Pronoun": "kaburu",
     "Chinese": "戴上",
     "English": "put on (one's hat)",
-    "URL": "v",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v",
+    "Sample_JP": "帽子(ぼうし)を被る",
+    "Sample_En": "I put on my hat"
   },
   {
     "Title": "かみ",
@@ -2145,9 +2135,9 @@
     "Pronoun": "kami",
     "Chinese": "紙",
     "English": "paper",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "そのバッグは紙で作(つく)られています。",
+    "Sample_En": "The bag is made by paper."
   },
   {
     "Title": "かめら（カメラ）",
@@ -2155,7 +2145,7 @@
     "Pronoun": "kamera",
     "Chinese": "相機",
     "English": "camera",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2165,19 +2155,19 @@
     "Pronoun": "kayoubi",
     "Chinese": "星期二",
     "English": "Tuesday",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "こんしゅうのかようびはやすみです。",
+    "Sample_En": "I am on leave Tuesday this week"
   },
   {
     "Title": "から",
     "Subtitle": "",
     "Pronoun": "kara",
     "Chinese": "來自",
-    "English": "from",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "English": "from; because; since;",
+    "WordType": "",
+    "Sample_JP": "16時からアルバイトがある。",
+    "Sample_En": "my part time job starting from 4pm."
   },
   {
     "Title": "からい",
@@ -2185,9 +2175,9 @@
     "Pronoun": "tsurai",
     "Chinese": "辣",
     "English": "spicy",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "い-adjective",
+    "Sample_JP": "辛い食べ物はへいきですか？",
+    "Sample_En": "Are you OK with spicy food?"
   },
   {
     "Title": "カラオケ",
@@ -2195,7 +2185,7 @@
     "Pronoun": "karaoke",
     "Chinese": "卡拉OK",
     "English": "karaoke",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2205,9 +2195,9 @@
     "Pronoun": "karada",
     "Chinese": "身體",
     "English": "body",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "n.",
+    "Sample_JP": "体に気をつけてね。",
+    "Sample_En": "Take care of yourself, okay?"
   },
   {
     "Title": "かりる",
@@ -2215,9 +2205,9 @@
     "Pronoun": "kariru",
     "Chinese": "借入",
     "English": "to borrow",
-    "URL": "G1",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "G1",
+    "Sample_JP": "友達から鉛筆を借ります。",
+    "Sample_En": "I will borrow a pencil from a friend."
   },
   {
     "Title": "かれ",
@@ -2225,9 +2215,9 @@
     "Pronoun": "kare",
     "Chinese": "他",
     "English": "he",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "",
+    "Sample_JP": "彼は私の弟(おとうと)です。",
+    "Sample_En": "He is my younger brother."
   },
   {
     "Title": "カレー（ライス）",
@@ -2235,7 +2225,7 @@
     "Pronoun": "kare (raisu)",
     "Chinese": "咖哩(飯)",
     "English": "curry",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2245,7 +2235,7 @@
     "Pronoun": "karendaa",
     "Chinese": "日曆",
     "English": "calendar",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2255,7 +2245,7 @@
     "Pronoun": "kawaii",
     "Chinese": "可愛的",
     "English": "cute / lovely",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2265,7 +2255,7 @@
     "Pronoun": "kankoku",
     "Chinese": "韓國",
     "English": "Korea",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2275,7 +2265,7 @@
     "Pronoun": "kanji",
     "Chinese": "漢字",
     "English": "Kanji (Chinese characters)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2285,9 +2275,9 @@
     "Pronoun": "ganbaru",
     "Chinese": "盡我所能",
     "English": "to do one's best",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "",
+    "Sample_JP": "試験しけんで頑張(がんば)ります",
+    "Sample_En": "I'll do my best in the exam."
   },
   {
     "Title": "かんらんしゃ",
@@ -2295,7 +2285,7 @@
     "Pronoun": "kanransha",
     "Chinese": "摩天輪",
     "English": "ferries wheel",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2305,7 +2295,7 @@
     "Pronoun": "ki",
     "Chinese": "樹",
     "English": "tree",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2315,9 +2305,9 @@
     "Pronoun": "kieru",
     "Chinese": "消失",
     "English": "to disappear",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "",
+    "Sample_JP": "電気(でんき)が消(き)える",
+    "Sample_En": "The lights go out"
   },
   {
     "Title": "きく",
@@ -2325,9 +2315,9 @@
     "Pronoun": "kiku",
     "Chinese": "聽",
     "English": "to hear",
-    "URL": "",
-    "Sample_JP": "",
-    "Sample_En": ""
+    "WordType": "v.",
+    "Sample_JP": "何(なに)を聞(き)いているのですか。",
+    "Sample_En": "What are you listening to?"
   },
   {
     "Title": "きた",
@@ -2335,7 +2325,7 @@
     "Pronoun": "kita",
     "Chinese": "北",
     "English": "north",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2345,7 +2335,7 @@
     "Pronoun": "gitaa",
     "Chinese": "結他/吉他",
     "English": "guitar",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2355,7 +2345,7 @@
     "Pronoun": "kitanai",
     "Chinese": "骯髒",
     "English": "dirty",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2365,7 +2355,7 @@
     "Pronoun": "kissaten",
     "Chinese": "飲食店/咖啡館",
     "English": "coffee shop",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2375,7 +2365,7 @@
     "Pronoun": "kitte",
     "Chinese": "郵票",
     "English": "stamp",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2385,7 +2375,7 @@
     "Pronoun": "kippu",
     "Chinese": "票",
     "English": "ticket",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2395,7 +2385,7 @@
     "Pronoun": "kinou",
     "Chinese": "昨天",
     "English": "yesterday",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2405,7 +2395,7 @@
     "Pronoun": "kyaku",
     "Chinese": "顧客",
     "English": "customer",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2415,7 +2405,7 @@
     "Pronoun": "kyuu",
     "Chinese": "九",
     "English": "nine",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2425,7 +2415,7 @@
     "Pronoun": "gyudon",
     "Chinese": "牛丼",
     "English": "beef rice bowl",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2435,7 +2425,7 @@
     "Pronoun": "gyuniku",
     "Chinese": "牛肉",
     "English": "beef",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2445,7 +2435,7 @@
     "Pronoun": "gyunyu",
     "Chinese": "牛奶",
     "English": "milk",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2455,7 +2445,7 @@
     "Pronoun": "kyou",
     "Chinese": "今日",
     "English": "today",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2465,7 +2455,7 @@
     "Pronoun": "kyoshi",
     "Chinese": "老師",
     "English": "teacher",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2475,7 +2465,7 @@
     "Pronoun": "kyooshitsu",
     "Chinese": "課室",
     "English": "classroom",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2485,7 +2475,7 @@
     "Pronoun": "kyonen",
     "Chinese": "去年",
     "English": "last year",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2495,7 +2485,7 @@
     "Pronoun": "kirai",
     "Chinese": "不喜歡",
     "English": "hate",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2505,7 +2495,7 @@
     "Pronoun": "kiru",
     "Chinese": "穿",
     "English": "to wear (clothing above the waist)",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2515,7 +2505,7 @@
     "Pronoun": "kiree",
     "Chinese": "美麗",
     "English": "beautiful",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2525,7 +2515,7 @@
     "Pronoun": "Kinkakuji",
     "Chinese": "金閣寺",
     "English": "Golden Pavilion in Kyoto",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2535,7 +2525,7 @@
     "Pronoun": "ginkou",
     "Chinese": "銀行",
     "English": "bank",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2545,7 +2535,7 @@
     "Pronoun": "ginkoin",
     "Chinese": "銀行職員",
     "English": "bank staff",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2555,7 +2545,7 @@
     "Pronoun": "ginza",
     "Chinese": "銀座",
     "English": "Ginza",
-    "URL": "n",
+    "WordType": "n",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2565,7 +2555,7 @@
     "Pronoun": "kinyoubi",
     "Chinese": "星期五",
     "English": "Friday",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2575,7 +2565,7 @@
     "Pronoun": "kuko",
     "Chinese": "機場",
     "English": "airport",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2585,7 +2575,7 @@
     "Pronoun": "kusuri",
     "Chinese": "藥物",
     "English": "medicine",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2595,7 +2585,7 @@
     "Pronoun": "kudamono",
     "Chinese": "水果",
     "English": "fruit",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2605,7 +2595,7 @@
     "Pronoun": "kuchi",
     "Chinese": "嘴",
     "English": "mouth",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2615,7 +2605,7 @@
     "Pronoun": "kutsu",
     "Chinese": "鞋",
     "English": "shoes",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2625,7 +2615,7 @@
     "Pronoun": "kutsuta",
     "Chinese": "襪子",
     "English": "socks",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2635,7 +2625,7 @@
     "Pronoun": "kutsuya",
     "Chinese": "鞋店",
     "English": "shoe store",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2645,7 +2635,7 @@
     "Pronoun": "kuni",
     "Chinese": "國家",
     "English": "country/nation",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2655,7 +2645,7 @@
     "Pronoun": "kumori",
     "Chinese": "陰天",
     "English": "cloudy weather",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2665,7 +2655,7 @@
     "Pronoun": "kurai",
     "Chinese": "暗",
     "English": "dark",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2675,7 +2665,7 @@
     "Pronoun": "kurasu",
     "Chinese": "(學校的)班",
     "English": "class",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2685,7 +2675,7 @@
     "Pronoun": "kuru",
     "Chinese": "來",
     "English": "to come",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2695,7 +2685,7 @@
     "Pronoun": "kuruma",
     "Chinese": "車",
     "English": "car",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2705,7 +2695,7 @@
     "Pronoun": "kuro",
     "Chinese": "黑色",
     "English": "black",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2715,7 +2705,7 @@
     "Pronoun": "gurobaru",
     "Chinese": "環球",
     "English": "global",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2725,7 +2715,7 @@
     "Pronoun": "kuroi",
     "Chinese": "黑色的",
     "English": "black",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2735,7 +2725,7 @@
     "Pronoun": "keeki",
     "Chinese": "蛋糕",
     "English": "cake",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2745,7 +2735,7 @@
     "Pronoun": "keisatsukan",
     "Chinese": "警官",
     "English": "policeman",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2755,7 +2745,7 @@
     "Pronoun": "keisatsusho",
     "Chinese": "警察局",
     "English": "police station",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2765,7 +2755,7 @@
     "Pronoun": "keitaidenwa",
     "Chinese": "移動電話",
     "English": "cellphone",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2775,7 +2765,7 @@
     "Pronoun": "kesa",
     "Chinese": "今朝",
     "English": "this morning",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2785,7 +2775,7 @@
     "Pronoun": "kesu",
     "Chinese": "關閉/去掉",
     "English": "to turn off / erase",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2795,7 +2785,7 @@
     "Pronoun": "kekkon",
     "Chinese": "婚姻",
     "English": "marriage / to get married",
-    "URL": "n/G3",
+    "WordType": "n/G3",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2805,7 +2795,7 @@
     "Pronoun": "getsuyoubi",
     "Chinese": "星期一",
     "English": "Monday",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2815,7 +2805,7 @@
     "Pronoun": "genki",
     "Chinese": "活力",
     "English": "energy / energetic / healthy",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2825,7 +2815,7 @@
     "Pronoun": "kenkyū",
     "Chinese": "研究",
     "English": "research / to research",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2835,7 +2825,7 @@
     "Pronoun": "go",
     "Chinese": "語",
     "English": "language",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2845,7 +2835,7 @@
     "Pronoun": "go",
     "Chinese": "五",
     "English": "five",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2855,7 +2845,7 @@
     "Pronoun": "kooto",
     "Chinese": "外套",
     "English": "coat",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2865,7 +2855,7 @@
     "Pronoun": "koohii",
     "Chinese": "咖啡",
     "English": "coffee",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2875,7 +2865,7 @@
     "Pronoun": "kola",
     "Chinese": "可樂",
     "English": "cola",
-    "URL": "n",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2885,7 +2875,7 @@
     "Pronoun": "koi",
     "Chinese": "濃",
     "English": "thick",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2895,7 +2885,7 @@
     "Pronoun": "koen",
     "Chinese": "公園",
     "English": "park",
-    "URL": "n",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2905,7 +2895,7 @@
     "Pronoun": "kookoo",
     "Chinese": "高中",
     "English": "high school",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2915,7 +2905,7 @@
     "Pronoun": "koukousei",
     "Chinese": "高中生",
     "English": "high school student",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2925,7 +2915,7 @@
     "Pronoun": "koocha",
     "Chinese": "紅茶",
     "English": "black tea",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2935,7 +2925,7 @@
     "Pronoun": "koban",
     "Chinese": "警察崗亭",
     "English": "police box",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2945,7 +2935,7 @@
     "Pronoun": "koko",
     "Chinese": "這裏",
     "English": "here",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2955,7 +2945,7 @@
     "Pronoun": "gogo",
     "Chinese": "下午",
     "English": "afternoon / pm",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2965,7 +2955,7 @@
     "Pronoun": "goshujin",
     "Chinese": "丈夫",
     "English": "husband (other's)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2975,7 +2965,7 @@
     "Pronoun": "gozen",
     "Chinese": "早上",
     "English": "morning / am",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2985,7 +2975,7 @@
     "Pronoun": "kotae",
     "Chinese": "答覆",
     "English": "answer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -2995,7 +2985,7 @@
     "Pronoun": "kotaeru",
     "Chinese": "解答/答覆",
     "English": "answer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3005,7 +2995,7 @@
     "Pronoun": "kochira",
     "Chinese": "這兒(方位)",
     "English": "this side / this place (polite) this place (polite)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3015,7 +3005,7 @@
     "Pronoun": "kocchi",
     "Chinese": "這裡",
     "English": "here",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3025,7 +3015,7 @@
     "Pronoun": "kotoshi",
     "Chinese": "這年",
     "English": "this year",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3035,7 +3025,7 @@
     "Pronoun": "kotoba",
     "Chinese": "字",
     "English": "language, phrase",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3045,7 +3035,7 @@
     "Pronoun": "kodomo",
     "Chinese": "兒童",
     "English": "child",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3055,7 +3045,7 @@
     "Pronoun": "kono",
     "Chinese": "這",
     "English": "this",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3065,7 +3055,7 @@
     "Pronoun": "konohen",
     "Chinese": "這周圍",
     "English": "near here",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3075,7 +3065,7 @@
     "Pronoun": "gohan",
     "Chinese": "米飯",
     "English": "a meal / rice",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3085,7 +3075,7 @@
     "Pronoun": "komaru",
     "Chinese": "困難",
     "English": "to have trouble",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3095,7 +3085,7 @@
     "Pronoun": "kore",
     "Chinese": "這",
     "English": "this",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3105,7 +3095,7 @@
     "Pronoun": "koro",
     "Chinese": "時候/時期/…前後",
     "English": "about / around (used for time)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3115,7 +3105,7 @@
     "Pronoun": "konketsu",
     "Chinese": "這月",
     "English": "this month",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3125,7 +3115,7 @@
     "Pronoun": "konsaato",
     "Chinese": "音樂會",
     "English": "concert",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3135,7 +3125,7 @@
     "Pronoun": "konshuu",
     "Chinese": "今周",
     "English": "this week",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3145,7 +3135,7 @@
     "Pronoun": "kondo",
     "Chinese": "現在/這次",
     "English": "now/this time",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3155,7 +3145,7 @@
     "Pronoun": "konban",
     "Chinese": "今晚",
     "English": "this evening",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3165,7 +3155,7 @@
     "Pronoun": "konbini",
     "Chinese": "便利店",
     "English": "convenience store",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3175,7 +3165,7 @@
     "Pronoun": "kompyuutaa",
     "Chinese": "電腦",
     "English": "computer",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3185,7 +3175,7 @@
     "Pronoun": "sai",
     "Chinese": "歳",
     "English": "～years old",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3195,7 +3185,7 @@
     "Pronoun": "saizu",
     "Chinese": "大小/尺寸",
     "English": "size",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3205,7 +3195,7 @@
     "Pronoun": "saitama",
     "Chinese": "埼玉",
     "English": "Saitama",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3215,7 +3205,7 @@
     "Pronoun": "sakana",
     "Chinese": "魚",
     "English": "fish",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3225,7 +3215,7 @@
     "Pronoun": "sakanya",
     "Chinese": "魚店",
     "English": "fish market",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3235,7 +3225,7 @@
     "Pronoun": "sakini",
     "Chinese": "第一的",
     "English": "first/ahead/before",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3245,7 +3235,7 @@
     "Pronoun": "sakubun",
     "Chinese": "作品",
     "English": "essay",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3255,7 +3245,7 @@
     "Pronoun": "sakura",
     "Chinese": "櫻花",
     "English": "cherry blossom",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3265,7 +3255,7 @@
     "Pronoun": "sakkaa",
     "Chinese": "足球",
     "English": "soccer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3275,7 +3265,7 @@
     "Pronoun": "zasshi",
     "Chinese": "雜誌",
     "English": "magazine",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3285,7 +3275,7 @@
     "Pronoun": "sato",
     "Chinese": "佐藤(姓)",
     "English": "Sato(surname)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3295,7 +3285,7 @@
     "Pronoun": "sama",
     "Chinese": "大人/尊稱",
     "English": "mr/mrs/ms, master",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3305,7 +3295,7 @@
     "Pronoun": "samu",
     "Chinese": "冷",
     "English": "cold",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3315,7 +3305,7 @@
     "Pronoun": "samui",
     "Chinese": "寒冷的 (天氣)",
     "English": "cold (for weather)",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3325,7 +3315,7 @@
     "Pronoun": "sarainen",
     "Chinese": "後年",
     "English": "year after next year",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3335,7 +3325,7 @@
     "Pronoun": "sarariiman",
     "Chinese": "雇員",
     "English": "salaryman",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3345,7 +3335,7 @@
     "Pronoun": "san",
     "Chinese": "先生/女士",
     "English": "Mr./Ms.",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3355,7 +3345,7 @@
     "Pronoun": "san",
     "Chinese": "三",
     "English": "three",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3365,7 +3355,7 @@
     "Pronoun": "sandoitchi",
     "Chinese": "三明治",
     "English": "sandwich",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3375,7 +3365,7 @@
     "Pronoun": "zan'nen",
     "Chinese": "失望",
     "English": "regret / pity",
-    "URL": "な-adj.",
+    "WordType": "な-adj.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3385,7 +3375,7 @@
     "Pronoun": "zannen",
     "Chinese": "令人失望的",
     "English": "regrettable",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3395,7 +3385,7 @@
     "Pronoun": "sanpo",
     "Chinese": "散步",
     "English": "a walk / a stroll",
-    "URL": "n/G3",
+    "WordType": "n/G3",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3405,7 +3395,7 @@
     "Pronoun": "shiidii",
     "Chinese": "CD",
     "English": "CD",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3415,7 +3405,7 @@
     "Pronoun": "shiai",
     "Chinese": "比賽",
     "English": "match / game",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3425,7 +3415,7 @@
     "Pronoun": "shiokarai",
     "Chinese": "咸",
     "English": "salty",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3435,7 +3425,7 @@
     "Pronoun": "jikai",
     "Chinese": "下次",
     "English": "next time",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3445,7 +3435,7 @@
     "Pronoun": "shikashi",
     "Chinese": "但是/然而",
     "English": "but",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3455,7 +3445,7 @@
     "Pronoun": "jikan",
     "Chinese": "時間",
     "English": "time",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3465,7 +3455,7 @@
     "Pronoun": "shiken",
     "Chinese": "試驗/考試",
     "English": "examination",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3475,7 +3465,7 @@
     "Pronoun": "shigoto",
     "Chinese": "工作",
     "English": "work",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3485,7 +3475,7 @@
     "Pronoun": "shisha",
     "Chinese": "分公司",
     "English": "branch office",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3495,7 +3485,7 @@
     "Pronoun": "jisho",
     "Chinese": "辭典",
     "English": "dictionary",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3505,7 +3495,7 @@
     "Pronoun": "shizuoka",
     "Chinese": "静岡",
     "English": "Shizuoka",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3515,7 +3505,7 @@
     "Pronoun": "shizuka",
     "Chinese": "安靜的",
     "English": "quiet",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3525,7 +3515,7 @@
     "Pronoun": "shita",
     "Chinese": "下",
     "English": "under / below",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3535,7 +3525,7 @@
     "Pronoun": "shitsumon",
     "Chinese": "質問/疑問",
     "English": "question / to ask a question",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3545,7 +3535,7 @@
     "Pronoun": "jitensha",
     "Chinese": "單車",
     "English": "bicycle",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3555,7 +3545,7 @@
     "Pronoun": "jidoohambaiki",
     "Chinese": "自動售賣機",
     "English": "vending machine",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3565,7 +3555,7 @@
     "Pronoun": "shibuya",
     "Chinese": "渋谷",
     "English": "Shibuya",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3575,7 +3565,7 @@
     "Pronoun": "jimu",
     "Chinese": "事務/公事",
     "English": "office work",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3585,7 +3575,7 @@
     "Pronoun": "shinmeru",
     "Chinese": "關閉",
     "English": "to close",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3595,7 +3585,7 @@
     "Pronoun": "shiyakusho",
     "Chinese": "市政府",
     "English": "city hall",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3605,7 +3595,7 @@
     "Pronoun": "shashin",
     "Chinese": "写真",
     "English": "photograph",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3615,7 +3605,7 @@
     "Pronoun": "shachoo",
     "Chinese": "社長",
     "English": "company president",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3625,7 +3615,7 @@
     "Pronoun": "shatsu",
     "Chinese": "襯衫",
     "English": "shirt",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3635,7 +3625,7 @@
     "Pronoun": "japan",
     "Chinese": "日本",
     "English": "Japan",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3645,7 +3635,7 @@
     "Pronoun": "shawaa",
     "Chinese": "淋浴",
     "English": "shower",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3655,7 +3645,7 @@
     "Pronoun": "juusu",
     "Chinese": "果汁",
     "English": "juice",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3665,7 +3655,7 @@
     "Pronoun": "shuu",
     "Chinese": "周",
     "English": "week",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3675,7 +3665,7 @@
     "Pronoun": "juu",
     "Chinese": "十",
     "English": "ten",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3685,7 +3675,7 @@
     "Pronoun": "juu",
     "Chinese": "十",
     "English": "ten",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3695,7 +3685,7 @@
     "Pronoun": "shuumatsu",
     "Chinese": "周末",
     "English": "weekend",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3705,7 +3695,7 @@
     "Pronoun": "jugyou",
     "Chinese": "教課",
     "English": "class",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3715,7 +3705,7 @@
     "Pronoun": "shukujitsu",
     "Chinese": "假日",
     "English": "holiday",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3725,7 +3715,7 @@
     "Pronoun": "shukudai",
     "Chinese": "功課",
     "English": "homework",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3735,7 +3725,7 @@
     "Pronoun": "shujin / otto",
     "Chinese": "丈夫",
     "English": "husband (your own)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3745,7 +3735,7 @@
     "Pronoun": "shusseki",
     "Chinese": "出席",
     "English": "attendance / to attend",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3755,7 +3745,7 @@
     "Pronoun": "shutcho",
     "Chinese": "出差",
     "English": "a business trip",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3765,7 +3755,7 @@
     "Pronoun": "kyomi",
     "Chinese": "興趣",
     "English": "interest / hobby",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3775,7 +3765,7 @@
     "Pronoun": "juncho",
     "Chinese": "進展順利",
     "English": "satisfactory / smooth",
-    "URL": "n",
+    "WordType": "n",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3785,7 +3775,7 @@
     "Pronoun": "junbi",
     "Chinese": "準備",
     "English": "preparation / to prepare",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3795,7 +3785,7 @@
     "Pronoun": "shougakusei",
     "Chinese": "小學生",
     "English": "elementary school student",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3805,7 +3795,7 @@
     "Pronoun": "shōgakkō",
     "Chinese": "小學",
     "English": "elementary school",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3815,7 +3805,7 @@
     "Pronoun": "shosha",
     "Chinese": "貿易公司",
     "English": "trading company",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3825,7 +3815,7 @@
     "Pronoun": "jouzu",
     "Chinese": "占上方",
     "English": "to be good at",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3835,7 +3825,7 @@
     "Pronoun": "jobu",
     "Chinese": "耐用的",
     "English": "strong / solid",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3845,7 +3835,7 @@
     "Pronoun": "shokudoo",
     "Chinese": "食堂",
     "English": "dining hall / cafeteria",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3855,7 +3845,7 @@
     "Pronoun": "shiraberu",
     "Chinese": "調查/查找",
     "English": "to examine / to search",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3865,7 +3855,7 @@
     "Pronoun": "shiryoo",
     "Chinese": "資料",
     "English": "information / materials",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3875,7 +3865,7 @@
     "Pronoun": "shiru",
     "Chinese": "知道",
     "English": "to know",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3885,7 +3875,7 @@
     "Pronoun": "shiro",
     "Chinese": "白色的",
     "English": "white",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3895,7 +3885,7 @@
     "Pronoun": "shiroi",
     "Chinese": "白色的",
     "English": "white",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3905,7 +3895,7 @@
     "Pronoun": "jin",
     "Chinese": "~人",
     "English": "a country's people",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3915,7 +3905,7 @@
     "Pronoun": "shinkansen",
     "Chinese": "新幹線",
     "English": "bullet train",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3925,7 +3915,7 @@
     "Pronoun": "shinjuku",
     "Chinese": "新宿",
     "English": "Shinjuku",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3935,7 +3925,7 @@
     "Pronoun": "shinnenkai",
     "Chinese": "新年晚會",
     "English": "new year party",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3945,7 +3935,7 @@
     "Pronoun": "shinbashi",
     "Chinese": "新橋",
     "English": "Shimbashi",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3955,7 +3945,7 @@
     "Pronoun": "shimbun",
     "Chinese": "報紙",
     "English": "newspaper",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3965,7 +3955,7 @@
     "Pronoun": "suupaa",
     "Chinese": "超級市場",
     "English": "supermarket",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3975,7 +3965,7 @@
     "Pronoun": "suiyoubi",
     "Chinese": "星期三",
     "English": "Wednesday",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3985,7 +3975,7 @@
     "Pronoun": "suu",
     "Chinese": "吸入",
     "English": "to smoke",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -3995,7 +3985,7 @@
     "Pronoun": "sukaato",
     "Chinese": "裙子",
     "English": "skirt",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4005,7 +3995,7 @@
     "Pronoun": "suki",
     "Chinese": "喜歡",
     "English": "like",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4015,7 +4005,7 @@
     "Pronoun": "suki",
     "Chinese": "滑雪",
     "English": "skiing",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4025,7 +4015,7 @@
     "Pronoun": "sukiba",
     "Chinese": "滑雪勝地",
     "English": "ski resort",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4035,7 +4025,7 @@
     "Pronoun": "sugu",
     "Chinese": "快速",
     "English": "close by / immediately",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4045,7 +4035,7 @@
     "Pronoun": "sukoshi",
     "Chinese": "稍微/一點",
     "English": "a little",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4055,7 +4045,7 @@
     "Pronoun": "sushi",
     "Chinese": "壽司",
     "English": "sushi",
-    "URL": "n",
+    "WordType": "n",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4065,7 +4055,7 @@
     "Pronoun": "Suzuki",
     "Chinese": "鈴木(姓)",
     "English": "Suzuki(surname)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4075,7 +4065,7 @@
     "Pronoun": "suppai",
     "Chinese": "酸",
     "English": "sour",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4085,7 +4075,7 @@
     "Pronoun": "sutoobu",
     "Chinese": "爐子",
     "English": "stove",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4095,7 +4085,7 @@
     "Pronoun": "supootsu",
     "Chinese": "體育運動",
     "English": "sports / to do sports",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4105,7 +4095,7 @@
     "Pronoun": "zubon",
     "Chinese": "褲子",
     "English": "pants",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4115,7 +4105,7 @@
     "Pronoun": "sumu",
     "Chinese": "居住",
     "English": "to live",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4125,7 +4115,7 @@
     "Pronoun": "suru",
     "Chinese": "做",
     "English": "to do",
-    "URL": "G3",
+    "WordType": "G3",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4135,7 +4125,7 @@
     "Pronoun": "suwaru",
     "Chinese": "坐",
     "English": "to sit",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4145,7 +4135,7 @@
     "Pronoun": "se",
     "Chinese": "身高/背",
     "English": "height / back",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4155,7 +4145,7 @@
     "Pronoun": "seetaa",
     "Chinese": "毛衣",
     "English": "sweater",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4165,7 +4155,7 @@
     "Pronoun": "seikatsu",
     "Chinese": "生活",
     "English": "life / to live",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4175,7 +4165,7 @@
     "Pronoun": "seito",
     "Chinese": "學生",
     "English": "student",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4185,7 +4175,7 @@
     "Pronoun": "seki",
     "Chinese": "座位",
     "English": "Seat",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4195,7 +4185,7 @@
     "Pronoun": "sebiro",
     "Chinese": "套裝",
     "English": "business suit",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4205,7 +4195,7 @@
     "Pronoun": "semai",
     "Chinese": "狹窄",
     "English": "narrow",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4215,7 +4205,7 @@
     "Pronoun": "sewa",
     "Chinese": "關心",
     "English": "care / help",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4225,7 +4215,7 @@
     "Pronoun": "sen",
     "Chinese": "千",
     "English": "thousand",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4235,7 +4225,7 @@
     "Pronoun": "zenkai",
     "Chinese": "上一次",
     "English": "last time",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4245,7 +4235,7 @@
     "Pronoun": "sengetsu",
     "Chinese": "上月",
     "English": "last month",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4255,7 +4245,7 @@
     "Pronoun": "senshuu",
     "Chinese": "上周",
     "English": "last week",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4265,7 +4255,7 @@
     "Pronoun": "sensee",
     "Chinese": "老師",
     "English": "teacher",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4275,7 +4265,7 @@
     "Pronoun": "zenzen",
     "Chinese": "一點也不",
     "English": "not at all",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4285,7 +4275,7 @@
     "Pronoun": "sentaku",
     "Chinese": "洗衣",
     "English": "laundry / to do laundry",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4295,7 +4285,7 @@
     "Pronoun": "sentakki",
     "Chinese": "洗衣機",
     "English": "washing machine",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4305,7 +4295,7 @@
     "Pronoun": "senchi",
     "Chinese": "公分",
     "English": "meters",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4315,7 +4305,7 @@
     "Pronoun": "zembu",
     "Chinese": "全部",
     "English": "all",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4325,7 +4315,7 @@
     "Pronoun": "soji",
     "Chinese": "打掃",
     "English": "clean / to clean",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4335,7 +4325,7 @@
     "Pronoun": "soko",
     "Chinese": "那裏",
     "English": "there",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4345,7 +4335,7 @@
     "Pronoun": "sochira",
     "Chinese": "那兒(方位)",
     "English": "that side / that place (polite) that place (polite)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4355,7 +4345,7 @@
     "Pronoun": "socchi",
     "Chinese": "另一邊",
     "English": "there",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4365,7 +4355,7 @@
     "Pronoun": "soto",
     "Chinese": "外面",
     "English": "outside",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4375,7 +4365,7 @@
     "Pronoun": "sono",
     "Chinese": "那",
     "English": "that",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4385,7 +4375,7 @@
     "Pronoun": "soba",
     "Chinese": "蕎麥麵",
     "English": "Soba (Japanese buckwheat noodles)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4395,7 +4385,7 @@
     "Pronoun": "sofu",
     "Chinese": "祖父",
     "English": "grandfather (your own)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4405,7 +4395,7 @@
     "Pronoun": "sobo",
     "Chinese": "祖母",
     "English": "grandmother (your own)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4415,7 +4405,7 @@
     "Pronoun": "sora",
     "Chinese": "天空",
     "English": "sky",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4425,7 +4415,7 @@
     "Pronoun": "sore",
     "Chinese": "那",
     "English": "that",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4435,7 +4425,7 @@
     "Pronoun": "tai",
     "Chinese": "泰國",
     "English": "Thailand",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4445,7 +4435,7 @@
     "Pronoun": "taiikukan",
     "Chinese": "健身房",
     "English": "gym",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4455,7 +4445,7 @@
     "Pronoun": "daigaku",
     "Chinese": "大學",
     "English": "university",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4465,7 +4455,7 @@
     "Pronoun": "daigakusei",
     "Chinese": "大學生",
     "English": "university student",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4475,7 +4465,7 @@
     "Pronoun": "taishikan",
     "Chinese": "大使館",
     "English": "embassy",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4485,7 +4475,7 @@
     "Pronoun": "daijoubu",
     "Chinese": "沒問題",
     "English": "all right/ok",
-    "URL": "な-adj.",
+    "WordType": "な-adj.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4495,7 +4485,7 @@
     "Pronoun": "daidokoro",
     "Chinese": "廚房",
     "English": "kitchen",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4505,7 +4495,7 @@
     "Pronoun": "taihen",
     "Chinese": "難的",
     "English": "difficult / hard",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4515,7 +4505,7 @@
     "Pronoun": "takai",
     "Chinese": "高/貴",
     "English": "high / tall / expensive",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4525,7 +4515,7 @@
     "Pronoun": "taksan",
     "Chinese": "很多",
     "English": "many",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4535,7 +4525,7 @@
     "Pronoun": "takushii",
     "Chinese": "出租車",
     "English": "taxi",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4545,7 +4535,7 @@
     "Pronoun": "takuya",
     "Chinese": "拓也",
     "English": "Takuya (a Japanese boy's first name)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4555,7 +4545,7 @@
     "Pronoun": "takoyaki",
     "Chinese": "章魚燒",
     "English": "takoyaki",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4565,7 +4555,7 @@
     "Pronoun": "dasu",
     "Chinese": "拿出/寄出",
     "English": "to take out",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4575,7 +4565,7 @@
     "Pronoun": "tatsu",
     "Chinese": "立/站",
     "English": "to stand",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4585,7 +4575,7 @@
     "Pronoun": "takkyu",
     "Chinese": "乒乓球",
     "English": "table tennis / ping-pong",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4595,7 +4585,7 @@
     "Pronoun": "tatemono",
     "Chinese": "大樓",
     "English": "building",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4605,7 +4595,7 @@
     "Pronoun": "tanoshī",
     "Chinese": "樂趣",
     "English": "fun",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4615,7 +4605,7 @@
     "Pronoun": "tanomu",
     "Chinese": "請求",
     "English": "to ask / request",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4625,7 +4615,7 @@
     "Pronoun": "tabako",
     "Chinese": "烟草",
     "English": "tobacco",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4635,7 +4625,7 @@
     "Pronoun": "tabemono",
     "Chinese": "食物",
     "English": "food",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4645,7 +4635,7 @@
     "Pronoun": "taberu",
     "Chinese": "吃",
     "English": "to eat",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4655,7 +4645,7 @@
     "Pronoun": "dame",
     "Chinese": "不好",
     "English": "no good / no use / impossible",
-    "URL": "な-adj.",
+    "WordType": "な-adj.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4665,7 +4655,7 @@
     "Pronoun": "dare",
     "Chinese": "誰",
     "English": "who",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4675,7 +4665,7 @@
     "Pronoun": "tango",
     "Chinese": "單詞",
     "English": "word",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4685,7 +4675,7 @@
     "Pronoun": "tanjoubi",
     "Chinese": "生日",
     "English": "birthday",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4695,7 +4685,7 @@
     "Pronoun": "dansu",
     "Chinese": "跳舞",
     "English": "dance / to dance",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4705,7 +4695,7 @@
     "Pronoun": "dandan",
     "Chinese": "逐步地",
     "English": "little by little",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4715,7 +4705,7 @@
     "Pronoun": "chīsai",
     "Chinese": "小的",
     "English": "small",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4725,7 +4715,7 @@
     "Pronoun": "chekkuauto",
     "Chinese": "退房",
     "English": "check out / to check out",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4735,7 +4725,7 @@
     "Pronoun": "chekuin",
     "Chinese": "旅館登記",
     "English": "check in / to check in",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4745,7 +4735,7 @@
     "Pronoun": "chikai",
     "Chinese": "附近",
     "English": "near",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4755,7 +4745,7 @@
     "Pronoun": "chikaku",
     "Chinese": "接近",
     "English": "nearby",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4765,7 +4755,7 @@
     "Pronoun": "chikatetsu",
     "Chinese": "地鐵",
     "English": "subway",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4775,7 +4765,7 @@
     "Pronoun": "chiketto",
     "Chinese": "票",
     "English": "ticket",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4785,7 +4775,7 @@
     "Pronoun": "chichi",
     "Chinese": "父親(自己)",
     "English": "father (When talking about your own father)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4795,7 +4785,7 @@
     "Pronoun": "chiba",
     "Chinese": "千葉",
     "English": "Chiba",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4805,7 +4795,7 @@
     "Pronoun": "chuugakusei",
     "Chinese": "中學生",
     "English": "junior high school student",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4815,7 +4805,7 @@
     "Pronoun": "chugakko",
     "Chinese": "國中",
     "English": "junior-high school",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4825,7 +4815,7 @@
     "Pronoun": "chuugoku",
     "Chinese": "中國",
     "English": "China",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4835,7 +4825,7 @@
     "Pronoun": "chi-yuumon",
     "Chinese": "下單/點菜",
     "English": "order / to order",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4845,7 +4835,7 @@
     "Pronoun": "choudo",
     "Chinese": "正好",
     "English": "just",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4855,7 +4845,7 @@
     "Pronoun": "chotto",
     "Chinese": "一點點",
     "English": "a little",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4865,7 +4855,7 @@
     "Pronoun": "tsukau",
     "Chinese": "使用",
     "English": "to use",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4875,7 +4865,7 @@
     "Pronoun": "tsukareru",
     "Chinese": "疲勞的",
     "English": "to get tired",
-    "URL": "v. 2",
+    "WordType": "v. 2",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4885,7 +4875,7 @@
     "Pronoun": "tsugi",
     "Chinese": "下次",
     "English": "next",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4895,7 +4885,7 @@
     "Pronoun": "tsuku",
     "Chinese": "到達",
     "English": "arrive at / reach",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4905,7 +4895,7 @@
     "Pronoun": "tsukue",
     "Chinese": "書桌",
     "English": "desk",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4915,7 +4905,7 @@
     "Pronoun": "tsukuru",
     "Chinese": "制作",
     "English": "to make",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4925,7 +4915,7 @@
     "Pronoun": "tsukeru",
     "Chinese": "打開",
     "English": "to turn on",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4935,7 +4925,7 @@
     "Pronoun": "tsutomeru",
     "Chinese": "工作",
     "English": "to work",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4945,7 +4935,7 @@
     "Pronoun": "tsuma",
     "Chinese": "妻子(自己)",
     "English": "wife (When talking to your own wife)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4955,7 +4945,7 @@
     "Pronoun": "tsumetai",
     "Chinese": "寒冷的 (物件)",
     "English": "cool (for objects)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4965,7 +4955,7 @@
     "Pronoun": "te",
     "Chinese": "手",
     "English": "hand",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4975,7 +4965,7 @@
     "Pronoun": "teepu",
     "Chinese": "條/帶",
     "English": "tape",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4985,7 +4975,7 @@
     "Pronoun": "teeburu",
     "Chinese": "桌子",
     "English": "table",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -4995,7 +4985,7 @@
     "Pronoun": "teishoku",
     "Chinese": "套餐",
     "English": "set meal",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5005,7 +4995,7 @@
     "Pronoun": "dekakeru",
     "Chinese": "即將離開",
     "English": "to go out",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5015,7 +5005,7 @@
     "Pronoun": "tegami",
     "Chinese": "信",
     "English": "letter",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5025,7 +5015,7 @@
     "Pronoun": "dekiru",
     "Chinese": "能/會",
     "English": "can",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5035,7 +5025,7 @@
     "Pronoun": "deguchi",
     "Chinese": "出口",
     "English": "exit",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5045,7 +5035,7 @@
     "Pronoun": "dezainā",
     "Chinese": "設計師",
     "English": "designer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5055,7 +5045,7 @@
     "Pronoun": "tesuto",
     "Chinese": "測驗",
     "English": "test",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5065,7 +5055,7 @@
     "Pronoun": "techoo",
     "Chinese": "手帳",
     "English": "pocket notebook",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5075,7 +5065,7 @@
     "Pronoun": "tetsudau",
     "Chinese": "幫忙",
     "English": "to help",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5085,7 +5075,7 @@
     "Pronoun": "depaato",
     "Chinese": "百貨公司",
     "English": "department store",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5095,7 +5085,7 @@
     "Pronoun": "deru",
     "Chinese": "出來",
     "English": "to go out / leave",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5105,7 +5095,7 @@
     "Pronoun": "terebi",
     "Chinese": "電視",
     "English": "television",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5115,7 +5105,7 @@
     "Pronoun": "terebi dorama",
     "Chinese": "電視劇",
     "English": "TV drama",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5125,7 +5115,7 @@
     "Pronoun": "tenin",
     "Chinese": "職員",
     "English": "clerk / cashier",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5135,7 +5125,7 @@
     "Pronoun": "tenki",
     "Chinese": "天氣",
     "English": "weather",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5145,7 +5135,7 @@
     "Pronoun": "denki",
     "Chinese": "電",
     "English": "electricity",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5155,7 +5145,7 @@
     "Pronoun": "denshijisho",
     "Chinese": "電子詞典",
     "English": "electronic dictionary",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5165,7 +5155,7 @@
     "Pronoun": "densha",
     "Chinese": "電車",
     "English": "train",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5175,7 +5165,7 @@
     "Pronoun": "tencho",
     "Chinese": "店長",
     "English": "store manager",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5185,7 +5175,7 @@
     "Pronoun": "tempura",
     "Chinese": "天婦羅",
     "English": "tempura",
-    "URL": "n",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5195,7 +5185,7 @@
     "Pronoun": "denwa",
     "Chinese": "電話",
     "English": "phone / to call",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5205,7 +5195,7 @@
     "Pronoun": "denwakaigi",
     "Chinese": "電話会議",
     "English": "conference call",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5215,7 +5205,7 @@
     "Pronoun": "to",
     "Chinese": "和/與",
     "English": "and / with",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5225,7 +5215,7 @@
     "Pronoun": "doa",
     "Chinese": "門",
     "English": "door",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5235,7 +5225,7 @@
     "Pronoun": "doitsu",
     "Chinese": "德國",
     "English": "Germany",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5245,7 +5235,7 @@
     "Pronoun": "toire",
     "Chinese": "厠所",
     "English": "toilet",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5255,7 +5245,7 @@
     "Pronoun": "dou",
     "Chinese": "如何/怎樣",
     "English": "how / what",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5265,7 +5255,7 @@
     "Pronoun": "doushite",
     "Chinese": "爲什么",
     "English": "Why",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5275,7 +5265,7 @@
     "Pronoun": "doozo",
     "Chinese": "請",
     "English": "please, here you are",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5285,7 +5275,7 @@
     "Pronoun": "Dotonbori",
     "Chinese": "道頓堀",
     "English": "Dotonbori",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5295,7 +5285,7 @@
     "Pronoun": "dobutsu",
     "Chinese": "動物",
     "English": "animal",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5305,7 +5295,7 @@
     "Pronoun": "dōbu~tsuen",
     "Chinese": "動物園",
     "English": "zoo",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5315,7 +5305,7 @@
     "Pronoun": "tooi",
     "Chinese": "遠",
     "English": "far",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5325,7 +5315,7 @@
     "Pronoun": "toki",
     "Chinese": "時間",
     "English": "time",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5335,7 +5325,7 @@
     "Pronoun": "tokidoki",
     "Chinese": "有時",
     "English": "sometimes",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5345,7 +5335,7 @@
     "Pronoun": "tokei",
     "Chinese": "鐘",
     "English": "clock",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5355,7 +5345,7 @@
     "Pronoun": "doko",
     "Chinese": "哪裏",
     "English": "where",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5365,7 +5355,7 @@
     "Pronoun": "tokoro",
     "Chinese": "地方",
     "English": "place",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5375,7 +5365,7 @@
     "Pronoun": "toshokan",
     "Chinese": "圖書館",
     "English": "library",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5385,7 +5375,7 @@
     "Pronoun": "dochira",
     "Chinese": "哪兒",
     "English": "which /where (polite) where",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5395,7 +5385,7 @@
     "Pronoun": "docchi",
     "Chinese": "哪個",
     "English": "which",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5405,7 +5395,7 @@
     "Pronoun": "todemo",
     "Chinese": "非常",
     "English": "very",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5415,7 +5405,7 @@
     "Pronoun": "donata",
     "Chinese": "誰(禮貌)",
     "English": "who (a polite way)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5425,7 +5415,7 @@
     "Pronoun": "tonari",
     "Chinese": "隔壁",
     "English": "next to",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5435,7 +5425,7 @@
     "Pronoun": "dono",
     "Chinese": "哪個",
     "English": "which",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5445,7 +5435,7 @@
     "Pronoun": "tono",
     "Chinese": "殿下/尊稱",
     "English": "lord",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5455,7 +5445,7 @@
     "Pronoun": "tobu",
     "Chinese": "飛翔",
     "English": "to fly",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5465,7 +5455,7 @@
     "Pronoun": "tomaru",
     "Chinese": "停留",
     "English": "to stay the night",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5475,7 +5465,7 @@
     "Pronoun": "tomeru",
     "Chinese": "停止",
     "English": "to stop / turn off",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5485,7 +5475,7 @@
     "Pronoun": "tomodachi",
     "Chinese": "朋友",
     "English": "friend",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5495,7 +5485,7 @@
     "Pronoun": "doyoubi",
     "Chinese": "星期六",
     "English": "Saturday",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5505,7 +5495,7 @@
     "Pronoun": "tori",
     "Chinese": "鳥",
     "English": "bird",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5515,7 +5505,7 @@
     "Pronoun": "toriniku",
     "Chinese": "鶏肉",
     "English": "chicken",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5525,7 +5515,7 @@
     "Pronoun": "toru",
     "Chinese": "錄製",
     "English": "to take (a picture / video)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5535,7 +5525,7 @@
     "Pronoun": "doru",
     "Chinese": "美元/元",
     "English": "dollars",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5545,7 +5535,7 @@
     "Pronoun": "dore",
     "Chinese": "哪個",
     "English": "which",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5555,7 +5545,7 @@
     "Pronoun": "naka",
     "Chinese": "裏面",
     "English": "inside",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5565,7 +5555,7 @@
     "Pronoun": "nagai",
     "Chinese": "長",
     "English": "long",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5575,7 +5565,7 @@
     "Pronoun": "nagono",
     "Chinese": "長野",
     "English": "Nagano",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5585,7 +5575,7 @@
     "Pronoun": "nashi",
     "Chinese": "梨",
     "English": "pear",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5595,7 +5585,7 @@
     "Pronoun": "natsu",
     "Chinese": "夏",
     "English": "summer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5605,7 +5595,7 @@
     "Pronoun": "natsuyasumi",
     "Chinese": "暑假",
     "English": "summer vacation",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5615,7 +5605,7 @@
     "Pronoun": "nana (shichi)",
     "Chinese": "七",
     "English": "seven",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5625,7 +5615,7 @@
     "Pronoun": "nani",
     "Chinese": "什麼",
     "English": "what",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5635,7 +5625,7 @@
     "Pronoun": "namae",
     "Chinese": "姓名",
     "English": "name",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5645,7 +5635,7 @@
     "Pronoun": "narau",
     "Chinese": "學習",
     "English": "to learn",
-    "URL": "G1",
+    "WordType": "G1",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5655,7 +5645,7 @@
     "Pronoun": "naru",
     "Chinese": "成爲",
     "English": "to become",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5665,7 +5655,7 @@
     "Pronoun": "nankai",
     "Chinese": "哪一層",
     "English": "which floor",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5675,7 +5665,7 @@
     "Pronoun": "nangatsu",
     "Chinese": "哪月",
     "English": "what month",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5685,7 +5675,7 @@
     "Pronoun": "nanji",
     "Chinese": "幾點",
     "English": "what time",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5695,7 +5685,7 @@
     "Pronoun": "nannin",
     "Chinese": "多少人",
     "English": "how many people",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5705,7 +5695,7 @@
     "Pronoun": "nannen",
     "Chinese": "哪年",
     "English": "which year",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5715,7 +5705,7 @@
     "Pronoun": "nanpun",
     "Chinese": "幾分",
     "English": "what minute",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5725,7 +5715,7 @@
     "Pronoun": "nani-mei",
     "Chinese": "多少人",
     "English": "how many people",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5735,7 +5725,7 @@
     "Pronoun": "nanyoubi",
     "Chinese": "星期幾",
     "English": "what day of the week",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5745,7 +5735,7 @@
     "Pronoun": "ni",
     "Chinese": "ニ",
     "English": "two",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5755,7 +5745,7 @@
     "Pronoun": "nigai",
     "Chinese": "苦",
     "English": "bitter",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5765,7 +5755,7 @@
     "Pronoun": "nigiyaka",
     "Chinese": "忙碌的",
     "English": "lively / busy",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5775,7 +5765,7 @@
     "Pronoun": "niku",
     "Chinese": "肉",
     "English": "meat",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5785,7 +5775,7 @@
     "Pronoun": "nishi",
     "Chinese": "西",
     "English": "west",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5795,7 +5785,7 @@
     "Pronoun": "nichiyoubi",
     "Chinese": "星期天",
     "English": "Sunday",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5805,7 +5795,7 @@
     "Pronoun": "nikki",
     "Chinese": "日記",
     "English": "diary",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5815,7 +5805,7 @@
     "Pronoun": "nihon",
     "Chinese": "日本",
     "English": "Japan",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5825,7 +5815,7 @@
     "Pronoun": "nimotsu",
     "Chinese": "行李",
     "English": "baggage / luggage",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5835,7 +5825,7 @@
     "Pronoun": "nyūkoku kanri-kyoku",
     "Chinese": "入國管理局",
     "English": "Immigration Bureau",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5845,7 +5835,7 @@
     "Pronoun": "niwa",
     "Chinese": "庭院",
     "English": "garden",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5855,7 +5845,7 @@
     "Pronoun": "nugu",
     "Chinese": "脫掉",
     "English": "take off (clothing)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5865,7 +5855,7 @@
     "Pronoun": "neko",
     "Chinese": "貓",
     "English": "cat",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5875,7 +5865,7 @@
     "Pronoun": "neru",
     "Chinese": "睡覺",
     "English": "to sleep",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5885,7 +5875,7 @@
     "Pronoun": "no",
     "Chinese": "之",
     "English": "~'s/of/belonging to",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5895,7 +5885,7 @@
     "Pronoun": "nooto",
     "Chinese": "筆記簿",
     "English": "notebook",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5905,7 +5895,7 @@
     "Pronoun": "noburu",
     "Chinese": "爬",
     "English": "to climb",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5915,7 +5905,7 @@
     "Pronoun": "nomimono",
     "Chinese": "喝",
     "English": "drink",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5925,7 +5915,7 @@
     "Pronoun": "nomu",
     "Chinese": "喝",
     "English": "to drink",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5935,7 +5925,7 @@
     "Pronoun": "norikaeru",
     "Chinese": "轉移",
     "English": "transfer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5945,7 +5935,7 @@
     "Pronoun": "noru",
     "Chinese": "上車",
     "English": "get on",
-    "URL": "",
+    "WordType": "v.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5955,7 +5945,7 @@
     "Pronoun": "ha",
     "Chinese": "牙齒",
     "English": "teeth",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5965,7 +5955,7 @@
     "Pronoun": "paatii",
     "Chinese": "派對",
     "English": "party",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5975,7 +5965,7 @@
     "Pronoun": "hairu",
     "Chinese": "進入",
     "English": "to enter / come into",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5985,7 +5975,7 @@
     "Pronoun": "haku",
     "Chinese": "穿(鞋)",
     "English": "to wear (clothing below the waist)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -5995,7 +5985,7 @@
     "Pronoun": "hashi",
     "Chinese": "橋",
     "English": "bridge",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6005,7 +5995,7 @@
     "Pronoun": "hajimaru",
     "Chinese": "開始",
     "English": "to begin",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6015,7 +6005,7 @@
     "Pronoun": "hajimete",
     "Chinese": "最初/初次",
     "English": "first time (doing something)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6025,7 +6015,7 @@
     "Pronoun": "hashiru",
     "Chinese": "跑步",
     "English": "to run",
-    "URL": "G1",
+    "WordType": "G1",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6035,7 +6025,7 @@
     "Pronoun": "basu",
     "Chinese": "巴士",
     "English": "bus",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6045,7 +6035,7 @@
     "Pronoun": "basukettobooru",
     "Chinese": "籃球",
     "English": "basketball",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6055,7 +6045,7 @@
     "Pronoun": "pasokon",
     "Chinese": "個人電腦",
     "English": "personal computer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6065,7 +6055,7 @@
     "Pronoun": "hatachi",
     "Chinese": "二十歲",
     "English": "20 years old",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6075,7 +6065,7 @@
     "Pronoun": "hataraku",
     "Chinese": "工作",
     "English": "to work",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6085,7 +6075,7 @@
     "Pronoun": "hachi",
     "Chinese": "八",
     "English": "eight",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6095,7 +6085,7 @@
     "Pronoun": "happiyuenchi",
     "Chinese": "歡樂遊樂園",
     "English": "an amusement park name",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6105,7 +6095,7 @@
     "Pronoun": "hana",
     "Chinese": "鼻",
     "English": "nose",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6115,7 +6105,7 @@
     "Pronoun": "hana",
     "Chinese": "花",
     "English": "flower",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6125,7 +6115,7 @@
     "Pronoun": "hanashi",
     "Chinese": "故事",
     "English": "story,speech",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6135,7 +6125,7 @@
     "Pronoun": "hanasu",
     "Chinese": "說話",
     "English": "to talk / to speak",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6145,7 +6135,7 @@
     "Pronoun": "hanaya",
     "Chinese": "花店",
     "English": "flower shop",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6155,7 +6145,7 @@
     "Pronoun": "haha",
     "Chinese": "母親(自己的)",
     "English": "mother(When talking about your own mom)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6165,7 +6155,7 @@
     "Pronoun": "hayai",
     "Chinese": "早/快的",
     "English": "early/fast",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6175,7 +6165,7 @@
     "Pronoun": "haru",
     "Chinese": "春",
     "English": "spring",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6185,7 +6175,7 @@
     "Pronoun": "haruyasumi",
     "Chinese": "春假",
     "English": "spring vacation",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6195,7 +6185,7 @@
     "Pronoun": "hare",
     "Chinese": "天晴",
     "English": "clear weather",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6205,7 +6195,7 @@
     "Pronoun": "hareru",
     "Chinese": "解除",
     "English": "to clear (up)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6215,7 +6205,7 @@
     "Pronoun": "han",
     "Chinese": "半",
     "English": "half",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6225,7 +6215,7 @@
     "Pronoun": "han",
     "Chinese": "晚上",
     "English": "evening",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6235,7 +6225,7 @@
     "Pronoun": "pan",
     "Chinese": "麵包",
     "English": "bread",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6245,7 +6235,7 @@
     "Pronoun": "hankachi",
     "Chinese": "手帕",
     "English": "handkerchief",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6255,7 +6245,7 @@
     "Pronoun": "bangumi",
     "Chinese": "電視節目",
     "English": "TV program",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6265,7 +6255,7 @@
     "Pronoun": "bangohan",
     "Chinese": "晚餐",
     "English": "dinner",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6275,7 +6265,7 @@
     "Pronoun": "hanbaga",
     "Chinese": "漢堡",
     "English": "hamburger",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6285,7 +6275,7 @@
     "Pronoun": "panya",
     "Chinese": "麵包店",
     "English": "bakery",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6295,7 +6285,7 @@
     "Pronoun": "hi/nichi",
     "Chinese": "日",
     "English": "day",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6305,7 +6295,7 @@
     "Pronoun": "biiru",
     "Chinese": "啤酒",
     "English": "beer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6315,7 +6305,7 @@
     "Pronoun": "piano",
     "Chinese": "鋼琴",
     "English": "piano",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6325,7 +6315,7 @@
     "Pronoun": "higashi",
     "Chinese": "東",
     "English": "east",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6335,7 +6325,7 @@
     "Pronoun": "hiku",
     "Chinese": "彈(樂器)",
     "English": "to play (a musical instrument)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6345,7 +6335,7 @@
     "Pronoun": "hiku",
     "Chinese": "拉/患(感冒)",
     "English": "pull / to catch (a cold)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6355,7 +6345,7 @@
     "Pronoun": "hikoki",
     "Chinese": "飛機",
     "English": "airplane",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6365,7 +6355,7 @@
     "Pronoun": "piza",
     "Chinese": "披薩",
     "English": "pizza",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6375,7 +6365,7 @@
     "Pronoun": "bijutsukan",
     "Chinese": "美術館",
     "English": "art museum",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6385,7 +6375,7 @@
     "Pronoun": "hidari",
     "Chinese": "左",
     "English": "left",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6395,7 +6385,7 @@
     "Pronoun": "hito",
     "Chinese": "人",
     "English": "human / people",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6405,7 +6395,7 @@
     "Pronoun": "hitotsu",
     "Chinese": "一個",
     "English": "one (used when counting things)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6415,7 +6405,7 @@
     "Pronoun": "hima",
     "Chinese": "空閒",
     "English": "free",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6425,7 +6415,7 @@
     "Pronoun": "hyaku",
     "Chinese": "百",
     "English": "hundred",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6435,7 +6425,7 @@
     "Pronoun": "byouin",
     "Chinese": "醫院",
     "English": "hospital",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6445,7 +6435,7 @@
     "Pronoun": "byoki",
     "Chinese": "病",
     "English": "disease",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6455,7 +6445,7 @@
     "Pronoun": "biyōshi",
     "Chinese": "理髮師",
     "English": "hairdresser",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6465,7 +6455,7 @@
     "Pronoun": "hiragana",
     "Chinese": "平假名",
     "English": "hiragana (cursive syllabary)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6475,7 +6465,7 @@
     "Pronoun": "hiru",
     "Chinese": "日間",
     "English": "daytime",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6485,7 +6475,7 @@
     "Pronoun": "biru",
     "Chinese": "大樓",
     "English": "building",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6495,7 +6485,7 @@
     "Pronoun": "hirugohan",
     "Chinese": "午餐",
     "English": "lunch",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6505,7 +6495,7 @@
     "Pronoun": "hiroi",
     "Chinese": "寬",
     "English": "wide",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6515,7 +6505,7 @@
     "Pronoun": "pinku",
     "Chinese": "粉紅色",
     "English": "pink",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6525,7 +6515,7 @@
     "Pronoun": "puuru",
     "Chinese": "游泳池",
     "English": "pool",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6535,7 +6525,7 @@
     "Pronoun": "fuutoo",
     "Chinese": "信封",
     "English": "envelope",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6545,7 +6535,7 @@
     "Pronoun": "fuku",
     "Chinese": "服裝",
     "English": "clothes",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6555,7 +6545,7 @@
     "Pronoun": "fuku",
     "Chinese": "吹",
     "English": "to blow (wind)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6565,7 +6555,7 @@
     "Pronoun": "fujisan",
     "Chinese": "富士山",
     "English": "Mt. Fuji",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6575,7 +6565,7 @@
     "Pronoun": "futaeki",
     "Chinese": "兩站",
     "English": "two stations",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6585,7 +6575,7 @@
     "Pronoun": "futatsu",
     "Chinese": "二個",
     "English": "two (used when counting things)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6595,7 +6585,7 @@
     "Pronoun": "butaniku",
     "Chinese": "豬肉",
     "English": "pork",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6605,7 +6595,7 @@
     "Pronoun": "futari",
     "Chinese": "兩人",
     "English": "two people",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6615,7 +6605,7 @@
     "Pronoun": "buchoo",
     "Chinese": "經理",
     "English": "manager",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6625,7 +6615,7 @@
     "Pronoun": "fune",
     "Chinese": "船",
     "English": "boat",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6635,7 +6625,7 @@
     "Pronoun": "fuben",
     "Chinese": "不便",
     "English": "inconvenient",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6645,7 +6635,7 @@
     "Pronoun": "fuyu",
     "Chinese": "冬",
     "English": "winter",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6655,7 +6645,7 @@
     "Pronoun": "fuyuyasumi",
     "Chinese": "寒假",
     "English": "winter vacation",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6665,7 +6655,7 @@
     "Pronoun": "furansu",
     "Chinese": "法國",
     "English": "France",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6675,7 +6665,7 @@
     "Pronoun": "furu",
     "Chinese": "下/降",
     "English": "to fall (rain / snow)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6685,7 +6675,7 @@
     "Pronoun": "furui",
     "Chinese": "舊的",
     "English": "old",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6695,7 +6685,7 @@
     "Pronoun": "purezento",
     "Chinese": "禮物",
     "English": "present",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6705,7 +6695,7 @@
     "Pronoun": "furu",
     "Chinese": "洗澡",
     "English": "bath",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6715,7 +6705,7 @@
     "Pronoun": "bunpo",
     "Chinese": "語法",
     "English": "grammar",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6725,7 +6715,7 @@
     "Pronoun": "heta",
     "Chinese": "不擅長",
     "English": "to be bad at",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6735,7 +6725,7 @@
     "Pronoun": "betsubetsu",
     "Chinese": "分別地",
     "English": "separation / separately",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6745,7 +6735,7 @@
     "Pronoun": "heya",
     "Chinese": "房間",
     "English": "room",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6755,7 +6745,7 @@
     "Pronoun": "benkyo",
     "Chinese": "學習",
     "English": "study / to study",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6765,7 +6755,7 @@
     "Pronoun": "bengoshi",
     "Chinese": "律師",
     "English": "lawyer",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6775,7 +6765,7 @@
     "Pronoun": "bento",
     "Chinese": "便當",
     "English": "bentoo (lunch box)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6785,7 +6775,7 @@
     "Pronoun": "benri",
     "Chinese": "方便",
     "English": "convenient",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6795,7 +6785,7 @@
     "Pronoun": "boorupen",
     "Chinese": "原子筆",
     "English": "ballpoint pen",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6805,7 +6795,7 @@
     "Pronoun": "hou",
     "Chinese": "方向",
     "English": "side / way",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6815,7 +6805,7 @@
     "Pronoun": "boshi",
     "Chinese": "帽子",
     "English": "hat / cap",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6825,7 +6815,7 @@
     "Pronoun": "bonenkai",
     "Chinese": "年終宴會",
     "English": "year-end party",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6835,7 +6825,7 @@
     "Pronoun": "hoka",
     "Chinese": "別的/他人",
     "English": "other",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6845,7 +6835,7 @@
     "Pronoun": "boku",
     "Chinese": "僕人/我(男子用自稱)",
     "English": "I (used by men)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6855,7 +6845,7 @@
     "Pronoun": "poketto",
     "Chinese": "口袋",
     "English": "pocket",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6865,7 +6855,7 @@
     "Pronoun": "hoshi",
     "Chinese": "想要/希望得到",
     "English": "to want",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6875,7 +6865,7 @@
     "Pronoun": "botan",
     "Chinese": "按鈕",
     "English": "button",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6885,7 +6875,7 @@
     "Pronoun": "hokkaido",
     "Chinese": "北海道",
     "English": "Hokkaido",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6895,7 +6885,7 @@
     "Pronoun": "hoteru",
     "Chinese": "酒店",
     "English": "hotel",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6905,7 +6895,7 @@
     "Pronoun": "hon",
     "Chinese": "書",
     "English": "book",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6915,7 +6905,7 @@
     "Pronoun": "hontou",
     "Chinese": "真的",
     "English": "truth/really",
-    "URL": "n./な-adj.",
+    "WordType": "n./な-adj.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6925,7 +6915,7 @@
     "Pronoun": "honya",
     "Chinese": "書店",
     "English": "bookstore",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6935,7 +6925,7 @@
     "Pronoun": "mai",
     "Chinese": "每",
     "English": "every ～",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6945,7 +6935,7 @@
     "Pronoun": "maiasa",
     "Chinese": "每天早上",
     "English": "every morning",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6955,7 +6945,7 @@
     "Pronoun": "maishuu",
     "Chinese": "每週",
     "English": "every week",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6965,7 +6955,7 @@
     "Pronoun": "maitsuki",
     "Chinese": "毎月",
     "English": "every month",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6975,7 +6965,7 @@
     "Pronoun": "maitoshi",
     "Chinese": "毎年",
     "English": "every year",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6985,7 +6975,7 @@
     "Pronoun": "mainichi",
     "Chinese": "每天",
     "English": "every day",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -6995,7 +6985,7 @@
     "Pronoun": "maiban",
     "Chinese": "每天晚上",
     "English": "every night",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7005,7 +6995,7 @@
     "Pronoun": "mae",
     "Chinese": "前",
     "English": "the front",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7015,7 +7005,7 @@
     "Pronoun": "magaru",
     "Chinese": "彎曲",
     "English": "to turn",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7025,7 +7015,7 @@
     "Pronoun": "majime",
     "Chinese": "認真的",
     "English": "serious / honest",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7035,7 +7025,7 @@
     "Pronoun": "mazui",
     "Chinese": "難吃",
     "English": "bad‐tasting / poor quality",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7045,7 +7035,7 @@
     "Pronoun": "mata",
     "Chinese": "還有",
     "English": "again",
-    "URL": "n",
+    "WordType": "n",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7055,7 +7045,7 @@
     "Pronoun": "mada",
     "Chinese": "尚未",
     "English": "not yet",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7065,7 +7055,7 @@
     "Pronoun": "machi",
     "Chinese": "鎮",
     "English": "town",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7075,7 +7065,7 @@
     "Pronoun": "matsu",
     "Chinese": "等待",
     "English": "to wait",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7085,7 +7075,7 @@
     "Pronoun": "massugu",
     "Chinese": "直的",
     "English": "straight",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7095,7 +7085,7 @@
     "Pronoun": "mado",
     "Chinese": "窗戶",
     "English": "window",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7105,7 +7095,7 @@
     "Pronoun": "mareshia",
     "Chinese": "馬來西亞",
     "English": "Malaysia",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7115,7 +7105,7 @@
     "Pronoun": "man",
     "Chinese": "萬",
     "English": "ten thousand",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7125,7 +7115,7 @@
     "Pronoun": "manga",
     "Chinese": "漫畫",
     "English": "comic book",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7135,7 +7125,7 @@
     "Pronoun": "manshon",
     "Chinese": "公寓",
     "English": "condominium",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7145,7 +7135,7 @@
     "Pronoun": "mannenhitsu",
     "Chinese": "鋼筆",
     "English": "fountain pen",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7155,7 +7145,7 @@
     "Pronoun": "migaku",
     "Chinese": "擦",
     "English": "to brush",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7165,7 +7155,7 @@
     "Pronoun": "mikan",
     "Chinese": "柑橘",
     "English": "tangerine",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7175,7 +7165,7 @@
     "Pronoun": "migi",
     "Chinese": "右",
     "English": "right",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7185,7 +7175,7 @@
     "Pronoun": "mijikai",
     "Chinese": "短",
     "English": "short",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7195,7 +7185,7 @@
     "Pronoun": "misu",
     "Chinese": "錯誤",
     "English": "mistake",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7205,7 +7195,7 @@
     "Pronoun": "mizu",
     "Chinese": "水",
     "English": "water",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7215,7 +7205,7 @@
     "Pronoun": "mise",
     "Chinese": "店鋪",
     "English": "shop/store",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7225,7 +7215,7 @@
     "Pronoun": "miseru",
     "Chinese": "顯示",
     "English": "to show",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7235,7 +7225,7 @@
     "Pronoun": "misoshiru",
     "Chinese": "味噌湯",
     "English": "miso soup",
-    "URL": "n",
+    "WordType": "n",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7245,7 +7235,7 @@
     "Pronoun": "michi",
     "Chinese": "路",
     "English": "road / street",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7255,7 +7245,7 @@
     "Pronoun": "minasan",
     "Chinese": "大家",
     "English": "everyone",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7265,7 +7255,7 @@
     "Pronoun": "minami",
     "Chinese": "南",
     "English": "south",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7275,7 +7265,7 @@
     "Pronoun": "minori",
     "Chinese": "美乃里",
     "English": "Minori (a Japanese girl's first name)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7285,7 +7275,7 @@
     "Pronoun": "mimi",
     "Chinese": "耳",
     "English": "ear",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7295,7 +7285,7 @@
     "Pronoun": "miru",
     "Chinese": "看",
     "English": "see",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7305,7 +7295,7 @@
     "Pronoun": "minna",
     "Chinese": "大家",
     "English": "everyone",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7315,7 +7305,7 @@
     "Pronoun": "muzukashī",
     "Chinese": "難的",
     "English": "difficult",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7325,7 +7315,7 @@
     "Pronoun": "me",
     "Chinese": "眼睛",
     "English": "eye",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7335,7 +7325,7 @@
     "Pronoun": "me-ka-",
     "Chinese": "製作者",
     "English": "maker",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7345,7 +7335,7 @@
     "Pronoun": "metoru",
     "Chinese": "米/公尺",
     "English": "meters",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7355,7 +7345,7 @@
     "Pronoun": "mei",
     "Chinese": "名(人數)",
     "English": "counter suffix for people",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7365,7 +7355,7 @@
     "Pronoun": "meeshi",
     "Chinese": "名片",
     "English": "business card",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7375,7 +7365,7 @@
     "Pronoun": "megane",
     "Chinese": "眼鏡",
     "English": "glasses",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7385,7 +7375,7 @@
     "Pronoun": "mou",
     "Chinese": "已經",
     "English": "already",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7395,7 +7385,7 @@
     "Pronoun": "mokuyoubi",
     "Chinese": "星期四",
     "English": "Thursday",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7405,7 +7395,7 @@
     "Pronoun": "moshimoshi",
     "Chinese": "你好(接電話)",
     "English": "Hello!  (answering by phone)",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7415,7 +7405,7 @@
     "Pronoun": "mochiron",
     "Chinese": "當然",
     "English": "sure / of course",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7425,7 +7415,7 @@
     "Pronoun": "motsu",
     "Chinese": "有",
     "English": "to have / to possess / to hold",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7435,7 +7425,7 @@
     "Pronoun": "motto",
     "Chinese": "再/多一點",
     "English": "more",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7445,7 +7435,7 @@
     "Pronoun": "modoru",
     "Chinese": "返回",
     "English": "to return; to come back",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7455,7 +7445,7 @@
     "Pronoun": "mono",
     "Chinese": "物",
     "English": "things",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7465,7 +7455,7 @@
     "Pronoun": "morau",
     "Chinese": "收到",
     "English": "to receive",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7475,7 +7465,7 @@
     "Pronoun": "mondai",
     "Chinese": "問題",
     "English": "problem / question",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7485,7 +7475,7 @@
     "Pronoun": "yaoya",
     "Chinese": "蔬果店",
     "English": "vegetable shop",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7495,7 +7485,7 @@
     "Pronoun": "yakisoba",
     "Chinese": "炒麵",
     "English": "fried noodles",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7505,7 +7495,7 @@
     "Pronoun": "yakiniku",
     "Chinese": "焼肉",
     "English": "Japanese grilled beef",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7515,7 +7505,7 @@
     "Pronoun": "yakyu",
     "Chinese": "棒球",
     "English": "baseball",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7525,7 +7515,7 @@
     "Pronoun": "yasai",
     "Chinese": "蔬菜",
     "English": "vegetable",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7535,7 +7525,7 @@
     "Pronoun": "yasashī",
     "Chinese": "簡單的",
     "English": "easy / simple",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7545,7 +7535,7 @@
     "Pronoun": "yasui",
     "Chinese": "便宜的",
     "English": "cheap",
-    "URL": "",
+    "WordType": "い-adjective",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7555,7 +7545,7 @@
     "Pronoun": "yasumi",
     "Chinese": "假期",
     "English": "rest/a day off",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7565,7 +7555,7 @@
     "Pronoun": "yashumu",
     "Chinese": "休息",
     "English": "to rest",
-    "URL": "n",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7575,7 +7565,7 @@
     "Pronoun": "yama",
     "Chinese": "山",
     "English": "mountain",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7585,7 +7575,7 @@
     "Pronoun": "yamada",
     "Chinese": "山田(姓)",
     "English": "Yamada(surname)",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7595,7 +7585,7 @@
     "Pronoun": "yamanashi",
     "Chinese": "山梨",
     "English": "Yamanashi",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7605,7 +7595,7 @@
     "Pronoun": "yuenchi",
     "Chinese": "遊樂園",
     "English": "amusement park",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7615,7 +7605,7 @@
     "Pronoun": "yuugata",
     "Chinese": "晚上",
     "English": "evening",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7625,7 +7615,7 @@
     "Pronoun": "yuubinkyoku",
     "Chinese": "郵局",
     "English": "post office",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7635,7 +7625,7 @@
     "Pronoun": "yumei",
     "Chinese": "著名的",
     "English": "famous",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7645,7 +7635,7 @@
     "Pronoun": "yuki",
     "Chinese": "雪",
     "English": "snow",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7655,7 +7645,7 @@
     "Pronoun": "yukkuri",
     "Chinese": "慢慢地",
     "English": "slowly",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7665,7 +7655,7 @@
     "Pronoun": "yooroppa",
     "Chinese": "歐洲",
     "English": "Europe",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7675,7 +7665,7 @@
     "Pronoun": "yoji",
     "Chinese": "公務/差事",
     "English": "errand",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7685,7 +7675,7 @@
     "Pronoun": "yoku",
     "Chinese": "經常/好",
     "English": "often / well",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7695,7 +7685,7 @@
     "Pronoun": "yoko",
     "Chinese": "旁",
     "English": "next to",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7705,7 +7695,7 @@
     "Pronoun": "yobu",
     "Chinese": "呼喚",
     "English": "to call",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7715,7 +7705,7 @@
     "Pronoun": "yoyaku",
     "Chinese": "預約/預訂",
     "English": "reservation / to book",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7725,7 +7715,7 @@
     "Pronoun": "yori",
     "Chinese": "比較",
     "English": "than",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7735,7 +7725,7 @@
     "Pronoun": "yoru",
     "Chinese": "夜晚",
     "English": "night",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7745,7 +7735,7 @@
     "Pronoun": "yon (shi)",
     "Chinese": "四",
     "English": "four",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7755,7 +7745,7 @@
     "Pronoun": "ramen",
     "Chinese": "拉麵",
     "English": "ramen (Chinese-style noodles)",
-    "URL": "n",
+    "WordType": "n",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7765,7 +7755,7 @@
     "Pronoun": "raigetsu",
     "Chinese": "下個月",
     "English": "next month",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7775,7 +7765,7 @@
     "Pronoun": "raishuu",
     "Chinese": "下周",
     "English": "next week",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7785,7 +7775,7 @@
     "Pronoun": "rainen",
     "Chinese": "明年",
     "English": "next year",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7795,7 +7785,7 @@
     "Pronoun": "rajio",
     "Chinese": "收音機",
     "English": "radio",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7805,7 +7795,7 @@
     "Pronoun": "ri-pa",
     "Chinese": "美好的",
     "English": "fine / respectable",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7815,7 +7805,7 @@
     "Pronoun": "ryuugaku",
     "Chinese": "留學",
     "English": "studying abroad / to study abroad",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7825,7 +7815,7 @@
     "Pronoun": "ryuugakusei",
     "Chinese": "留學生",
     "English": "international student",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7835,7 +7825,7 @@
     "Pronoun": "ryoushin",
     "Chinese": "父母",
     "English": "parents",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7845,7 +7835,7 @@
     "Pronoun": "niyouri",
     "Chinese": "烹飪",
     "English": "cooking",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7855,7 +7845,7 @@
     "Pronoun": "ryoko",
     "Chinese": "旅行",
     "English": "trip / vacation / to travel",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7865,7 +7855,7 @@
     "Pronoun": "ringo",
     "Chinese": "蘋果",
     "English": "apple",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7875,7 +7865,7 @@
     "Pronoun": "reizoko",
     "Chinese": "雪櫃",
     "English": "refrigerator",
-    "URL": "",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7885,7 +7875,7 @@
     "Pronoun": "resutoran",
     "Chinese": "餐廳",
     "English": "restaurant",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7895,7 +7885,7 @@
     "Pronoun": "repōto",
     "Chinese": "報告",
     "English": "report",
-    "URL": "n",
+    "WordType": "n.",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7905,7 +7895,7 @@
     "Pronoun": "renshu",
     "Chinese": "練習",
     "English": "practice / to practice",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7915,7 +7905,7 @@
     "Pronoun": "rentarushoppu",
     "Chinese": "出租店",
     "English": "rental shop",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7925,7 +7915,7 @@
     "Pronoun": "roku",
     "Chinese": "六",
     "English": "six",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7935,7 +7925,7 @@
     "Pronoun": "wakaru",
     "Chinese": "了解",
     "English": "to understand",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7945,7 +7935,7 @@
     "Pronoun": "wasureru",
     "Chinese": "忘記",
     "English": "to forget",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7955,7 +7945,7 @@
     "Pronoun": "watashi",
     "Chinese": "我",
     "English": "I",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7965,7 +7955,7 @@
     "Pronoun": "watasu",
     "Chinese": "交出",
     "English": "to hand over",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7975,7 +7965,7 @@
     "Pronoun": "wane",
     "Chinese": "緩和說話語氣",
     "English": "to express depth of feeling or emphasis",
-    "URL": "",
+    "WordType": "",
     "Sample_JP": "",
     "Sample_En": ""
   },
@@ -7985,8 +7975,18 @@
     "Pronoun": "warui",
     "Chinese": "壞的",
     "English": "bad",
-    "URL": "",
-    "Sample_JP": "",
+    "WordType": "",
+    "Sample_JP": "彼(かれ)は悪(わるい)い人だと思(おも)いますよ。",
+    "Sample_En": "I think he’s a bad person."
+  },
+  {
+    "Title": "はつもうで",
+    "Subtitle": "初詣",
+    "Pronoun": "hatsumode",
+    "Chinese": "新年參拜",
+    "English": "first shrine visit of New Year",
+    "WordType": "n.",
+    "Sample_JP": "初詣(はつもうで )、ご利益(りやく)があるのはどこの神社(じんじゃ)",
     "Sample_En": ""
   }
 ]

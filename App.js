@@ -5,7 +5,7 @@ import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
-//import {Audio} from 'expo-av';
+import {Audio} from 'expo-av';
 import bgImg from "./assets/images/background.jpg";
 
 //import Tts from 'react-native-tts';
@@ -47,13 +47,40 @@ export default function App() {
     // } catch (error) {
     //   console.error('Failed to play sound', error);
     // }
-    if (showPronoun === 1) {
-      Speech.speak((theWord.Subtitle === "" ? theWord.Title:theWord.Subtitle), {language:'ja-JP'});
+    try {
+      await Audio.setAudioModeAsync({
+        allowsRecordingIOS: false,
+        playsInSilentModeIOS: true, // Ensures playback in silent mode
+      });
+
+    // Play a short silent sound to initialize the audio session
+    const { sound } = await Audio.Sound.createAsync(
+      require('./assets/1-second-of-silence.mp3') // Add a silent MP3 file to your assets
+    );
+    await sound.playAsync();
+    await sound.unloadAsync();      
+
+      if (showPronoun === 1) {
+        Speech.speak((theWord.Subtitle === "" ? theWord.Title:theWord.Subtitle), {language:'ja-JP', rate:0.8});
+      }
+    } catch (error) {
+
+      console.error('Error readWord configuring audio mode:', error);
     }
+
   }
 
   async function readSample ( Sample_in_JP ) {
-    Speech.speak(Sample_in_JP,{language:'ja-JP'} );
+    try {
+        // Configure audio mode to play in silent mode
+        await Audio.setAudioModeAsync({
+          allowsRecordingIOS: false,
+          playsInSilentModeIOS: true, // Ensures playback in silent mode
+        });
+      Speech.speak(Sample_in_JP,{language:'ja-JP'} );
+    } catch (error) {
+      console.error('Error in readSample configuring audio mode:', error);
+    }
   }
 
   function nextCard() {
