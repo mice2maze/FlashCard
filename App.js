@@ -178,7 +178,7 @@ export default function App() {
 
       </View>
       <View style={styles.middleVew}>        
-        <Text style={styles.subtitle}>Example</Text>
+        <Text style={[styles.subtitle,{opacity:showTranslate}]}>Example 例文</Text>
         <Pressable style={styles.barView} 
               onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
         <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_JP}</Text>
@@ -188,7 +188,7 @@ export default function App() {
       </View>
       <View style={styles.lowerVew}></View>
       <View style={styles.footer}>
-        <Text style={styles.bottomText}> presented by Kosaon @2024</Text>
+        <Text style={styles.bottomText}> presented by MikeChan@Kosaon</Text>
       </View>
       </ImageBackground>
     </SafeAreaView>
