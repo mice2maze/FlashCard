@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView,Modal, ScrollView, Button } from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
@@ -23,6 +23,8 @@ export default function App() {
   const [itemSeq, setItemSeq] = useState(0);
   const [showTranslate, setShowTranslate] = useState(1);
   const [showPronoun, setShowPronoun] = useState(1);
+  // about page
+  const [aboutVisible, setAboutVisible] = useState(false);
 
   // const [swipeDirection, setSwipeDirection] = useState('');
   const {SWIPE_LEFT, SWIPE_RIGHT, SWIPE_DOWN, SWIPE_UP} = swipeDirections;
@@ -183,13 +185,47 @@ export default function App() {
               onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
         <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_JP}</Text>
         </Pressable>
+        <Pressable style={styles.barView} 
+              onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_KJ}</Text>
+        </Pressable>        
         <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
 
       </View>
-      <View style={styles.lowerVew}></View>
+      <View style={styles.lowerVew}>
+      </View>
       <View style={styles.footer}>
+        <Button title="About" onPress={() => setAboutVisible(true)} />
         <Text style={styles.bottomText}> presented by MikeChan@Kosaon</Text>
       </View>
+              <Modal visible={aboutVisible} animationType="slide">
+          <ScrollView contentContainerStyle={styles.aboutContainer}>
+            <Text style={styles.title}>FlashCard - Japanese N5 Vocabulary</Text>
+            <Text style={styles.version}>Version 1.0.6</Text>
+            <Text style={styles.sectionTitle}>About</Text>
+            <Text style={styles.text}>
+              FlashCard is a simple and effective tool for learning Japanese N5 vocabulary. 
+              Swipe through cards, listen to pronunciations, and test your knowledge with example sentences.
+            </Text>
+            <Text style={styles.sectionTitle}>Features</Text>
+            <Text style={styles.text}>
+              • Swipe to navigate cards{'\n'}
+              • Listen to Japanese pronunciation{'\n'}
+              • View translations in Chinese and English{'\n'}
+              • Example sentences for context
+            </Text>
+            <Text style={styles.sectionTitle}>Credits</Text>
+            <Text style={styles.text}>
+              Developed by MikeChan@Kosaon{'\n'}
+              Icons and images from open source resources.
+            </Text>
+            <Text style={styles.sectionTitle}>Contact</Text>
+            <Text style={styles.text}>
+              For feedback or suggestions, please contact: mikechan@kosaon.com
+            </Text>
+            <Button title="Close" onPress={() => setAboutVisible(false)} />
+          </ScrollView>
+        </Modal>
       </ImageBackground>
     </SafeAreaView>
   );
@@ -243,7 +279,7 @@ const styles = StyleSheet.create({
     marginRight:"8%",
     flexDirection: 'row',
     alignItems: 'center',
-    height:"10%",
+    height:"5%",
     justifyContent: 'space-evenly',
   },
   buttonImg:{
@@ -296,4 +332,28 @@ const styles = StyleSheet.create({
     fontSize:9,
     fontStyle:'italic',
   },
+  aboutContainer: {
+  alignItems: 'center',
+  padding: 24,
+  backgroundColor: 'snow',
+  flexGrow: 1,
+},
+version: {
+  fontSize: 14,
+  color: 'gray',
+  marginBottom: 16,
+},
+sectionTitle: {
+  fontSize: 18,
+  fontWeight: 'bold',
+  marginTop: 18,
+  marginBottom: 6,
+  alignSelf: 'flex-start',
+},
+text: {
+  fontSize: 16,
+  marginBottom: 8,
+  textAlign: 'left',
+  alignSelf: 'flex-start',
+},
 });
