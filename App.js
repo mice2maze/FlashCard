@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView,Modal, ScrollView, Button } from 'react-native';
+import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView,Modal, ScrollView, Button, Dimensions } from 'react-native';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
@@ -9,6 +9,7 @@ import {Audio} from 'expo-av';
 import bgImg from "./assets/images/background.jpg";
 
 //import Tts from 'react-native-tts';
+const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 export default function App() {
   // const card_database = "./assets/data/card_database.csv";
@@ -28,7 +29,7 @@ export default function App() {
 
   // const [swipeDirection, setSwipeDirection] = useState('');
   const {SWIPE_LEFT, SWIPE_RIGHT, SWIPE_DOWN, SWIPE_UP} = swipeDirections;
-
+  const [menuVisible, setMenuVisible] = useState(false);
 
   //Tts.setDefaultLanguage('en-IE');
   // Tts.addEventListener('tts-start', event => console.log('start', event));
@@ -134,6 +135,48 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground style={styles.img} source={bgImg} resizeMode='cover'>     
+      
+      <Pressable style={{position: 'absolute', top: 40, left: 20, zIndex: 10}} onPress={() => setMenuVisible(true)}>
+        <Text style={{fontSize: 28}}>☰</Text>
+      </Pressable>
+      
+      <Modal visible={menuVisible} transparent animationType="slide">
+        <View style={{
+          flex: 1,
+          backgroundColor: 'rgba(0,0,0,0.3)',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }}>
+          <View style={{
+            width: 260,
+            backgroundColor: 'white',
+            borderRadius: 16,
+            padding: 24,
+            alignItems: 'center'
+          }}>
+            <Text style={{fontSize: 22, fontFamily: 'Cochin', marginBottom: 18}}>Menu</Text>
+            <Pressable onPress={() => { setMenuVisible(false); /* go to home */ }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>Home</Text>
+            </Pressable>
+            <Pressable onPress={() => { setMenuVisible(false); randomCard(); }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>Random Card</Text>
+            </Pressable>
+            <Pressable onPress={() => { setMenuVisible(false); showOnOff(); }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>Toggle Translation</Text>
+            </Pressable>
+            <Pressable onPress={() => { setMenuVisible(false); pronounOnOff(); }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>Toggle Pronunciation</Text>
+            </Pressable>
+            <Pressable onPress={() => { setMenuVisible(false); setAboutVisible(true); }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>About</Text>
+            </Pressable>
+            <Pressable onPress={() => setMenuVisible(false)}>
+              <Text style={{fontSize: 18, marginVertical: 8, color: 'gray'}}>Close</Text>
+            </Pressable>
+          </View>
+        </View>
+      </Modal>
+      
       <View style={styles.heading}> 
         <Text style={styles.heading}>日文N5單字</Text>
         <Text style={styles.heading}>Japanese N5 Vocabulary</Text>
@@ -157,13 +200,30 @@ export default function App() {
       </View>
       </GestureRecognizer>
 
+      <View style={{width: '80%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
+
+      <View style={styles.middleVew}>        
+        <Text style={[styles.subtitle]}>Example 例文</Text>
+        <Pressable style={styles.barView} 
+              onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
+        <Text style={[styles.description]}>{card_database[itemSeq].Sample_JP}</Text>
+        </Pressable>
+        <Pressable style={styles.barView} 
+              onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
+        <Text style={[styles.description]}>{card_database[itemSeq].Sample_KJ}</Text>
+        </Pressable>        
+        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
+
+      </View>
+
+
       <View style={styles.barView}>
         <Pressable onPress={showOnOff}>
           <Image style={[styles.translateImgSize,{opacity:(showTranslate===1?1:0.1)}]} source={require(translateImg) }/>
         </Pressable>
         <Text>    </Text>
         <Pressable onPress={pronounOnOff}>
-          <Image style={[styles.noPronounImgSize,{opacity:(showPronoun===1?1:0.1)}]} source={(showPronoun===1?require(showPronounImg):require(noPronounImg))}/>
+          <Image style={[styles.noPronounImgSize,{opacity:(showPronoun===1?1:0.5)}]} source={(showPronoun===1?require(showPronounImg):require(noPronounImg))}/>
         </Pressable>
         <Text>    </Text>
         <Pressable onPress={randomCard}>
@@ -179,49 +239,35 @@ export default function App() {
         </Pressable>
 
       </View>
-      <View style={styles.middleVew}>        
-        <Text style={[styles.subtitle,{opacity:showTranslate}]}>Example 例文</Text>
-        <Pressable style={styles.barView} 
-              onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_JP}</Text>
-        </Pressable>
-        <Pressable style={styles.barView} 
-              onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_KJ}</Text>
-        </Pressable>        
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
 
-      </View>
       <View style={styles.lowerVew}>
       </View>
       <View style={styles.footer}>
-        <Button title="About" onPress={() => setAboutVisible(true)} />
+        <Pressable style={styles.aboutButton} onPress={() => setAboutVisible(true)}>
+          <Text style={styles.aboutTitle}>About</Text>
+        </Pressable>
         <Text style={styles.bottomText}> presented by MikeChan@Kosaon</Text>
       </View>
               <Modal visible={aboutVisible} animationType="slide">
           <ScrollView contentContainerStyle={styles.aboutContainer}>
+
             <Text style={styles.title}>FlashCard - Japanese N5 Vocabulary</Text>
-            <Text style={styles.version}>Version 1.0.6</Text>
             <Text style={styles.sectionTitle}>About</Text>
             <Text style={styles.text}>
-              FlashCard is a simple and effective tool for learning Japanese N5 vocabulary. 
-              Swipe through cards, listen to pronunciations, and test your knowledge with example sentences.
+              FlashCard is a simple tool for learning Japanese N5 vocabulary I built for preparing N5 test. 
+              Swipe through cards, listen to pronunciations, and refresh your knowledge with example sentences.
+              Please enjoy it!
             </Text>
             <Text style={styles.sectionTitle}>Features</Text>
+
             <Text style={styles.text}>
-              • Swipe to navigate cards{'\n'}
-              • Listen to Japanese pronunciation{'\n'}
-              • View translations in Chinese and English{'\n'}
-              • Example sentences for context
-            </Text>
-            <Text style={styles.sectionTitle}>Credits</Text>
-            <Text style={styles.text}>
-              Developed by MikeChan@Kosaon{'\n'}
-              Icons and images from open source resources.
-            </Text>
-            <Text style={styles.sectionTitle}>Contact</Text>
-            <Text style={styles.text}>
-              For feedback or suggestions, please contact: mikechan@kosaon.com
+              • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(prevButtonImg) }/>
+          <Image style={[{width:20},{height:20},,{opacity:(1)}]} source={require(nextButtonImg)}/> Swipe to navigate cards{'\n\n'}  
+              • <Image style={[{width:15},{height:15}, {opacity:(1)}]} source={(showPronoun===1?require(showPronounImg):require(noPronounImg))}/> Toggle to Japanese pronunciation{'\n\n'}
+              
+              • <Image style={[{width:20},{height:20},{opacity:(1)}]} source={require(translateImg) }/> View translations in Chinese and English{'\n\n'}
+              
+              • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(randomImg)}/> Shows randomly{'\n\n'}
             </Text>
             <Button title="Close" onPress={() => setAboutVisible(false)} />
           </ScrollView>
@@ -239,12 +285,14 @@ const styles = StyleSheet.create({
     //justifyContent: 'center',
   },
   mainView: {
-    marginLeft:"5%",
-    marginRight:"5%",
+    //marginLeft:"5%",
+    //marginRight:"5%",
+    width: '90%',
+    height: screenHeight * 0.3,
     borderRadius: 20,
-    padding: 35,
+    padding: 15,
     alignItems: 'center',
-    marginTop:30,
+    marginTop:15,
     justifyContent: 'center',
     shadowColor: '#000',
     shadowOffset: {
@@ -257,7 +305,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.32)', //'snow',
   },
   barView: {
-    marginVertical:"2%",
+    marginVertical:"3%",
     marginLeft:"8%",
     marginRight:"8%",
     flexDirection: 'row',
@@ -269,6 +317,8 @@ const styles = StyleSheet.create({
     marginLeft:"8%",
     marginRight:"8%",
 //    flexDirection: 'row',
+    height: screenHeight * 0.4,
+
     alignItems: 'center',
     height:"25%",
     justifyContent: 'space-evenly',
@@ -299,7 +349,7 @@ const styles = StyleSheet.create({
     height: 20,
   },
   title: {
-    fontSize: 40,
+    fontSize: 20,
     alignItems: 'center',
   },
   subtitle: {
@@ -333,12 +383,14 @@ const styles = StyleSheet.create({
     fontStyle:'italic',
   },
   aboutContainer: {
+  marginTop:"25%",
   alignItems: 'center',
   padding: 24,
   backgroundColor: 'snow',
   flexGrow: 1,
 },
 version: {
+  marginTop:"5%",
   fontSize: 14,
   color: 'gray',
   marginBottom: 16,
@@ -355,5 +407,21 @@ text: {
   marginBottom: 8,
   textAlign: 'left',
   alignSelf: 'flex-start',
+},
+aboutTitle: {
+  fontSize: 16, // smaller
+  fontWeight: 'bold',
+  fontFamily: 'Cochin', // fancy font
+  marginTop: 18,
+  marginBottom: 6,
+  alignSelf: 'flex-start',
+  color: '#333',
+},
+aboutButton: {
+  backgroundColor: '#eee',
+  paddingHorizontal: 24,
+  paddingVertical: 1,
+  borderRadius: 20,
+  marginVertical: 0.5,
 },
 });
