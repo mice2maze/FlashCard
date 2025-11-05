@@ -7,6 +7,8 @@ import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
 import {Audio} from 'expo-av';
 import bgImg from "./assets/images/background.jpg";
+import styles from './AppStyle';
+
 
 //import Tts from 'react-native-tts';
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
@@ -20,6 +22,8 @@ export default function App() {
   const noPronounImg = "./assets/images/no-audio-50.png";
   const showPronounImg = "./assets/images/speaker-50.png";
   const randomImg = "./assets/images/dice-80.png";
+  const quizImg = "./assets/images/test.png";
+
 
   const [itemSeq, setItemSeq] = useState(0);
   const [showTranslate, setShowTranslate] = useState(1);
@@ -30,6 +34,45 @@ export default function App() {
   // const [swipeDirection, setSwipeDirection] = useState('');
   const {SWIPE_LEFT, SWIPE_RIGHT, SWIPE_DOWN, SWIPE_UP} = swipeDirections;
   const [menuVisible, setMenuVisible] = useState(false);
+
+ // Quiz state
+ const [quizVisible, setQuizVisible] = useState(false);
+ const [quizQuestion, setQuizQuestion] = useState(null);
+ const [quizOptions, setQuizOptions] = useState([]);
+ const [quizAnswerIndex, setQuizAnswerIndex] = useState(null);
+ const [quizResult, setQuizResult] = useState(null);
+ 
+ function startQuiz() {
+   // pick random question
+   const qIdx = Math.floor(Math.random() * card_database.length);
+   const question = card_database[qIdx];
+ 
+   // build options array (correct  3 distinct distractors)
+   const options = [question];
+   while (options.length < 4) {
+     const idx = Math.floor(Math.random() * card_database.length);
+     const candidate = card_database[idx];
+     if (!options.find(o => o.Title === candidate.Title)) options.push(candidate);
+   }
+   // shuffle
+   for (let i = options.length - 1; i > 0; i--) {
+     const j = Math.floor(Math.random() * (i + 1));
+     [options[i], options[j]] = [options[j], options[i]];
+   }
+   setQuizQuestion(question);
+   setQuizOptions(options);
+   setQuizAnswerIndex(null);
+   setQuizResult(null);
+   setQuizVisible(true);
+ }
+ 
+ function submitAnswer(idx) {
+   if (quizAnswerIndex !== null) return;
+   const correct = quizOptions[idx].Title === quizQuestion.Title;
+   setQuizAnswerIndex(idx);
+   setQuizResult(correct);
+ }
+ 
 
   //Tts.setDefaultLanguage('en-IE');
   // Tts.addEventListener('tts-start', event => console.log('start', event));
@@ -158,6 +201,9 @@ export default function App() {
             <Pressable onPress={() => { setMenuVisible(false); /* go to home */ }}>
               <Text style={{fontSize: 18, marginVertical: 8}}>Home</Text>
             </Pressable>
+            <Pressable onPress={() => { setMenuVisible(false); startQuiz(); }}>
+             <Text style={{fontSize: 18, marginVertical: 8}}>Quiz</Text>
+           </Pressable>
             <Pressable onPress={() => { setMenuVisible(false); randomCard(); }}>
               <Text style={{fontSize: 18, marginVertical: 8}}>Random Card</Text>
             </Pressable>
@@ -229,7 +275,11 @@ export default function App() {
         <Pressable onPress={randomCard}>
           <Image style={styles.noPronounImgSize} source={require(randomImg)}/>
         </Pressable>
-        <Text>            </Text>
+        <Text>   　</Text>
+        <Pressable onPress={startQuiz}>
+          <Image style={styles.noPronounImgSize} source={require(quizImg)}/>
+        </Pressable>
+        <Text>    </Text>
         <Pressable onPress={prevCard}>
           <Image style={[styles.buttonImg, {opacity:(itemSeq===0?0.1:1)}]} source={require(prevButtonImg) }/>
         </Pressable>
@@ -248,15 +298,71 @@ export default function App() {
         </Pressable>
         <Text style={styles.bottomText}> presented by MikeChan@Kosaon</Text>
       </View>
-              <Modal visible={aboutVisible} animationType="slide">
+     {/* Quiz Modal */}
+     <Modal visible={quizVisible} transparent animationType="slide">
+       <View style={{flex:1, backgroundColor:'rgba(0,0,0,0.35)', justifyContent:'center', alignItems:'center'}}>
+         <View style={{width: 320, backgroundColor:'white', borderRadius:12, padding:18, alignItems:'center'}}>
+           <Text style={{fontSize:20, fontFamily:'Cochin', marginBottom:8, color:'#2A3D8F'}}>Quiz</Text>
+           {quizQuestion && (
+             <>
+               <Text style={{fontSize:16, marginBottom:12, textAlign:'center'}}>
+                 The Meaning of {" "}
+                 <Text style={{fontWeight:'bold'}}>{quizQuestion.Title}</Text>?
+               </Text>
+               {quizOptions.map((opt, i) => (
+                 <Pressable
+                   key={i}
+                   onPress={() => submitAnswer(i)}
+                   style={{
+                     width: '100%',
+                     backgroundColor:
+                       quizAnswerIndex === null ? '#f2f2f2' :
+                       (i === quizAnswerIndex ? (quizResult ? '#dff0d8' : '#f8d7da') : '#fff'),
+                     padding: 10,
+                     borderRadius: 8,
+                     marginVertical: 6,
+                     alignItems: 'center'
+                   }}
+                 >
+                   <Text style={{fontSize:16}}>
+                     {opt.English} {opt.Chinese ? ` / ${opt.Chinese}` : ''}
+                   </Text>
+                 </Pressable>
+               ))}
+               {quizAnswerIndex !== null && (
+                 <Text style={{marginTop:10, color: quizResult ? 'green' : 'red'}}>
+                   {quizResult ? 'Correct!' : 'Wrong'}
+                 </Text>
+               )}
+               <View style={{flexDirection:'row', marginTop:12}}>
+                 <Pressable
+                   onPress={() => { quizAnswerIndex !== null ? startQuiz() : setQuizVisible(false); }}
+                   style={{padding:10, backgroundColor:'#ddd', borderRadius:8, marginHorizontal:6}}
+                 >
+                   <Text>{quizAnswerIndex !== null ? 'Next' : 'Cancel'}</Text>
+                 </Pressable>
+                 {quizAnswerIndex !== null && (
+                   <Pressable onPress={() => setQuizVisible(false)} style={{padding:10, backgroundColor:'#ddd', borderRadius:8, marginHorizontal:6}}>
+                     <Text>Close</Text>
+                   </Pressable>
+                 )}
+               </View>
+             </>
+          )}
+         </View>
+       </View>
+     </Modal>
+
+
+
+      <Modal visible={aboutVisible} animationType="slide">
           <ScrollView contentContainerStyle={styles.aboutContainer}>
 
             <Text style={styles.title}>FlashCard - Japanese N5 Vocabulary</Text>
             <Text style={styles.sectionTitle}>About</Text>
             <Text style={styles.text}>
-              FlashCard is a simple tool for learning Japanese N5 vocabulary I built for preparing N5 test. 
-              Swipe through cards, listen to pronunciations, and refresh your knowledge with example sentences.
-              Please enjoy it!
+              Hey there! 👋 FlashCard is a fun and simple tool I created to help me master Japanese N5 vocabulary and prepare for the JLPT N5 exam.  I can swipe through the cards at my own pace, tap to hear clear pronunciations, and dive into helpful example sentences that show how each word is used in real life. It’s perfect for my quick review sessions or deeper study whenever I have a few minutes to spare!  
+I hope you enjoy using it as much as I enjoyed building it. Ganbatte (good luck), and have fun learning! 🌸
             </Text>
             <Text style={styles.sectionTitle}>Features</Text>
 
@@ -268,6 +374,8 @@ export default function App() {
               • <Image style={[{width:20},{height:20},{opacity:(1)}]} source={require(translateImg) }/> View translations in Chinese and English{'\n\n'}
               
               • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(randomImg)}/> Shows randomly{'\n\n'}
+
+            • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(quizImg)}/> Simple test{'\n\n'}
             </Text>
             <Button title="Close" onPress={() => setAboutVisible(false)} />
           </ScrollView>
@@ -277,151 +385,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    top:'10%',
-    //alignItems: 'top',
-    marginTop:30,
-    //justifyContent: 'center',
-  },
-  mainView: {
-    //marginLeft:"5%",
-    //marginRight:"5%",
-    width: '90%',
-    height: screenHeight * 0.3,
-    borderRadius: 20,
-    padding: 15,
-    alignItems: 'center',
-    marginTop:15,
-    justifyContent: 'center',
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 2,
-      height: 2,
-    },
-    //shadowOpacity: 0.25,
-    shadowRadius: 4,
-    elevation: 5,
-    backgroundColor: 'rgba(255, 255, 255, 0.32)', //'snow',
-  },
-  barView: {
-    marginVertical:"3%",
-    marginLeft:"8%",
-    marginRight:"8%",
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-evenly',
-  },
-  middleVew:{
-    marginVertical:"2%",
-    marginLeft:"8%",
-    marginRight:"8%",
-//    flexDirection: 'row',
-    height: screenHeight * 0.4,
-
-    alignItems: 'center',
-    height:"25%",
-    justifyContent: 'space-evenly',
-  },
-  lowerVew:{
-    marginVertical:"2%",
-    marginLeft:"8%",
-    marginRight:"8%",
-    flexDirection: 'row',
-    alignItems: 'center',
-    height:"5%",
-    justifyContent: 'space-evenly',
-  },
-  buttonImg:{
-    width: 64,
-    height: 24,
-  },
-  translateImgSize:{
-    width: 28,
-    height: 28,
-  },
-  noPronounImgSize:{
-    width: 28,
-    height: 28,
-  },
-  speakerImg:{
-    width: 20,
-    height: 20,
-  },
-  title: {
-    fontSize: 20,
-    alignItems: 'center',
-  },
-  subtitle: {
-    fontSize: 20,
-  },
-  pronoun: {
-    fontSize: 20,
-    fontStyle: 'italic',
-  },
-  description: {
-    fontSize: 20,
-  },
-  blank: {
-    fontSize: 10,
-  },
-  img: { 
-    width:"100%",
-    height:"100%",
-  }, 
-  heading: {
-    fontSize: 20,
-    justifyContent:'center',
-    alignItems: 'center',
-  },
-  footer: {
-    justifyContent:'center',
-    alignItems:'center',
-  },
-  bottomText: {
-    fontSize:9,
-    fontStyle:'italic',
-  },
-  aboutContainer: {
-  marginTop:"25%",
-  alignItems: 'center',
-  padding: 24,
-  backgroundColor: 'snow',
-  flexGrow: 1,
-},
-version: {
-  marginTop:"5%",
-  fontSize: 14,
-  color: 'gray',
-  marginBottom: 16,
-},
-sectionTitle: {
-  fontSize: 18,
-  fontWeight: 'bold',
-  marginTop: 18,
-  marginBottom: 6,
-  alignSelf: 'flex-start',
-},
-text: {
-  fontSize: 16,
-  marginBottom: 8,
-  textAlign: 'left',
-  alignSelf: 'flex-start',
-},
-aboutTitle: {
-  fontSize: 16, // smaller
-  fontWeight: 'bold',
-  fontFamily: 'Cochin', // fancy font
-  marginTop: 18,
-  marginBottom: 6,
-  alignSelf: 'flex-start',
-  color: '#333',
-},
-aboutButton: {
-  backgroundColor: '#eee',
-  paddingHorizontal: 24,
-  paddingVertical: 1,
-  borderRadius: 20,
-  marginVertical: 0.5,
-},
-});
