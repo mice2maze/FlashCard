@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image, Pressable, ImageBackground,SafeAreaView,Modal, ScrollView, Button, Dimensions } from 'react-native';
+import { Text, View, Image, Pressable, ImageBackground,Modal, ScrollView, Button, Dimensions } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
+import { MaterialIcons } from '@expo/vector-icons';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
@@ -23,7 +25,6 @@ export default function App() {
   const showPronounImg = "./assets/images/speaker-50.png";
   const randomImg = "./assets/images/dice-80.png";
   const quizImg = "./assets/images/test.png";
-
 
   const [itemSeq, setItemSeq] = useState(0);
   const [showTranslate, setShowTranslate] = useState(1);
@@ -102,6 +103,10 @@ export default function App() {
    if (correct) {
      setQuizCorrect(quizCorrect + 1);
    }
+  // after showing result, advance to next question after 1 second
+  setTimeout(() => {
+    if (quizVisible) nextQuestion();
+  }, 1000);
  }
  
 
@@ -131,11 +136,16 @@ export default function App() {
       });
 
     // Play a short silent sound to initialize the audio session
-    const { sound } = await Audio.Sound.createAsync(
-      require('./assets/1-second-of-silence.mp3') // Add a silent MP3 file to your assets
-    );
-    await sound.playAsync();
-    await sound.unloadAsync();      
+    try {
+      const result = await Audio.Sound.createAsync(require('./assets/1-second-of-silence.mp3'));
+      const sound = result && result.sound ? result.sound : null;
+      if (sound && typeof sound.playAsync === 'function') {
+        await sound.playAsync();
+        await sound.unloadAsync();
+      }
+    } catch (err) {
+      console.error('Error playing init sound:', err);
+    }
 
       if (showPronoun === 1) {
         Speech.speak((theWord.Subtitle === "" ? theWord.Title:theWord.Subtitle), {language:'ja-JP', rate:0.8});
@@ -330,59 +340,94 @@ export default function App() {
         </Pressable>
         <Text style={styles.bottomText}> presented by MikeChan@Kosaon</Text>
       </View>
-     {/* Quiz Modal */}
+     {/* Quiz Modal - fixed size with answers in boxed scroll area */}
      <Modal visible={quizVisible} transparent animationType="slide">
        <View style={{flex:1, backgroundColor:'rgba(0,0,0,0.35)', justifyContent:'center', alignItems:'center'}}>
-         <View style={{width: 320, backgroundColor:'white', borderRadius:12, padding:18, alignItems:'center'}}>
-           <Text style={{fontSize:20, fontFamily:'Cochin', marginBottom:8, color:'#2A3D8F'}}>Quiz</Text>
+         <View style={{width: 320, height: 420, backgroundColor:'white', borderRadius:12, padding:12}}>
+           <Pressable onPress={() => setQuizVisible(false)} style={{position:'absolute', top:8, right:8, zIndex:10, padding:6}}>
+             <MaterialIcons name="close" size={20} color="#333" />
+           </Pressable>
+           <Text style={{fontSize:20, fontFamily:'Cochin', marginBottom:8, color:'#2A3D8F', textAlign:'center'}}>Quiz</Text>
            {quizTotal > 0 && (
-             <Text style={{fontSize:14, marginBottom:8, fontWeight:'bold', color:'#555'}}>Marks: {quizCorrect}/{quizTotal}</Text>
+             <Text style={{fontSize:14, marginBottom:6, fontWeight:'bold', color:'#555', textAlign:'center'}}>Marks: {quizCorrect}/{quizTotal}</Text>
            )}
            {quizQuestion && (
-             <>
-               <Text style={{fontSize:16, marginBottom:12, textAlign:'center'}}>
-                 The Meaning of {" "}
-                 <Text style={{fontWeight:'bold'}}>{quizQuestion.Title}</Text>?
-               </Text>
-               {quizOptions.map((opt, i) => (
-                 <Pressable
-                   key={i}
-                   onPress={() => submitAnswer(i)}
-                   style={{
-                     width: '100%',
-                     backgroundColor:
-                       quizAnswerIndex === null ? '#f2f2f2' :
-                       (i === quizAnswerIndex ? (quizResult ? '#dff0d8' : '#f8d7da') : '#fff'),
-                     padding: 10,
-                     borderRadius: 8,
-                     marginVertical: 6,
-                     alignItems: 'center'
-                   }}
-                 >
-                   <Text style={{fontSize:16}}>
-                     {opt.English} {opt.Chinese ? ` / ${opt.Chinese}` : ''}
-                   </Text>
-                 </Pressable>
-               ))}
-               {quizAnswerIndex !== null && (
-                 <Text style={{marginTop:10, color: quizResult ? 'green' : 'red'}}>
-                   {quizResult ? 'Correct!' : 'Wrong'}
+             <View style={{flex:1, width:'100%'}}>
+               <View style={{padding:8, alignItems:'center'}}>
+                 <Text style={{fontSize:16, marginBottom:6, textAlign:'center'}}>
+                   The Meaning of {" "}
+                   <Text style={{fontWeight:'bold'}}>{quizQuestion.Title}</Text>?
                  </Text>
+               </View>
+
+               <View style={{flex:1, borderWidth:1, borderColor:'#e0e0e0', borderRadius:8, padding:8, backgroundColor:'#fafafa'}}>
+                 {/** compute correct index once */}
+                 {(() => {
+                   const correctIdx = quizOptions.findIndex(o => o.Title === quizQuestion.Title);
+                   return (
+                     <ScrollView contentContainerStyle={{paddingVertical:4}}>
+                       {quizOptions.map((opt, i) => {
+                         const isSelected = quizAnswerIndex !== null && i === quizAnswerIndex;
+                         let bg = '#fff';
+                         if (quizAnswerIndex !== null) {
+                           if (isSelected) bg = quizResult ? '#dff0d8' : '#f8d7da';
+                         }
+                         return (
+                           <Pressable
+                             key={i}
+                             onPress={() => submitAnswer(i)}
+                             style={{
+                               width: '100%',
+                               backgroundColor: bg,
+                               padding: 10,
+                               borderRadius: 8,
+                               marginVertical: 6,
+                               alignItems: 'center',
+                               borderWidth: 1,
+                               borderColor: '#eee'
+                             }}
+                           >
+                             <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center'}}>
+                               <Text style={{fontSize:16}}>
+                                 {opt.English} {opt.Chinese ? ` / ${opt.Chinese}` : ''}
+                               </Text>
+                               {isSelected && (
+                                 <MaterialIcons name={quizResult ? 'check-circle' : 'cancel'} size={20} color={quizResult ? '#2e7d32' : '#c62828'} style={{marginLeft:8}} />
+                               )}
+                             </View>
+                           </Pressable>
+                         );
+                       })}
+                     </ScrollView>
+                   );
+                 })()}
+               </View>
+
+               {/* When wrong, show the correct answer at the bottom */}
+               {quizAnswerIndex !== null && quizResult === false && (
+                 <View style={{marginTop:10, padding:8, borderRadius:8, backgroundColor:'#e8f5e9', borderWidth:1, borderColor:'#c8e6c9', alignItems:'center'}}>
+                   <View style={{flexDirection:'row', alignItems:'center'}}>
+                     <MaterialIcons name="check-circle" size={18} color="#2e7d32" style={{marginRight:6}} />
+                   </View>
+                   {(() => {
+                     const correctIdx = quizOptions.findIndex(o => o.Title === quizQuestion.Title);
+                     const correctOpt = quizOptions[correctIdx] || {};
+                     return (
+                       <Text style={{marginTop:6}}>{correctOpt.English} {correctOpt.Chinese ? ` / ${correctOpt.Chinese}` : ''}</Text>
+                     );
+                   })()}
+                 </View>
                )}
-               <View style={{flexDirection:'row', marginTop:12}}>
+{/* 
+               <View style={{flexDirection:'row', justifyContent:'center', marginTop:12}}>
                  <Pressable
                    onPress={() => { quizAnswerIndex !== null ? nextQuestion() : setQuizVisible(false); }}
-                   style={{padding:10, backgroundColor:'#2A3D8F', borderRadius:8, marginHorizontal:6}}
-                 >
-                   <Text style={{color:'white', fontWeight:'bold'}}>{quizAnswerIndex !== null ? 'Next' : 'Cancel'}</Text>
+                   style={{padding:10, backgroundColor:'#2A3D8F', borderRadius:8, marginHorizontal:6}}>
+                  <Text style={{color:'white', fontWeight:'bold'}}>{quizAnswerIndex !== null ? 'Next' : ''}</Text> 
                  </Pressable>
-                 {quizAnswerIndex !== null && (
-                   <Pressable onPress={() => setQuizVisible(false)} style={{padding:10, backgroundColor:'#ddd', borderRadius:8, marginHorizontal:6}}>
-                     <Text>Close</Text>
-                   </Pressable>
-                 )}
-               </View>
-             </>
+               </View> 
+*/}
+             </View>
           )}
          </View>
        </View>

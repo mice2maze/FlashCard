@@ -94,9 +94,9 @@
     "Chinese": "中間",
     "English": "in the middle of",
     "WordType": "",
-    "Sample_JP": "せんせいはいちじゅうにんいます。",
-    "Sample_KJ": "先生は一十人います。",
-    "Sample_En": "There are ten teachers."
+    "Sample_JP": "いちねんじゅう あついです。",
+    "Sample_KJ": "一年中 あついです。",
+    "Sample_En": "It's hot all year round."
   },
   {
     "Title": "～だい",
@@ -160,9 +160,9 @@
     "Chinese": "號碼",
     "English": "number",
     "WordType": "",
-    "Sample_JP": "いちばんすきなスポーツはサッカーです。",
-    "Sample_KJ": "一番好きなスポーツはサッカーです。",
-    "Sample_En": "My favorite sport is soccer."
+    "Sample_JP": "えきは ごばん です。",
+    "Sample_KJ": "駅は五番です。",
+    "Sample_En": "The station is number five."
   },
   {
     "Title": "～ひき",
@@ -193,9 +193,9 @@
     "Chinese": "部門",
     "English": "department (in an organization)",
     "WordType": "",
-    "Sample_JP": "このほんのいちぶをよみました。",
-    "Sample_KJ": "この本の一部を読みました。",
-    "Sample_En": "I read part of this book."
+    "Sample_JP": "てにすぶに はいっています。",
+    "Sample_KJ": "テニス部に 入っています。",
+    "Sample_En": "I joined the tennis club."
   },
   {
     "Title": "～ふん",
