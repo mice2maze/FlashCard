@@ -41,6 +41,8 @@ export default function App() {
  const [quizOptions, setQuizOptions] = useState([]);
  const [quizAnswerIndex, setQuizAnswerIndex] = useState(null);
  const [quizResult, setQuizResult] = useState(null);
+ const [quizCorrect, setQuizCorrect] = useState(0);
+ const [quizTotal, setQuizTotal] = useState(0);
  
  function startQuiz() {
    // pick random question
@@ -63,14 +65,43 @@ export default function App() {
    setQuizOptions(options);
    setQuizAnswerIndex(null);
    setQuizResult(null);
+   setQuizCorrect(0);
+   setQuizTotal(0);
    setQuizVisible(true);
  }
  
+  function nextQuestion() {
+   // pick random question without resetting marks
+   const qIdx = Math.floor(Math.random() * card_database.length);
+   const question = card_database[qIdx];
+ 
+   // build options array (correct  3 distinct distractors)
+   const options = [question];
+   while (options.length < 4) {
+     const idx = Math.floor(Math.random() * card_database.length);
+     const candidate = card_database[idx];
+     if (!options.find(o => o.Title === candidate.Title)) options.push(candidate);
+   }
+   // shuffle
+   for (let i = options.length - 1; i > 0; i--) {
+     const j = Math.floor(Math.random() * (i + 1));
+     [options[i], options[j]] = [options[j], options[i]];
+   }
+   setQuizQuestion(question);
+   setQuizOptions(options);
+   setQuizAnswerIndex(null);
+   setQuizResult(null);
+ }
+
  function submitAnswer(idx) {
    if (quizAnswerIndex !== null) return;
    const correct = quizOptions[idx].Title === quizQuestion.Title;
    setQuizAnswerIndex(idx);
    setQuizResult(correct);
+   setQuizTotal(quizTotal + 1);
+   if (correct) {
+     setQuizCorrect(quizCorrect + 1);
+   }
  }
  
 
@@ -202,6 +233,7 @@ export default function App() {
               <Text style={{fontSize: 18, marginVertical: 8}}>Home</Text>
             </Pressable>
             <Pressable onPress={() => { setMenuVisible(false); startQuiz(); }}>
+            
              <Text style={{fontSize: 18, marginVertical: 8}}>Quiz</Text>
            </Pressable>
             <Pressable onPress={() => { setMenuVisible(false); randomCard(); }}>
@@ -303,6 +335,9 @@ export default function App() {
        <View style={{flex:1, backgroundColor:'rgba(0,0,0,0.35)', justifyContent:'center', alignItems:'center'}}>
          <View style={{width: 320, backgroundColor:'white', borderRadius:12, padding:18, alignItems:'center'}}>
            <Text style={{fontSize:20, fontFamily:'Cochin', marginBottom:8, color:'#2A3D8F'}}>Quiz</Text>
+           {quizTotal > 0 && (
+             <Text style={{fontSize:14, marginBottom:8, fontWeight:'bold', color:'#555'}}>Marks: {quizCorrect}/{quizTotal}</Text>
+           )}
            {quizQuestion && (
              <>
                <Text style={{fontSize:16, marginBottom:12, textAlign:'center'}}>
@@ -336,10 +371,10 @@ export default function App() {
                )}
                <View style={{flexDirection:'row', marginTop:12}}>
                  <Pressable
-                   onPress={() => { quizAnswerIndex !== null ? startQuiz() : setQuizVisible(false); }}
-                   style={{padding:10, backgroundColor:'#ddd', borderRadius:8, marginHorizontal:6}}
+                   onPress={() => { quizAnswerIndex !== null ? nextQuestion() : setQuizVisible(false); }}
+                   style={{padding:10, backgroundColor:'#2A3D8F', borderRadius:8, marginHorizontal:6}}
                  >
-                   <Text>{quizAnswerIndex !== null ? 'Next' : 'Cancel'}</Text>
+                   <Text style={{color:'white', fontWeight:'bold'}}>{quizAnswerIndex !== null ? 'Next' : 'Cancel'}</Text>
                  </Pressable>
                  {quizAnswerIndex !== null && (
                    <Pressable onPress={() => setQuizVisible(false)} style={{padding:10, backgroundColor:'#ddd', borderRadius:8, marginHorizontal:6}}>
