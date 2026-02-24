@@ -7,7 +7,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
-import {Audio} from 'expo-av';
+import {Audio} from 'expo-audio';
 import bgImg from "./assets/images/background.jpg";
 import styles from './AppStyle';
 
