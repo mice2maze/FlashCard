@@ -7,7 +7,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 //import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
-import {Audio} from 'expo-audio';
+import {setAudioModeAsync,createAudioPlayer} from 'expo-audio';
 import bgImg from "./assets/images/background.jpg";
 import styles from './AppStyle';
 
@@ -45,6 +45,35 @@ export default function App() {
  const [quizCorrect, setQuizCorrect] = useState(0);
  const [quizTotal, setQuizTotal] = useState(0);
  
+// existing state and helpers …
+// initialise the audio mode once
+  useEffect(() => {
+    async function initAudioMode() {
+      try {
+        await setAudioModeAsync({
+          allowsRecordingIOS: false,
+          playsInSilentModeIOS: true,
+        });
+      } catch (err) {
+        // this is where you were seeing “Error readWord configuring audio mode”
+        // – it isn’t fatal, just log it once.
+        console.warn('audio mode initialization failed:', err);
+      }
+    }
+    initAudioMode();
+  }, []);
+
+  // speak the current card whenever it becomes visible
+  useEffect(() => {
+    if (showPronoun === 1) {
+      const card = card_database[itemSeq];
+      if (card) {
+        readWord(card);
+        setTimeout(() => {readSample(card.Sample_JP);}, 2000);
+      }
+    }
+  }, [itemSeq, showPronoun]);
+
  function startQuiz() {
    // pick random question
    const qIdx = Math.floor(Math.random() * card_database.length);
@@ -116,28 +145,15 @@ export default function App() {
   // Tts.addEventListener('tts-cancel', event => console.log('cancel', event));
   
   async function readWord( theWord ) {
-    //Tts.stop();
-    //Tts.speak(theWord)
-    // Speech.speak(theWord, {language:'ja-JP'});
-    // try {
-    //   await Audio.setAudioModeAsync({
-    //     allowsRecordingIOS: true,
-    //     playsInSilentModeIOS: true
-    //   })
-    //     const {sound} = await Audio.Sound.createAsync(require('./assets/beep.mp3'));
-    //     await sound.playAsync();
-    // } catch (error) {
-    //   console.error('Failed to play sound', error);
-    // }
     try {
-      await Audio.setAudioModeAsync({
-        allowsRecordingIOS: false,
-        playsInSilentModeIOS: true, // Ensures playback in silent mode
+      await setAudioModeAsync({
+        allowsRecording: false,
+        playsInSilentMode: true, // Ensures playback in silent mode
       });
 
     // Play a short silent sound to initialize the audio session
     try {
-      const result = await Audio.Sound.createAsync(require('./assets/1-second-of-silence.mp3'));
+      const result = createAudioPlayer(require('./assets/1-second-of-silence.mp3'));
       const sound = result && result.sound ? result.sound : null;
       if (sound && typeof sound.playAsync === 'function') {
         await sound.playAsync();
@@ -160,13 +176,19 @@ export default function App() {
   async function readSample ( Sample_in_JP ) {
     try {
         // Configure audio mode to play in silent mode
-        await Audio.setAudioModeAsync({
-          allowsRecordingIOS: false,
-          playsInSilentModeIOS: true, // Ensures playback in silent mode
+        await setAudioModeAsync({
+          allowsRecording: false,
+          playsInSilentMode: true, // Ensures playback in silent mode
         });
-      Speech.speak(Sample_in_JP,{language:'ja-JP'} );
+        Speech.speak(Sample_in_JP,{language:'ja-JP'} );
     } catch (error) {
       console.error('Error in readSample configuring audio mode:', error);
+      console.error("Message:", error.message);
+      console.error("Stack:", error.stack);
+    
+    if (error.nativeStackIOS) {
+      console.error("Native iOS Stack:", error.nativeStackIOS);
+    }
     }
   }
 
@@ -176,7 +198,7 @@ export default function App() {
     } else {
       setItemSeq(1);
     }
-    //console.log("items ", itemSeq,card_database.length )
+    console.log("items ", itemSeq,card_database[itemSeq] )
   }
 
   function prevCard() {
@@ -185,11 +207,13 @@ export default function App() {
     } else {
       setItemSeq(card_database.length-1)
     }
-    //console.log("items ", itemSeq,card_database.length )
+    console.log("items ", itemSeq,card_database[itemSeq] )
 
   }
   function randomCard() {
     setItemSeq( Math.floor(Math.random() * (card_database.length-1)) );
+    console.log("items ", itemSeq,card_database[itemSeq] )
+
   }
   function showOnOff() {
     setShowTranslate(showTranslate===0?1:0);

@@ -94,9 +94,9 @@
     "Chinese": "中間",
     "English": "in the middle of",
     "WordType": "",
-    "Sample_JP": "せんせいはいちじゅうにんいます。",
-    "Sample_KJ": "先生は一十人います。",
-    "Sample_En": "There are ten teachers."
+    "Sample_JP": "いちねんじゅう あついです。",
+    "Sample_KJ": "一年中 あついです。",
+    "Sample_En": "It's hot all year round."
   },
   {
     "Title": "～だい",
@@ -160,9 +160,9 @@
     "Chinese": "號碼",
     "English": "number",
     "WordType": "",
-    "Sample_JP": "いちばんすきなスポーツはサッカーです。",
-    "Sample_KJ": "一番好きなスポーツはサッカーです。",
-    "Sample_En": "My favorite sport is soccer."
+    "Sample_JP": "えきは ごばん です。",
+    "Sample_KJ": "駅は五番です。",
+    "Sample_En": "The station is number five."
   },
   {
     "Title": "～ひき",
@@ -193,9 +193,9 @@
     "Chinese": "部門",
     "English": "department (in an organization)",
     "WordType": "",
-    "Sample_JP": "このほんのいちぶをよみました。",
-    "Sample_KJ": "この本の一部を読みました。",
-    "Sample_En": "I read part of this book."
+    "Sample_JP": "てにすぶに はいっています。",
+    "Sample_KJ": "テニス部に 入っています。",
+    "Sample_En": "I joined the tennis club."
   },
   {
     "Title": "～ふん",
@@ -1546,9 +1546,9 @@
     "Chinese": "送/寄",
     "English": "to send",
     "WordType": "v.",
-    "Sample_JP": "",
-    "Sample_KJ": "",
-    "Sample_En": ""
+    "Sample_JP": "おこのみやき がすきです。",
+    "Sample_KJ": "お好み焼き が好きです。",
+    "Sample_En": "I like okonomiyaki."
   },
   {
     "Title": "おこのみやき",
@@ -1557,9 +1557,9 @@
     "Chinese": "禦好燒",
     "English": "okonomiyaki(savory pancake)",
     "WordType": "n.",
-    "Sample_JP": "おこのみやき がすきです。",
-    "Sample_KJ": "お好み焼き が好きです。",
-    "Sample_En": "I like okonomiyaki."
+    "Sample_JP": "おさけ をのむ。",
+    "Sample_KJ": "お酒 を飲む。",
+    "Sample_En": "I drink alcohol/sake."
   },
   {
     "Title": "おさけ",
@@ -1568,9 +1568,9 @@
     "Chinese": "酒",
     "English": "alcohol",
     "WordType": "n.",
-    "Sample_JP": "おさけ をのむ。",
-    "Sample_KJ": "お酒 を飲む。",
-    "Sample_En": "I drink alcohol/sake."
+    "Sample_JP": "おじ とあそぶ。",
+    "Sample_KJ": "叔父 と遊ぶ。",
+    "Sample_En": "I play with my uncle."
   },
   {
     "Title": "おじ",
@@ -1579,9 +1579,9 @@
     "Chinese": "叔叔",
     "English": "uncle(When talking about your own uncle)",
     "WordType": "",
-    "Sample_JP": "おじ とあそぶ。",
-    "Sample_KJ": "叔父 と遊ぶ。",
-    "Sample_En": "I play with my uncle."
+    "Sample_JP": "おじいさん はげんきです。",
+    "Sample_KJ": "お爺さん は元気です。",
+    "Sample_En": "Grandfather is healthy."
   },
   {
     "Title": "おじいさん",
@@ -1590,9 +1590,9 @@
     "Chinese": "祖父",
     "English": "grandfather (other's)",
     "WordType": "n.",
-    "Sample_JP": "おじいさん はげんきです。",
-    "Sample_KJ": "お爺さん は元気です。",
-    "Sample_En": "Grandfather is healthy."
+    "Sample_JP": "せんせいがおしえる。",
+    "Sample_KJ": "先生が教える。",
+    "Sample_En": "The teacher teaches."
   },
   {
     "Title": "おしえる",
@@ -1601,9 +1601,9 @@
     "Chinese": "教",
     "English": "to teach",
     "WordType": "G1",
-    "Sample_JP": "せんせいがおしえる。",
-    "Sample_KJ": "先生が教える。",
-    "Sample_En": "The teacher teaches."
+    "Sample_JP": "おじさん はやさしい。",
+    "Sample_KJ": "おじさん は優しい。",
+    "Sample_En": "The man (uncle) is kind."
   },
   {
     "Title": "おじさん",
@@ -1612,9 +1612,9 @@
     "Chinese": "叔叔",
     "English": "uncle",
     "WordType": "n.",
-    "Sample_JP": "おじさん はやさしい。",
-    "Sample_KJ": "おじさん は優しい。",
-    "Sample_En": "The man (uncle) is kind."
+    "Sample_JP": "このでんしゃはおそい。",
+    "Sample_KJ": "この電車は遅い。",
+    "Sample_En": "This train is slow."
   },
   {
     "Title": "おそい",
@@ -1623,9 +1623,9 @@
     "Chinese": "慢的",
     "English": "late/slow",
     "WordType": "い-adjective",
-    "Sample_JP": "このでんしゃはおそい。",
-    "Sample_KJ": "この電車は遅い。",
-    "Sample_En": "This train is slow."
+    "Sample_JP": "おちゃ をのむ。",
+    "Sample_KJ": "お茶 を飲む。",
+    "Sample_En": "I drink tea."
   },
   {
     "Title": "おちゃ",
@@ -1634,9 +1634,9 @@
     "Chinese": "茶",
     "English": "tea",
     "WordType": "n.",
-    "Sample_JP": "おちゃ をのむ。",
-    "Sample_KJ": "お茶 を飲む。",
-    "Sample_En": "I drink tea."
+    "Sample_JP": "おてあらい はどこですか？",
+    "Sample_KJ": "お手洗い はどこですか？",
+    "Sample_En": "Where is the restroom?"
   },
   {
     "Title": "おてあらい",
@@ -1645,9 +1645,9 @@
     "Chinese": "洗手間",
     "English": "restroom",
     "WordType": "n.",
-    "Sample_JP": "おてあらい はどこですか？",
-    "Sample_KJ": "お手洗い はどこですか？",
-    "Sample_En": "Where is the restroom?"
+    "Sample_JP": "おとうと はちいさい。",
+    "Sample_KJ": "弟 は小さい。",
+    "Sample_En": "My younger brother is small."
   },
   {
     "Title": "おとうと",
@@ -1656,9 +1656,9 @@
     "Chinese": "弟弟",
     "English": "younger brother",
     "WordType": "n.",
-    "Sample_JP": "おとうと はちいさい。",
-    "Sample_KJ": "弟 は小さい。",
-    "Sample_En": "My younger brother is small."
+    "Sample_JP": "おとこ のひと。",
+    "Sample_KJ": "男 の人。",
+    "Sample_En": "A man."
   },
   {
     "Title": "おとうとさん",
@@ -1667,9 +1667,9 @@
     "Chinese": "弟弟",
     "English": "younger brother (other's)",
     "WordType": "n.",
-    "Sample_JP": "",
-    "Sample_KJ": "",
-    "Sample_En": ""
+    "Sample_JP": "おとこのこ がいる。",
+    "Sample_KJ": "男の子 がいる。",
+    "Sample_En": "There is a boy."
   },
   {
     "Title": "おとこ",
@@ -1678,9 +1678,9 @@
     "Chinese": "男人",
     "English": "man",
     "WordType": "n.",
-    "Sample_JP": "おとこ のひと。",
-    "Sample_KJ": "男 の人。",
-    "Sample_En": "A man."
+    "Sample_JP": "おととい あめだった。",
+    "Sample_KJ": "一昨日 雨だった。",
+    "Sample_En": "It rained the day before yesterday."
   },
   {
     "Title": "おとこのこ",
@@ -1689,9 +1689,9 @@
     "Chinese": "男生",
     "English": "boy",
     "WordType": "n.",
-    "Sample_JP": "おとこのこ がいる。",
-    "Sample_KJ": "男の子 がいる。",
-    "Sample_En": "There is a boy."
+    "Sample_JP": "おととし ににほんへいった。",
+    "Sample_KJ": "一昨年 に日本へ行った。",
+    "Sample_En": "I went to Japan two years ago."
   },
   {
     "Title": "おととい",
@@ -1700,9 +1700,9 @@
     "Chinese": "前天",
     "English": "the day before",
     "WordType": "n.",
-    "Sample_JP": "おととい あめだった。",
-    "Sample_KJ": "一昨日 雨だった。",
-    "Sample_En": "It rained the day before yesterday."
+    "Sample_JP": "おとな になる。",
+    "Sample_KJ": "大人 になる。",
+    "Sample_En": "I become an adult."
   },
   {
     "Title": "おととし",
@@ -1711,9 +1711,9 @@
     "Chinese": "前年",
     "English": "year before last year",
     "WordType": "n.",
-    "Sample_JP": "おととし ににほんへいった。",
-    "Sample_KJ": "一昨年 に日本へ行った。",
-    "Sample_En": "I went to Japan two years ago."
+    "Sample_JP": "おなか がすいた。",
+    "Sample_KJ": "お腹 が空いた。",
+    "Sample_En": "I am hungry. (Lit: \"My stomach is empty.\")"
   },
   {
     "Title": "おとな",
@@ -1722,9 +1722,9 @@
     "Chinese": "成人",
     "English": "adult",
     "WordType": "n.",
-    "Sample_JP": "おとな になる。",
-    "Sample_KJ": "大人 になる。",
-    "Sample_En": "I become an adult."
+    "Sample_JP": "わたしたちはおなじがっこうです。",
+    "Sample_KJ": "私たちは同じ学校です。",
+    "Sample_En": "We go to the same school."
   },
   {
     "Title": "おなか",
@@ -1733,9 +1733,9 @@
     "Chinese": "胃",
     "English": "stomach",
     "WordType": "n.",
-    "Sample_JP": "おなか がすいた。",
-    "Sample_KJ": "お腹 が空いた。",
-    "Sample_En": "I am hungry. (Lit: \"My stomach is empty.\")"
+    "Sample_JP": "おにいさん はせがたかい。",
+    "Sample_KJ": "お兄さん は背が高い。",
+    "Sample_En": "Older brother is tall."
   },
   {
     "Title": "おなじ",
@@ -1744,9 +1744,9 @@
     "Chinese": "相同",
     "English": "same",
     "WordType": "",
-    "Sample_JP": "わたしたちはおなじがっこうです。",
-    "Sample_KJ": "私たちは同じ学校です。",
-    "Sample_En": "We go to the same school."
+    "Sample_JP": "おにぎり をつくる。",
+    "Sample_KJ": "おにぎり を作る。",
+    "Sample_En": "I make rice balls."
   },
   {
     "Title": "おにいさん",
@@ -1755,9 +1755,9 @@
     "Chinese": "兄(別人)",
     "English": "elder brother",
     "WordType": "n.",
-    "Sample_JP": "おにいさん はせがたかい。",
-    "Sample_KJ": "お兄さん は背が高い。",
-    "Sample_En": "Older brother is tall."
+    "Sample_JP": "おねえさん はかわいい。",
+    "Sample_KJ": "お姉さん は可愛い。",
+    "Sample_En": "Older sister is cute."
   },
   {
     "Title": "おにぎり",
@@ -1766,9 +1766,9 @@
     "Chinese": "飯糰",
     "English": "rice ball",
     "WordType": "n",
-    "Sample_JP": "おにぎり をつくる。",
-    "Sample_KJ": "おにぎり を作る。",
-    "Sample_En": "I make rice balls."
+    "Sample_JP": "おば とでかける。",
+    "Sample_KJ": "叔母 と出かける。",
+    "Sample_En": "I go out with my aunt."
   },
   {
     "Title": "おねえさん",
@@ -1777,9 +1777,9 @@
     "Chinese": "年輕的女士",
     "English": "elder sister",
     "WordType": "n.",
-    "Sample_JP": "おねえさん はかわいい。",
-    "Sample_KJ": "お姉さん は可愛い。",
-    "Sample_En": "Older sister is cute."
+    "Sample_JP": "おばあさん はやさしい。",
+    "Sample_KJ": "お婆さん は優しい。",
+    "Sample_En": "Grandmother is kind."
   },
   {
     "Title": "おば",
@@ -1788,9 +1788,9 @@
     "Chinese": "阿姨",
     "English": "aunt(When talking about your own aunt)",
     "WordType": "n.",
-    "Sample_JP": "おば とでかける。",
-    "Sample_KJ": "叔母 と出かける。",
-    "Sample_En": "I go out with my aunt."
+    "Sample_JP": "ことばをおぼえる。",
+    "Sample_KJ": "言葉を覚える。",
+    "Sample_En": "I memorize words."
   },
   {
     "Title": "おばあさん",
@@ -1799,9 +1799,9 @@
     "Chinese": "祖母",
     "English": "grandmother (other's)",
     "WordType": "n.",
-    "Sample_JP": "おばあさん はやさしい。",
-    "Sample_KJ": "お婆さん は優しい。",
-    "Sample_En": "Grandmother is kind."
+    "Sample_JP": "おまわりさん にみちをきく。",
+    "Sample_KJ": "お巡りさん に道を聞く。",
+    "Sample_En": "I ask a police officer for directions."
   },
   {
     "Title": "おぼえる",
@@ -1810,9 +1810,9 @@
     "Chinese": "記住",
     "English": "to remember",
     "WordType": "v.",
-    "Sample_JP": "ことばをおぼえる。",
-    "Sample_KJ": "言葉を覚える。",
-    "Sample_En": "I memorize words."
+    "Sample_JP": "おみやげ をかう。",
+    "Sample_KJ": "お土産 を買う。",
+    "Sample_En": "I buy a souvenir."
   },
   {
     "Title": "おまわりさん",
@@ -1821,9 +1821,9 @@
     "Chinese": "警察",
     "English": "police officer",
     "WordType": "n.",
-    "Sample_JP": "おまわりさん にみちをきく。",
-    "Sample_KJ": "お巡りさん に道を聞く。",
-    "Sample_En": "I ask a police officer for directions."
+    "Sample_JP": "あなたをおもう。",
+    "Sample_KJ": "あなたを思う。",
+    "Sample_En": "I think of you."
   },
   {
     "Title": "おみやげ",
@@ -1832,9 +1832,9 @@
     "Chinese": "手信",
     "English": "souvenir",
     "WordType": "n.",
-    "Sample_JP": "おみやげ をかう。",
-    "Sample_KJ": "お土産 を買う。",
-    "Sample_En": "I buy a souvenir."
+    "Sample_JP": "このえいがはおもしろい。",
+    "Sample_KJ": "この映画は面白い。",
+    "Sample_En": "This movie is interesting."
   },
   {
     "Title": "おもう",
@@ -1843,9 +1843,9 @@
     "Chinese": "想",
     "English": "to think",
     "WordType": "",
-    "Sample_JP": "あなたをおもう。",
-    "Sample_KJ": "あなたを思う。",
-    "Sample_En": "I think of you."
+    "Sample_JP": "おや ！びっくりした。",
+    "Sample_KJ": "おや ！びっくりした。",
+    "Sample_En": "Oh! I was surprised."
   },
   {
     "Title": "おもしろい",
@@ -1854,9 +1854,9 @@
     "Chinese": "有趣的",
     "English": "interesting",
     "WordType": "adj",
-    "Sample_JP": "このえいがはおもしろい。",
-    "Sample_KJ": "この映画は面白い。",
-    "Sample_En": "This movie is interesting."
+    "Sample_JP": "プールでおよぐ。",
+    "Sample_KJ": "プールで泳ぐ。",
+    "Sample_En": "I swim in the pool."
   },
   {
     "Title": "おや",
@@ -1865,9 +1865,9 @@
     "Chinese": "家長",
     "English": "parent",
     "WordType": "n.",
-    "Sample_JP": "おや ！びっくりした。",
-    "Sample_KJ": "おや ！びっくりした。",
-    "Sample_En": "Oh! I was surprised."
+    "Sample_JP": "えきでおりる。",
+    "Sample_KJ": "駅で降りる。",
+    "Sample_En": "I get off at the station."
   },
   {
     "Title": "およぐ",
@@ -1876,9 +1876,9 @@
     "Chinese": "游泳",
     "English": "to swim",
     "WordType": "G1",
-    "Sample_JP": "プールでおよぐ。",
-    "Sample_KJ": "プールで泳ぐ。",
-    "Sample_En": "I swim in the pool."
+    "Sample_JP": "おれ はサッカーがすきだ。",
+    "Sample_KJ": "俺 はサッカーが好きだ。",
+    "Sample_En": "I like soccer. (Casual)"
   },
   {
     "Title": "おりる",
@@ -1887,9 +1887,9 @@
     "Chinese": "下車",
     "English": "get off",
     "WordType": "v.",
-    "Sample_JP": "えきでおりる。",
-    "Sample_KJ": "駅で降りる。",
-    "Sample_En": "I get off at the station."
+    "Sample_JP": "じゅぎょうがおわる。",
+    "Sample_KJ": "授業が終わる。",
+    "Sample_En": "The class ends."
   },
   {
     "Title": "おれ",
@@ -1898,9 +1898,9 @@
     "Chinese": "我(男子用自稱)",
     "English": "I (used by men)",
     "WordType": "n.",
-    "Sample_JP": "おれ はサッカーがすきだ。",
-    "Sample_KJ": "俺 はサッカーが好きだ。",
-    "Sample_En": "I like soccer. (Casual)"
+    "Sample_JP": "おんがく をきく。",
+    "Sample_KJ": "音楽 を聞く。",
+    "Sample_En": "I listen to music."
   },
   {
     "Title": "おわる",
@@ -1909,9 +1909,9 @@
     "Chinese": "結束",
     "English": "to end",
     "WordType": "v.",
-    "Sample_JP": "じゅぎょうがおわる。",
-    "Sample_KJ": "授業が終わる。",
-    "Sample_En": "The class ends."
+    "Sample_JP": "おんせん にはいる。",
+    "Sample_KJ": "温泉 に入る。",
+    "Sample_En": "I enter a hot spring."
   },
   {
     "Title": "おんがく",
@@ -1920,9 +1920,9 @@
     "Chinese": "音樂",
     "English": "music",
     "WordType": "n.",
-    "Sample_JP": "おんがく をきく。",
-    "Sample_KJ": "音楽 を聞く。",
-    "Sample_En": "I listen to music."
+    "Sample_JP": "おんな のひと。",
+    "Sample_KJ": "女 の人。",
+    "Sample_En": "A woman."
   },
   {
     "Title": "おんせん",
@@ -1931,9 +1931,9 @@
     "Chinese": "溫泉",
     "English": "Onsen",
     "WordType": "n.",
-    "Sample_JP": "おんせん にはいる。",
-    "Sample_KJ": "温泉 に入る。",
-    "Sample_En": "I enter a hot spring."
+    "Sample_JP": "おんなのこ がいる。",
+    "Sample_KJ": "女の子 がいる。",
+    "Sample_En": "There is a girl."
   },
   {
     "Title": "おんな",
@@ -1942,9 +1942,9 @@
     "Chinese": "女人",
     "English": "woman",
     "WordType": "n.",
-    "Sample_JP": "おんな のひと。",
-    "Sample_KJ": "女 の人。",
-    "Sample_En": "A woman."
+    "Sample_JP": "かいがい りょこうがしたい。",
+    "Sample_KJ": "海外 旅行がしたい。",
+    "Sample_En": "I want to travel overseas."
   },
   {
     "Title": "おんなのこ",
@@ -1953,9 +1953,9 @@
     "Chinese": "女孩",
     "English": "girl",
     "WordType": "n.",
-    "Sample_JP": "おんなのこ がいる。",
-    "Sample_KJ": "女の子 がいる。",
-    "Sample_En": "There is a girl."
+    "Sample_JP": "かいぎ にさんかする。",
+    "Sample_KJ": "会議 に参加する。",
+    "Sample_En": "I attend a meeting."
   },
   {
     "Title": "かいがい",
@@ -1964,9 +1964,9 @@
     "Chinese": "海外",
     "English": "overseas",
     "WordType": "n.",
-    "Sample_JP": "かいがい りょこうがしたい。",
-    "Sample_KJ": "海外 旅行がしたい。",
-    "Sample_En": "I want to travel overseas."
+    "Sample_JP": "かいぎしつ は３かいです。",
+    "Sample_KJ": "会議室 は３階です。",
+    "Sample_En": "The meeting room is on the 3rd floor."
   },
   {
     "Title": "かいぎ",
@@ -1975,9 +1975,9 @@
     "Chinese": "會議",
     "English": "meeting",
     "WordType": "n.",
-    "Sample_JP": "かいぎ にさんかする。",
-    "Sample_KJ": "会議 に参加する。",
-    "Sample_En": "I attend a meeting."
+    "Sample_JP": "かいけい をチェックする。",
+    "Sample_KJ": "会計 をチェックする。",
+    "Sample_En": "I check the bill."
   },
   {
     "Title": "かいぎしつ",
@@ -1986,9 +1986,9 @@
     "Chinese": "會議室",
     "English": "meeting room",
     "WordType": "n.",
-    "Sample_JP": "かいぎしつ は３かいです。",
-    "Sample_KJ": "会議室 は３階です。",
-    "Sample_En": "The meeting room is on the 3rd floor."
+    "Sample_JP": "がいこく からきました。",
+    "Sample_KJ": "外国 から来ました。",
+    "Sample_En": "I came from a foreign country."
   },
   {
     "Title": "かいけい",
@@ -1997,9 +1997,9 @@
     "Chinese": "會計/",
     "English": "payment / to pay",
     "WordType": "n.",
-    "Sample_JP": "かいけい をチェックする。",
-    "Sample_KJ": "会計 をチェックする。",
-    "Sample_En": "I check the bill."
+    "Sample_JP": "かいしゃ につとめる。",
+    "Sample_KJ": "会社 に勤める。",
+    "Sample_En": "I work at a company."
   },
   {
     "Title": "がいこく",
@@ -2008,9 +2008,9 @@
     "Chinese": "外國",
     "English": "foreign",
     "WordType": "n.",
-    "Sample_JP": "がいこく からきました。",
-    "Sample_KJ": "外国 から来ました。",
-    "Sample_En": "I came from a foreign country."
+    "Sample_JP": "かいしゃいん はおおい。",
+    "Sample_KJ": "会社員 は多い。",
+    "Sample_En": "There are many office workers."
   },
   {
     "Title": "かいしゃ",
@@ -2019,9 +2019,9 @@
     "Chinese": "公司",
     "English": "company",
     "WordType": "n.",
-    "Sample_JP": "かいしゃ につとめる。",
-    "Sample_KJ": "会社 に勤める。",
-    "Sample_En": "I work at a company."
+    "Sample_JP": "かいだん をのぼる。",
+    "Sample_KJ": "階段 を登る。",
+    "Sample_En": "I climb the stairs."
   },
   {
     "Title": "かいしゃいん",
@@ -2030,9 +2030,9 @@
     "Chinese": "雇員",
     "English": "employee",
     "WordType": "n.",
-    "Sample_JP": "かいしゃいん はおおい。",
-    "Sample_KJ": "会社員 は多い。",
-    "Sample_En": "There are many office workers."
+    "Sample_JP": "かいもの にいく。",
+    "Sample_KJ": "買い物 に行く。",
+    "Sample_En": "I go shopping."
   },
   {
     "Title": "かいだん",
@@ -2041,9 +2041,9 @@
     "Chinese": "臺階",
     "English": "stairs",
     "WordType": "n.",
-    "Sample_JP": "かいだん をのぼる。",
-    "Sample_KJ": "階段 を登る。",
-    "Sample_En": "I climb the stairs."
+    "Sample_JP": "かいわ をれんしゅうする。",
+    "Sample_KJ": "会話 を練習する。",
+    "Sample_En": "I practice conversation."
   },
   {
     "Title": "かいもの",
@@ -2052,9 +2052,9 @@
     "Chinese": "購物",
     "English": "shopping / to go shopping",
     "WordType": "",
-    "Sample_JP": "かいもの にいく。",
-    "Sample_KJ": "買い物 に行く。",
-    "Sample_En": "I go shopping."
+    "Sample_JP": "ほんをかう。",
+    "Sample_KJ": "本を買う。",
+    "Sample_En": "I buy a book."
   },
   {
     "Title": "かいわ",
@@ -2063,9 +2063,9 @@
     "Chinese": "會話",
     "English": "conversation / to converse",
     "WordType": "n.",
-    "Sample_JP": "かいわ をれんしゅうする。",
-    "Sample_KJ": "会話 を練習する。",
-    "Sample_En": "I practice conversation."
+    "Sample_JP": "ほんをかえす。",
+    "Sample_KJ": "本を返す。",
+    "Sample_En": "I return the book."
   },
   {
     "Title": "かう",
@@ -2074,9 +2074,9 @@
     "Chinese": "買",
     "English": "to buy",
     "WordType": "G1",
-    "Sample_JP": "ほんをかう。",
-    "Sample_KJ": "本を買う。",
-    "Sample_En": "I buy a book."
+    "Sample_JP": "いえにかえる。",
+    "Sample_KJ": "家に帰る。",
+    "Sample_En": "I go back home."
   },
   {
     "Title": "かえす",
@@ -2085,9 +2085,9 @@
     "Chinese": "歸還",
     "English": "to return",
     "WordType": "v.",
-    "Sample_JP": "ほんをかえす。",
-    "Sample_KJ": "本を返す。",
-    "Sample_En": "I return the book."
+    "Sample_JP": "かお をあらう。",
+    "Sample_KJ": "顔 を洗う。",
+    "Sample_En": "I wash my face."
   },
   {
     "Title": "かえる",
@@ -2096,9 +2096,9 @@
     "Chinese": "回家",
     "English": "to go back / return",
     "WordType": "v.",
-    "Sample_JP": "いえにかえる。",
-    "Sample_KJ": "家に帰る。",
-    "Sample_En": "I go back home."
+    "Sample_JP": "じかんがかかる。",
+    "Sample_KJ": "時間がかかる。",
+    "Sample_En": "It takes time."
   },
   {
     "Title": "かお",
@@ -2107,9 +2107,9 @@
     "Chinese": "臉",
     "English": "face",
     "WordType": "n.",
-    "Sample_JP": "かお をあらう。",
-    "Sample_KJ": "顔 を洗う。",
-    "Sample_En": "I wash my face."
+    "Sample_JP": "えをかく。",
+    "Sample_KJ": "絵を描く。",
+    "Sample_En": "I draw a picture."
   },
   {
     "Title": "かかる",
@@ -2118,9 +2118,9 @@
     "Chinese": "需要(時間/金錢)",
     "English": "to take time / money",
     "WordType": "v.",
-    "Sample_JP": "じかんがかかる。",
-    "Sample_KJ": "時間がかかる。",
-    "Sample_En": "It takes time."
+    "Sample_JP": "かぐ をかう。",
+    "Sample_KJ": "家具 を買う。",
+    "Sample_En": "I buy furniture."
   },
   {
     "Title": "かく",
@@ -2129,9 +2129,9 @@
     "Chinese": "寫",
     "English": "to write",
     "WordType": "G1",
-    "Sample_JP": "えをかく。",
-    "Sample_KJ": "絵を描く。",
-    "Sample_En": "I draw a picture."
+    "Sample_JP": "がくせい です。",
+    "Sample_KJ": "学生 です。",
+    "Sample_En": "I am a student."
   },
   {
     "Title": "かぐ",
@@ -2140,9 +2140,9 @@
     "Chinese": "家具",
     "English": "furniture",
     "WordType": "n.",
-    "Sample_JP": "かぐ をかう。",
-    "Sample_KJ": "家具 を買う。",
-    "Sample_En": "I buy furniture."
+    "Sample_JP": "かさ をもっていく。",
+    "Sample_KJ": "傘 を持っていく。",
+    "Sample_En": "I bring an umbrella."
   },
   {
     "Title": "がくせい",
@@ -2151,9 +2151,9 @@
     "Chinese": "學生",
     "English": "student",
     "WordType": "n.",
-    "Sample_JP": "がくせい です。",
-    "Sample_KJ": "学生 です。",
-    "Sample_En": "I am a student."
+    "Sample_JP": "ともだちにかす。",
+    "Sample_KJ": "友達に貸す。",
+    "Sample_En": "I lend to a friend."
   },
   {
     "Title": "かさ",
@@ -2162,9 +2162,9 @@
     "Chinese": "傘",
     "English": "umbrella",
     "WordType": "n.",
-    "Sample_JP": "かさ をもっていく。",
-    "Sample_KJ": "傘 を持っていく。",
-    "Sample_En": "I bring an umbrella."
+    "Sample_JP": "かずこ さんはしんせつです。",
+    "Sample_KJ": "和子 さんは親切です。",
+    "Sample_En": "Kazuko is kind."
   },
   {
     "Title": "かす",
@@ -2173,9 +2173,9 @@
     "Chinese": "借出",
     "English": "to lend",
     "WordType": "G1",
-    "Sample_JP": "ともだちにかす。",
-    "Sample_KJ": "友達に貸す。",
-    "Sample_En": "I lend to a friend."
+    "Sample_JP": "かぜ がつよい。",
+    "Sample_KJ": "風 が強い。",
+    "Sample_En": "The wind is strong."
   },
   {
     "Title": "かずこ",
@@ -2184,9 +2184,9 @@
     "Chinese": "和子",
     "English": "Kazuko (a Japanese girl's first name)",
     "WordType": "n.",
-    "Sample_JP": "かずこ さんはしんせつです。",
-    "Sample_KJ": "和子 さんは親切です。",
-    "Sample_En": "Kazuko is kind."
+    "Sample_JP": "かぜ をひいた。",
+    "Sample_KJ": "風邪 をひいた。",
+    "Sample_En": "I caught a cold."
   },
   {
     "Title": "かぜ",
@@ -2195,9 +2195,9 @@
     "Chinese": "風",
     "English": "wind",
     "WordType": "n.",
-    "Sample_JP": "かぜ がつよい。",
-    "Sample_KJ": "風 が強い。",
-    "Sample_En": "The wind is strong."
+    "Sample_JP": "かぞく とすむ。",
+    "Sample_KJ": "家族 と住む。",
+    "Sample_En": "I live with my family."
   },
   {
     "Title": "かぜ",
@@ -2206,9 +2206,9 @@
     "Chinese": "傷風/感冒",
     "English": "a cold (illness)",
     "WordType": "n.",
-    "Sample_JP": "かぜ をひいた。",
-    "Sample_KJ": "風邪 をひいた。",
-    "Sample_En": "I caught a cold."
+    "Sample_JP": "カタカナ をべんきょうする。",
+    "Sample_KJ": "カタカナ を勉強する。",
+    "Sample_En": "I study katakana."
   },
   {
     "Title": "かぞく",
@@ -2217,9 +2217,9 @@
     "Chinese": "家族",
     "English": "family",
     "WordType": "n.",
-    "Sample_JP": "かぞく とすむ。",
-    "Sample_KJ": "家族 と住む。",
-    "Sample_En": "I live with my family."
+    "Sample_JP": "かちょう とはなす。",
+    "Sample_KJ": "課長 と話す。",
+    "Sample_En": "I talk to the section chief."
   },
   {
     "Title": "カタカナ",
@@ -2228,9 +2228,9 @@
     "Chinese": "片假名",
     "English": "katakana (syllabic writing)",
     "WordType": "",
-    "Sample_JP": "カタカナ をべんきょうする。",
-    "Sample_KJ": "カタカナ を勉強する。",
-    "Sample_En": "I study katakana."
+    "Sample_JP": "しあいにかつ。",
+    "Sample_KJ": "試合に勝つ。",
+    "Sample_En": "I win the match."
   },
   {
     "Title": "かちょう",
@@ -2239,9 +2239,9 @@
     "Chinese": "課長",
     "English": "section chief",
     "WordType": "n.",
-    "Sample_JP": "かちょう とはなす。",
-    "Sample_KJ": "課長 と話す。",
-    "Sample_En": "I talk to the section chief."
+    "Sample_JP": "がっこう にいく。",
+    "Sample_KJ": "学校 に行く。",
+    "Sample_En": "I go to school."
   },
   {
     "Title": "かつ",
@@ -2250,9 +2250,9 @@
     "Chinese": "勝",
     "English": "to win",
     "WordType": "v",
-    "Sample_JP": "しあいにかつ。",
-    "Sample_KJ": "試合に勝つ。",
-    "Sample_En": "I win the match."
+    "Sample_JP": "かながわ にすんでいる。",
+    "Sample_KJ": "神奈川 に住んでいる。",
+    "Sample_En": "I live in Kanagawa."
   },
   {
     "Title": "がっこう",
@@ -2261,9 +2261,9 @@
     "Chinese": "學校",
     "English": "school",
     "WordType": "n.",
-    "Sample_JP": "がっこう にいく。",
-    "Sample_KJ": "学校 に行く。",
-    "Sample_En": "I go to school."
+    "Sample_JP": "かね がたりない。",
+    "Sample_KJ": "お金 が足りない。",
+    "Sample_En": "I don’t have enough money."
   },
   {
     "Title": "かながわ",
@@ -2272,9 +2272,9 @@
     "Chinese": "神奈川",
     "English": "Kanagawa",
     "WordType": "n.",
-    "Sample_JP": "かながわ にすんでいる。",
-    "Sample_KJ": "神奈川 に住んでいる。",
-    "Sample_En": "I live in Kanagawa."
+    "Sample_JP": "かのじょ はかしこい。",
+    "Sample_KJ": "彼女 は賢い。",
+    "Sample_En": "She is smart."
   },
   {
     "Title": "かね",
@@ -2283,9 +2283,9 @@
     "Chinese": "金錢",
     "English": "money",
     "WordType": "n.",
-    "Sample_JP": "かね がたりない。",
-    "Sample_KJ": "お金 が足りない。",
-    "Sample_En": "I don’t have enough money."
+    "Sample_JP": "かばん をかう。",
+    "Sample_KJ": "鞄 を買う。",
+    "Sample_En": "I buy a bag."
   },
   {
     "Title": "かのじょ",
@@ -2294,9 +2294,9 @@
     "Chinese": "她",
     "English": "she",
     "WordType": "n.",
-    "Sample_JP": "かのじょ はかしこい。",
-    "Sample_KJ": "彼女 は賢い。",
-    "Sample_En": "She is smart."
+    "Sample_JP": "かびん をかざる。",
+    "Sample_KJ": "花瓶 を飾る。",
+    "Sample_En": "I decorate a vase."
   },
   {
     "Title": "かばん",
@@ -2305,9 +2305,9 @@
     "Chinese": "錢包",
     "English": "bag",
     "WordType": "n.",
-    "Sample_JP": "かばん をかう。",
-    "Sample_KJ": "鞄 を買う。",
-    "Sample_En": "I buy a bag."
+    "Sample_JP": "かぶしきがいしゃ ではたらく。",
+    "Sample_KJ": "株式会社 で働く。",
+    "Sample_En": "I work at a corporation."
   },
   {
     "Title": "かびん",
@@ -2316,9 +2316,9 @@
     "Chinese": "花瓶",
     "English": "(flower) vase",
     "WordType": "n.",
-    "Sample_JP": "かびん をかざる。",
-    "Sample_KJ": "花瓶 を飾る。",
-    "Sample_En": "I decorate a vase."
+    "Sample_JP": "ぼうしをかぶる。",
+    "Sample_KJ": "帽子を被る。",
+    "Sample_En": "I wear a hat."
   },
   {
     "Title": "かぶしきがいしゃ",
@@ -2327,9 +2327,9 @@
     "Chinese": "有限公司",
     "English": "Co. Ltd.",
     "WordType": "n.",
-    "Sample_JP": "かぶしきがいしゃ ではたらく。",
-    "Sample_KJ": "株式会社 で働く。",
-    "Sample_En": "I work at a corporation."
+    "Sample_JP": "かみ をきる。",
+    "Sample_KJ": "髪 を切る。",
+    "Sample_En": "I cut my hair."
   },
   {
     "Title": "かぶる",
@@ -2338,9 +2338,9 @@
     "Chinese": "戴上",
     "English": "put on (one's hat)",
     "WordType": "v",
-    "Sample_JP": "ぼうしをかぶる。",
-    "Sample_KJ": "帽子を被る。",
-    "Sample_En": "I wear a hat."
+    "Sample_JP": "カメラ でしゃしんをとる。",
+    "Sample_KJ": "カメラ で写真を撮る。",
+    "Sample_En": "I take photos with a camera."
   },
   {
     "Title": "かみ",
@@ -2349,9 +2349,9 @@
     "Chinese": "紙",
     "English": "paper",
     "WordType": "n.",
-    "Sample_JP": "かみ をきる。",
-    "Sample_KJ": "髪 を切る。",
-    "Sample_En": "I cut my hair."
+    "Sample_JP": "かようび にかいぎがある。",
+    "Sample_KJ": "火曜日 に会議がある。",
+    "Sample_En": "There is a meeting on Tuesday."
   },
   {
     "Title": "かめら（カメラ）",
@@ -2360,9 +2360,9 @@
     "Chinese": "相機",
     "English": "camera",
     "WordType": "n.",
-    "Sample_JP": "カメラ でしゃしんをとる。",
-    "Sample_KJ": "カメラ で写真を撮る。",
-    "Sample_En": "I take photos with a camera."
+    "Sample_JP": "ボタンがとれる。",
+    "Sample_KJ": "ボタンが取れる。",
+    "Sample_En": "The button comes off."
   },
   {
     "Title": "かようび",
@@ -2371,9 +2371,9 @@
     "Chinese": "星期二",
     "English": "Tuesday",
     "WordType": "n.",
-    "Sample_JP": "かようび にかいぎがある。",
-    "Sample_KJ": "火曜日 に会議がある。",
-    "Sample_En": "There is a meeting on Tuesday."
+    "Sample_JP": "このカレーはからい。",
+    "Sample_KJ": "このカレーは辛い。",
+    "Sample_En": "This curry is spicy."
   },
   {
     "Title": "から",
@@ -2382,9 +2382,9 @@
     "Chinese": "來自",
     "English": "from; because; since;",
     "WordType": "",
-    "Sample_JP": "",
-    "Sample_KJ": "",
-    "Sample_En": ""
+    "Sample_JP": "カラオケ にいく。",
+    "Sample_KJ": "カラオケ に行く。",
+    "Sample_En": "I go to karaoke."
   },
   {
     "Title": "からい",
@@ -2393,9 +2393,9 @@
     "Chinese": "辣",
     "English": "spicy",
     "WordType": "い-adjective",
-    "Sample_JP": "このカレーはからい。",
-    "Sample_KJ": "このカレーは辛い。",
-    "Sample_En": "This curry is spicy."
+    "Sample_JP": "からだ をうごかす。",
+    "Sample_KJ": "体 を動かす。",
+    "Sample_En": "I move my body."
   },
   {
     "Title": "カラオケ",
@@ -2404,9 +2404,9 @@
     "Chinese": "卡拉OK",
     "English": "karaoke",
     "WordType": "",
-    "Sample_JP": "カラオケ にいく。",
-    "Sample_KJ": "カラオケ に行く。",
-    "Sample_En": "I go to karaoke."
+    "Sample_JP": "ほんをかりる。",
+    "Sample_KJ": "本を借りる。",
+    "Sample_En": "I borrow a book."
   },
   {
     "Title": "からだ",
@@ -2415,9 +2415,9 @@
     "Chinese": "身體",
     "English": "body",
     "WordType": "n.",
-    "Sample_JP": "からだ をうごかす。",
-    "Sample_KJ": "体 を動かす。",
-    "Sample_En": "I move my body."
+    "Sample_JP": "やさいは からだに いいです",
+    "Sample_KJ": "野菜は 体に いいです",
+    "Sample_En": "Vegetables are good for the body."
   },
   {
     "Title": "かりる",
@@ -2426,9 +2426,9 @@
     "Chinese": "借入",
     "English": "to borrow",
     "WordType": "G1",
-    "Sample_JP": "ほんをかりる。",
-    "Sample_KJ": "本を借りる。",
-    "Sample_En": "I borrow a book."
+    "Sample_JP": "カレーライス がすき。",
+    "Sample_KJ": "カレーライス が好き。",
+    "Sample_En": "I like curry rice."
   },
   {
     "Title": "かれ",
@@ -2437,9 +2437,9 @@
     "Chinese": "他",
     "English": "he",
     "WordType": "",
-    "Sample_JP": "かれ はやさしい。",
-    "Sample_KJ": "彼 は優しい。",
-    "Sample_En": "He is kind."
+    "Sample_JP": "カレンダー をみる。",
+    "Sample_KJ": "カレンダー を見る。",
+    "Sample_En": "I check the calendar."
   },
   {
     "Title": "カレー（ライス）",
@@ -2448,9 +2448,9 @@
     "Chinese": "咖哩(飯)",
     "English": "curry",
     "WordType": "",
-    "Sample_JP": "カレーライス がすき。",
-    "Sample_KJ": "カレーライス が好き。",
-    "Sample_En": "I like curry rice."
+    "Sample_JP": "このいぬはかわいい。",
+    "Sample_KJ": "この犬は可愛い。",
+    "Sample_En": "This dog is cute."
   },
   {
     "Title": "かれんだー（カレンダー）",
@@ -2459,9 +2459,9 @@
     "Chinese": "日曆",
     "English": "calendar",
     "WordType": "n.",
-    "Sample_JP": "カレンダー をみる。",
-    "Sample_KJ": "カレンダー を見る。",
-    "Sample_En": "I check the calendar."
+    "Sample_JP": "かんこく へいきたい。",
+    "Sample_KJ": "韓国 へ行きたい。",
+    "Sample_En": "I want to go to Korea."
   },
   {
     "Title": "かわいい",
@@ -2470,9 +2470,9 @@
     "Chinese": "可愛的",
     "English": "cute / lovely",
     "WordType": "い-adjective",
-    "Sample_JP": "このいぬはかわいい。",
-    "Sample_KJ": "この犬は可愛い。",
-    "Sample_En": "This dog is cute."
+    "Sample_JP": "かんじ をおぼえる。",
+    "Sample_KJ": "漢字 を覚える。",
+    "Sample_En": "I memorize kanji."
   },
   {
     "Title": "かんこく",
@@ -2481,9 +2481,9 @@
     "Chinese": "韓國",
     "English": "Korea",
     "WordType": "n.",
-    "Sample_JP": "かんこく へいきたい。",
-    "Sample_KJ": "韓国 へ行きたい。",
-    "Sample_En": "I want to go to Korea."
+    "Sample_JP": "しけんをがんばる。",
+    "Sample_KJ": "試験を頑張る。",
+    "Sample_En": "I do my best on the exam."
   },
   {
     "Title": "かんじ",
@@ -2492,9 +2492,9 @@
     "Chinese": "漢字",
     "English": "Kanji (Chinese characters)",
     "WordType": "n.",
-    "Sample_JP": "かんじ をおぼえる。",
-    "Sample_KJ": "漢字 を覚える。",
-    "Sample_En": "I memorize kanji."
+    "Sample_JP": "かんらんしゃ にのる。",
+    "Sample_KJ": "観覧車 に乗る。",
+    "Sample_En": "I ride the Ferris wheel."
   },
   {
     "Title": "がんばる",
@@ -2503,9 +2503,9 @@
     "Chinese": "盡我所能",
     "English": "to do one's best",
     "WordType": "",
-    "Sample_JP": "しけんをがんばる。",
-    "Sample_KJ": "試験を頑張る。",
-    "Sample_En": "I do my best on the exam."
+    "Sample_JP": "き がおおい。",
+    "Sample_KJ": "木 が多い。",
+    "Sample_En": "There are many trees."
   },
   {
     "Title": "かんらんしゃ",
@@ -2514,9 +2514,9 @@
     "Chinese": "摩天輪",
     "English": "ferries wheel",
     "WordType": "n.",
-    "Sample_JP": "かんらんしゃ にのる。",
-    "Sample_KJ": "観覧車 に乗る。",
-    "Sample_En": "I ride the Ferris wheel."
+    "Sample_JP": "でんきがきえる。",
+    "Sample_KJ": "電気が消える。",
+    "Sample_En": "The lights go off."
   },
   {
     "Title": "き",
@@ -2525,9 +2525,9 @@
     "Chinese": "樹",
     "English": "tree",
     "WordType": "n.",
-    "Sample_JP": "き がおおい。",
-    "Sample_KJ": "木 が多い。",
-    "Sample_En": "There are many trees."
+    "Sample_JP": "おんがくをきく。",
+    "Sample_KJ": "音楽を聞く。",
+    "Sample_En": "I listen to music."
   },
   {
     "Title": "きえる",
@@ -2536,9 +2536,9 @@
     "Chinese": "消失",
     "English": "to disappear",
     "WordType": "",
-    "Sample_JP": "でんきがきえる。",
-    "Sample_KJ": "電気が消える。",
-    "Sample_En": "The lights go off."
+    "Sample_JP": "きた のくに。",
+    "Sample_KJ": "北 の国。",
+    "Sample_En": "A northern country."
   },
   {
     "Title": "きく",
@@ -2547,9 +2547,9 @@
     "Chinese": "聽",
     "English": "to hear",
     "WordType": "v.",
-    "Sample_JP": "おんがくをきく。",
-    "Sample_KJ": "音楽を聞く。",
-    "Sample_En": "I listen to music."
+    "Sample_JP": "ギター をひく。",
+    "Sample_KJ": "ギター を弾く。",
+    "Sample_En": "I play the guitar."
   },
   {
     "Title": "きた",
@@ -2558,9 +2558,9 @@
     "Chinese": "北",
     "English": "north",
     "WordType": "n.",
-    "Sample_JP": "きた のくに。",
-    "Sample_KJ": "北 の国。",
-    "Sample_En": "A northern country."
+    "Sample_JP": "へやがきたない。",
+    "Sample_KJ": "部屋が汚い。",
+    "Sample_En": "The room is dirty."
   },
   {
     "Title": "ギター",
@@ -2569,9 +2569,9 @@
     "Chinese": "結他/吉他",
     "English": "guitar",
     "WordType": "n.",
-    "Sample_JP": "ギター をひく。",
-    "Sample_KJ": "ギター を弾く。",
-    "Sample_En": "I play the guitar."
+    "Sample_JP": "きっさてん でコーヒーをのむ。",
+    "Sample_KJ": "喫茶店 でコーヒーを飲む。",
+    "Sample_En": "I drink coffee at a café."
   },
   {
     "Title": "きたない",
@@ -2580,9 +2580,9 @@
     "Chinese": "骯髒",
     "English": "dirty",
     "WordType": "い-adjective",
-    "Sample_JP": "へやがきたない。",
-    "Sample_KJ": "部屋が汚い。",
-    "Sample_En": "The room is dirty."
+    "Sample_JP": "きって をはる。",
+    "Sample_KJ": "切手 を貼る。",
+    "Sample_En": "I stick a stamp."
   },
   {
     "Title": "きっさてん",
@@ -2591,9 +2591,9 @@
     "Chinese": "飲食店/咖啡館",
     "English": "coffee shop",
     "WordType": "n.",
-    "Sample_JP": "きっさてん でコーヒーをのむ。",
-    "Sample_KJ": "喫茶店 でコーヒーを飲む。",
-    "Sample_En": "I drink coffee at a café."
+    "Sample_JP": "あさにともだちときっさてんにいきました。",
+    "Sample_KJ": "",
+    "Sample_En": "I went to a coffee shop with my friend in the morning."
   },
   {
     "Title": "きって",
@@ -2602,9 +2602,9 @@
     "Chinese": "郵票",
     "English": "stamp",
     "WordType": "n.",
-    "Sample_JP": "きって をはる。",
-    "Sample_KJ": "切手 を貼る。",
-    "Sample_En": "I stick a stamp."
+    "Sample_JP": "にほんのきってをあつめています。",
+    "Sample_KJ": "",
+    "Sample_En": "I collect Japanese postage stamps."
   },
   {
     "Title": "きっぷ",
@@ -6639,9 +6639,9 @@
     "Chinese": "籃球",
     "English": "basketball",
     "WordType": "",
-    "Sample_JP": "にちようびに　こうえんで　バスケットボールを　しました。",
-    "Sample_KJ": "日曜日に公園でバスケットボールをしました。",
-    "Sample_En": "I played basketball at the park on Sunday."
+    "Sample_JP": "バスケットボールを する。",
+    "Sample_KJ": "バスケットボールを する。",
+    "Sample_En": "I play basketball."
   },
   {
     "Title": "パソコン",
@@ -8787,38 +8787,5 @@
     "Sample_JP": "はつもうでで いのる。",
     "Sample_KJ": "初詣で 祈る。",
     "Sample_En": "I pray at the first shrine visit of the year."
-  },
-  {
-    "Title": "",
-    "Subtitle": "",
-    "Pronoun": "",
-    "Chinese": "",
-    "English": "",
-    "WordType": "",
-    "Sample_JP": "",
-    "Sample_KJ": "",
-    "Sample_En": ""
-  },
-  {
-    "Title": "",
-    "Subtitle": "",
-    "Pronoun": "",
-    "Chinese": "",
-    "English": "",
-    "WordType": "",
-    "Sample_JP": "",
-    "Sample_KJ": "",
-    "Sample_En": ""
-  },
-  {
-    "Title": "",
-    "Subtitle": "",
-    "Pronoun": "",
-    "Chinese": "",
-    "English": "",
-    "WordType": "",
-    "Sample_JP": "",
-    "Sample_KJ": "",
-    "Sample_En": ""
   }
 ]

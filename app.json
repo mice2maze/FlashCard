@@ -2,7 +2,7 @@
   "expo": {
     "name": "FlashCard",
     "slug": "FlashCard",
-    "version": "1.0.8",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/flashcard_512.png",
     "userInterfaceStyle": "light",
@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "10",
+      "buildNumber": "11",
       "bundleIdentifier": "com.micemaze.FlashCard"
     },
     "android": {
@@ -35,8 +35,10 @@
         "projectId": "121cab39-c736-4a23-82d9-7324e0c33ec0"
       }
     },
-    "plugins": [
-      "expo-audio"
+    "plugins": 
+    [
+      "expo-audio",
+      "expo-asset" 
     ]
   }
 }
