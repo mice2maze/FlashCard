@@ -27,14 +27,28 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-evenly',
+    
   },
-  middleVew: {
+  pronounBox: {
+    flexDirection: 'row',       // Aligns Image and Text horizontally
+    alignItems: 'center',       // Centers items vertically within the box
+    backgroundColor: '#c9c5d2', // Light grey background
+    paddingVertical: 8,         // Space inside top/bottom
+    paddingHorizontal: 16,      // Space inside left/right
+    borderRadius: 25,           // The "Round" factor (tweak as needed)
+    borderWidth: 1,             // Optional: thin border
+    borderColor: '#D3D3D3',     // Optional: border color
+    //alignSelf: 'flex-start',    // Prevents the box from stretching full-width
+    marginVertical: 10,         // Space outside the box
+  },
+  middleView: {
     marginVertical: '2%',
     marginLeft: '8%',
     marginRight: '8%',
     height: screenHeight * 0.25,
     alignItems: 'center',
     justifyContent: 'space-evenly',
+    gap: 1,
   },
   lowerVew: {
     marginVertical: '2%',
@@ -62,19 +76,45 @@ export default StyleSheet.create({
     height: 20,
   },
   title: {
-    fontSize: 20,
+    fontSize: 30,
     alignItems: 'center',
   },
   subtitle: {
+    fontSize: 20,
+    color: 'grey',
+  },
+  sampleTitle: {
     fontSize: 20,
   },
   pronoun: {
     fontSize: 20,
     fontStyle: 'italic',
+    //color: '#7560f1',
   },
   description: {
-    fontSize: 20,
+    fontSize: 16,
+    fontStyle: 'italic',
+    color: 'grey',
+    marginTop: 0,
   },
+  sample_text1: {
+    fontSize: 20,
+    lineHeight: 20,
+    color: '#333',
+    marginTop: -15,
+  },
+  sample_text2: {
+    fontSize: 20,
+    lineHeight: 20,
+    color: 'grey',
+    marginTop: -60,
+  },
+    sample_text3: {
+    fontSize: 16,
+    fontStyle: 'italic',
+    color: 'grey',
+    marginTop: -30,
+  },    
   blank: {
     fontSize: 10,
   },

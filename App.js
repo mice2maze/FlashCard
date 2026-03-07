@@ -300,7 +300,7 @@ export default function App() {
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
         <Text style={styles.subtitle}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
         <Text style={styles.blank}></Text>
-        <Pressable style={styles.barView} 
+        <Pressable style={styles.pronounBox} 
               onPress={()=>readWord(card_database[itemSeq])}>
             <Image style={[styles.speakerImg,{opacity:showPronoun}]} source={require(speakerImg) }/>
             <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card_database[itemSeq].Pronoun}</Text>
@@ -314,17 +314,17 @@ export default function App() {
 
       <View style={{width: '80%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
 
-      <View style={styles.middleVew}>        
-        <Text style={[styles.subtitle]}>Example 例文</Text>
+      <View style={styles.middleView}>        
+        <Text style={[styles.sampleTitle]}>Example 例文</Text>
         <Pressable style={styles.barView} 
               onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
-        <Text style={[styles.description]}>{card_database[itemSeq].Sample_JP}</Text>
+        <Text style={[styles.sample_text1]}>{card_database[itemSeq].Sample_JP}</Text>
         </Pressable>
         <Pressable style={styles.barView} 
               onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
-        <Text style={[styles.description]}>{card_database[itemSeq].Sample_KJ}</Text>
+        <Text style={[styles.sample_text2]}>{card_database[itemSeq].Sample_KJ}</Text>
         </Pressable>        
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
+        <Text style={[styles.sample_text3,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
 
       </View>
 
