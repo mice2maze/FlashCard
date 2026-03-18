@@ -8,12 +8,12 @@ export default StyleSheet.create({
   },
   mainView: {
     width: '90%',
-    height: screenHeight * 0.3,
+    height: screenHeight * 0.5,
     borderRadius: 20,
     padding: 15,
     alignItems: 'center',
     marginTop: 15,
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     shadowColor: '#000',
     shadowOffset: { width: 2, height: 2 },
     shadowRadius: 4,
@@ -21,7 +21,7 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.32)',
   },
   barView: {
-    marginVertical: '3%',
+    marginVertical: '1%',
     marginLeft: '8%',
     marginRight: '8%',
     flexDirection: 'row',
@@ -29,6 +29,20 @@ export default StyleSheet.create({
     justifyContent: 'space-evenly',
     
   },
+  buttonView: {
+    marginVertical: '3%',
+    marginLeft: '3%',
+    marginRight: '3%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    borderRadius: 999,             // rounded-full
+    paddingVertical: 8,            // p-2
+    paddingHorizontal: 16,         // px-4    
+    backgroundColor: 'rgba(88, 82, 82, 0.2)', 
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.3)',    
+  },  
   pronounBox: {
     flexDirection: 'row',       // Aligns Image and Text horizontally
     alignItems: 'center',       // Centers items vertically within the box
@@ -60,8 +74,8 @@ export default StyleSheet.create({
     justifyContent: 'space-evenly',
   },
   buttonImg: {
-    width: 64,
-    height: 24,
+    width: 28,
+    height: 28,
   },
   translateImgSize: {
     width: 28,
@@ -85,6 +99,7 @@ export default StyleSheet.create({
   },
   sampleTitle: {
     fontSize: 20,
+    marginBottom: 8,
   },
   pronoun: {
     fontSize: 20,
@@ -99,21 +114,24 @@ export default StyleSheet.create({
   },
   sample_text1: {
     fontSize: 20,
-    lineHeight: 20,
+    lineHeight: 24,
     color: '#333',
-    marginTop: -15,
+    //marginTop: -15,
+    marginBottom:2,
   },
   sample_text2: {
     fontSize: 20,
     lineHeight: 20,
     color: 'grey',
-    marginTop: -60,
+    //marginTop: -60,
+    marginBottom:2,
   },
-    sample_text3: {
+  sample_text3: {
     fontSize: 16,
     fontStyle: 'italic',
     color: 'grey',
-    marginTop: -30,
+    //marginTop: -30,
+    marginBottom: 2,
   },    
   blank: {
     fontSize: 10,

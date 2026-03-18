@@ -4,30 +4,38 @@ import { Text, View, Image, Pressable, ImageBackground,Modal, ScrollView, Button
 import { SafeAreaView } from 'react-native-safe-area-context';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import { MaterialIcons } from '@expo/vector-icons';
-//import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
-import card_database from "./assets/data/card_database.json";
+// import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
+// import card_database from "./assets/data/card_database.json";
 import * as Speech from 'expo-speech';
 import {setAudioModeAsync,createAudioPlayer} from 'expo-audio';
 import bgImg from "./assets/images/background.jpg";
 import styles from './AppStyle';
 
+import * as XLSX from 'xlsx';
+import { Asset } from 'expo-asset'; 
 
 //import Tts from 'react-native-tts';
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
+let card_database = [];
+
 export default function App() {
+
   // const card_database = "./assets/data/card_database.csv";
-  const nextButtonImg = "./assets/images/next-64.png";
-  const prevButtonImg = "./assets/images/previous-64.png";
-  const speakerImg = "./assets/images/foreign-language-sound-64.png";
-  const translateImg = "./assets/images/translation-50.png";
-  const noPronounImg = "./assets/images/no-audio-50.png";
-  const showPronounImg = "./assets/images/speaker-50.png";
-  const randomImg = "./assets/images/dice-80.png";
-  const quizImg = "./assets/images/test.png";
+  const nextButtonImg = "arrow-circle-right";
+  const prevButtonImg = "arrow-circle-left";
+  const showPronounImg = "volume-up";
+  const noPronounImg = "volume-off";
+  const translateImg = "speaker-notes";
+  const noTranslateImg = "speaker-notes-off";
+  const kanjiImg = "comment";
+  const noKanjiImg = "comments-disabled";
+  const randomImg = "casino";
+  const quizImg = "quiz";
 
   const [itemSeq, setItemSeq] = useState(0);
   const [showTranslate, setShowTranslate] = useState(1);
+  const [showKanji, setShowKanji] = useState(1);
   const [showPronoun, setShowPronoun] = useState(1);
   // about page
   const [aboutVisible, setAboutVisible] = useState(false);
@@ -45,7 +53,48 @@ export default function App() {
  const [quizCorrect, setQuizCorrect] = useState(0);
  const [quizTotal, setQuizTotal] = useState(0);
  
+// Menu Language state
+const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
+
+// load Excel file and convert to JSON - this runs once when the app starts
+  const [dataLoaded, setDataLoaded] = useState(false);
+  const [loadError, setLoadError] = useState(null);
+  // Load Excel file on app start
+  useEffect(() => {
+    async function loadExcel() {
+      try {
+      console.log('Creating asset');  // Debug
+      const asset = Asset.fromModule(require('./assets/data/card_database.xlsx'));
+      console.log('Asset created:', asset);  // Debug
+      
+      await asset.downloadAsync();  // Download to local storage
+      console.log('Download complete');  // Debug
+      const response = await fetch(asset.localUri || asset.uri);  // Fetch the downloaded file
+      console.log('Fetch complete, status:', response.status);  // Debug
+      const arrayBuffer = await response.arrayBuffer();
+      console.log('ArrayBuffer created');  // Debug
+ 
+
+        // Parse the Excel file
+        const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+        const sheetName = workbook.SheetNames[0];
+        const worksheet = workbook.Sheets[sheetName];
+        const data = XLSX.utils.sheet_to_json(worksheet);
+
+        card_database = data;
+        console.log('Excel file loaded successfully:', card_database.length, 'cards');
+        setDataLoaded(true);
+      } catch (error) {
+        console.error('Error loading Excel file:', error);
+        setLoadError(error.message);
+      }
+    }
+
+    loadExcel();
+  }, []);
+
 // existing state and helpers …
+
 // initialise the audio mode once
   useEffect(() => {
     async function initAudioMode() {
@@ -73,6 +122,17 @@ export default function App() {
       }
     }
   }, [itemSeq, showPronoun]);
+
+  // Show loading screen while data loads
+  if (!dataLoaded) {
+    return (
+      <SafeAreaView style={styles.mainView}>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+          <Text>{loadError ? `Error: ${loadError}` : 'Loading cards...'}</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
 
  function startQuiz() {
    // pick random question
@@ -198,7 +258,7 @@ export default function App() {
     } else {
       setItemSeq(1);
     }
-    console.log("items ", itemSeq,card_database[itemSeq] )
+    //console.log("items ", itemSeq,card_database[itemSeq] )
   }
 
   function prevCard() {
@@ -207,18 +267,20 @@ export default function App() {
     } else {
       setItemSeq(card_database.length-1)
     }
-    console.log("items ", itemSeq,card_database[itemSeq] )
+    //console.log("items ", itemSeq,card_database[itemSeq] )
 
   }
   function randomCard() {
     setItemSeq( Math.floor(Math.random() * (card_database.length-1)) );
-    console.log("items ", itemSeq,card_database[itemSeq] )
+    //console.log("items ", itemSeq,card_database[itemSeq] )
 
   }
   function showOnOff() {
     setShowTranslate(showTranslate===0?1:0);
   }
-
+  function kanjiOnOff() {
+    setShowKanji(showKanji===1?0:1);
+  }
   function pronounOnOff() {
     setShowPronoun(showPronoun===0?1:0);
   }
@@ -262,96 +324,86 @@ export default function App() {
             padding: 24,
             alignItems: 'center'
           }}>
-            <Text style={{fontSize: 22, fontFamily: 'Cochin', marginBottom: 18}}>Menu</Text>
-            <Pressable onPress={() => { setMenuVisible(false); /* go to home */ }}>
-              <Text style={{fontSize: 18, marginVertical: 8}}>Home</Text>
+            <Text style={{fontSize: 22, fontFamily: 'Cochin', marginBottom: 18}}>{menuLanguage === 'en' ? 'Menu' : '選單'}</Text>
+            <Pressable onPress={() => { setMenuLanguage(menuLanguage === 'en' ? 'zh' : 'en'); }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>Switch to {menuLanguage === 'en' ? '中文' : 'English'}</Text>
             </Pressable>
-            <Pressable onPress={() => { setMenuVisible(false); startQuiz(); }}>
-            
-             <Text style={{fontSize: 18, marginVertical: 8}}>Quiz</Text>
-           </Pressable>
-            <Pressable onPress={() => { setMenuVisible(false); randomCard(); }}>
-              <Text style={{fontSize: 18, marginVertical: 8}}>Random Card</Text>
-            </Pressable>
-            <Pressable onPress={() => { setMenuVisible(false); showOnOff(); }}>
-              <Text style={{fontSize: 18, marginVertical: 8}}>Toggle Translation</Text>
-            </Pressable>
-            <Pressable onPress={() => { setMenuVisible(false); pronounOnOff(); }}>
-              <Text style={{fontSize: 18, marginVertical: 8}}>Toggle Pronunciation</Text>
-            </Pressable>
-            <Pressable onPress={() => { setMenuVisible(false); setAboutVisible(true); }}>
-              <Text style={{fontSize: 18, marginVertical: 8}}>About</Text>
+            <Pressable onPress={() => {setMenuVisible(false); setAboutVisible(true);}}>
+              <Text style={{fontSize: 18, marginVertical: 8}}>{menuLanguage === 'en' ? 'About' : '關於'}</Text>
             </Pressable>
             <Pressable onPress={() => setMenuVisible(false)}>
-              <Text style={{fontSize: 18, marginVertical: 8, color: 'gray'}}>Close</Text>
+              <Text style={{fontSize: 18, marginVertical: 8, color: 'gray'}}>{menuLanguage === 'en' ? 'Close' : '關閉'}</Text>
             </Pressable>
           </View>
         </View>
       </Modal>
       
       <View style={styles.heading}> 
-        <Text style={styles.heading}>日文N5單字</Text>
-        <Text style={styles.heading}>Japanese N5 Vocabulary</Text>
+        <Text style={styles.heading}>{menuLanguage === 'en' ? 'Japanese N5 Vocabulary' : '日文N5單字'}</Text>
       </View>
       <GestureRecognizer
         onSwipe={(direction) => onSwipe(direction,card_database[itemSeq])}
       >
       <View style={styles.mainView}>
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
-        <Text style={styles.subtitle}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
+        <Text style={[styles.subtitle,{opacity:showKanji}]}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
         <Text style={styles.blank}></Text>
         <Pressable style={styles.pronounBox} 
               onPress={()=>readWord(card_database[itemSeq])}>
-            <Image style={[styles.speakerImg,{opacity:showPronoun}]} source={require(speakerImg) }/>
+              <MaterialIcons name={showPronoun===1?showPronounImg:""} size={24} color="#333" />
             <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card_database[itemSeq].Pronoun}</Text>
         </Pressable>
         <Text style={styles.blank}></Text>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].Chinese}</Text>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{card_database[itemSeq].English}</Text>
-        <StatusBar style="auto"/>
-      </View>
-      </GestureRecognizer>
-
-      <View style={{width: '80%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
-
-      <View style={styles.middleView}>        
-        <Text style={[styles.sampleTitle]}>Example 例文</Text>
+        <Text style={[styles.description,{opacity:showTranslate}]}>{menuLanguage === 'en' ? card_database[itemSeq].English : card_database[itemSeq].Chinese}</Text>
+        <Text style={[styles.description,{opacity:showTranslate}]}></Text>
+        
+                <Text style={[styles.sampleTitle]}>{menuLanguage === 'en' ? 'Example' : '例文'}</Text>
         <Pressable style={styles.barView} 
               onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
         <Text style={[styles.sample_text1]}>{card_database[itemSeq].Sample_JP}</Text>
         </Pressable>
         <Pressable style={styles.barView} 
               onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
-        <Text style={[styles.sample_text2]}>{card_database[itemSeq].Sample_KJ}</Text>
+        <Text style={[styles.sample_text2,{opacity:showKanji}]}>{card_database[itemSeq].Sample_KJ}</Text>
         </Pressable>        
-        <Text style={[styles.sample_text3,{opacity:showTranslate}]}>{card_database[itemSeq].Sample_En}</Text>
+        <Text style={[styles.sample_text3,{opacity:showTranslate}]}>{menuLanguage === 'en' ? card_database[itemSeq].Sample_En : ""}</Text>
 
+
+        <StatusBar style="auto"/>
       </View>
+      </GestureRecognizer>
+
+      <View style={{width: '80%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
 
 
-      <View style={styles.barView}>
+
+      <View style={styles.buttonView}>
         <Pressable onPress={showOnOff}>
-          <Image style={[styles.translateImgSize,{opacity:(showTranslate===1?1:0.1)}]} source={require(translateImg) }/>
+          <MaterialIcons name={(showTranslate===1?translateImg:noTranslateImg)} size={28} />
         </Pressable>
-        <Text>    </Text>
+        <Text>   </Text>
+         <Pressable onPress={kanjiOnOff}>
+          <MaterialIcons name={(showKanji===1?kanjiImg:noKanjiImg)} size={28} />
+         </Pressable>
+         <Text>   </Text>
         <Pressable onPress={pronounOnOff}>
-          <Image style={[styles.noPronounImgSize,{opacity:(showPronoun===1?1:0.5)}]} source={(showPronoun===1?require(showPronounImg):require(noPronounImg))}/>
+          <MaterialIcons name={(showPronoun===1?showPronounImg:noPronounImg)} size={28} />
         </Pressable>
-        <Text>    </Text>
+        <Text>   </Text>
         <Pressable onPress={randomCard}>
-          <Image style={styles.noPronounImgSize} source={require(randomImg)}/>
+          <MaterialIcons name={randomImg} size={28} />
         </Pressable>
-        <Text>   　</Text>
+        <Text>  　</Text>
         <Pressable onPress={startQuiz}>
-          <Image style={styles.noPronounImgSize} source={require(quizImg)}/>
+          <MaterialIcons name={quizImg} size={28} />
         </Pressable>
-        <Text>    </Text>
+        <Text>   </Text>
         <Pressable onPress={prevCard}>
-          <Image style={[styles.buttonImg, {opacity:(itemSeq===0?0.1:1)}]} source={require(prevButtonImg) }/>
+          <MaterialIcons name={prevButtonImg} size={28} color={itemSeq===0?"#ccc":"#333"} />
         </Pressable>
-        <Text>    </Text>
+        <Text> {itemSeq + 1} / {card_database.length}  </Text>
         <Pressable onPress={nextCard}>
-          <Image style={[styles.buttonImg,{opacity:(itemSeq+1 === card_database.length ?0.1:1)}]} source={require(nextButtonImg)}/>
+          <MaterialIcons name={nextButtonImg} size={28} color={itemSeq+1 === card_database.length ?"#ccc":"#333"} />
         </Pressable>
 
       </View>
@@ -471,15 +523,12 @@ I hope you enjoy using it as much as I enjoyed building it. Ganbatte (good luck)
             <Text style={styles.sectionTitle}>Features</Text>
 
             <Text style={styles.text}>
-              • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(prevButtonImg) }/>
-          <Image style={[{width:20},{height:20},,{opacity:(1)}]} source={require(nextButtonImg)}/> Swipe to navigate cards{'\n\n'}  
-              • <Image style={[{width:15},{height:15}, {opacity:(1)}]} source={(showPronoun===1?require(showPronounImg):require(noPronounImg))}/> Toggle to Japanese pronunciation{'\n\n'}
-              
-              • <Image style={[{width:20},{height:20},{opacity:(1)}]} source={require(translateImg) }/> View translations in Chinese and English{'\n\n'}
-              
-              • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(randomImg)}/> Shows randomly{'\n\n'}
-
-            • <Image style={[{width:20},{height:20}, {opacity:(1)}]} source={require(quizImg)}/> Simple test{'\n\n'}
+              • <MaterialIcons name={prevButtonImg} size={20} /><MaterialIcons name={nextButtonImg} size={20} /> Swipe to navigate cards{'\n\n'}  
+              • <MaterialIcons name={showPronounImg} size={20} /> Toggle to Japanese pronunciation{'\n\n'}              
+              • <MaterialIcons name={translateImg} size={20} /> View translations{'\n\n'}
+              • <MaterialIcons name={kanjiImg} size={20} /> Toggle kanji{'\n\n'}              
+              • <MaterialIcons name={randomImg} size={20} /> Shows randomly{'\n\n'}
+              • <MaterialIcons name={quizImg} size={20} /> Simple test{'\n\n'}
             </Text>
             <Button title="Close" onPress={() => setAboutVisible(false)} />
           </ScrollView>
