@@ -39,6 +39,8 @@ export default function App() {
   const [showPronoun, setShowPronoun] = useState(1);
   // about page
   const [aboutVisible, setAboutVisible] = useState(false);
+  // Japanese Letter Chart page
+  const [JapLetterVisible, setJapLetterVisible] = useState(false);
 
   // const [swipeDirection, setSwipeDirection] = useState('');
   const {SWIPE_LEFT, SWIPE_RIGHT, SWIPE_DOWN, SWIPE_UP} = swipeDirections;
@@ -326,7 +328,10 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
           }}>
             <Text style={{fontSize: 22, fontFamily: 'Cochin', marginBottom: 18}}>{menuLanguage === 'en' ? 'Menu' : '選單'}</Text>
             <Pressable onPress={() => { setMenuLanguage(menuLanguage === 'en' ? 'zh' : 'en'); }}>
-              <Text style={{fontSize: 18, marginVertical: 8}}>Switch to {menuLanguage === 'en' ? '中文' : 'English'}</Text>
+              <Text style={{fontSize: 18, marginVertical: 8}}> {menuLanguage === 'en' ? '中文' : 'English'}</Text>
+            </Pressable>
+            <Pressable onPress={() => { setJapLetterVisible(true); setMenuVisible(false); }}>
+              <Text style={{fontSize: 18, marginVertical: 8}}> {menuLanguage === 'en' ? 'Letter Charts' : '五十音表'}</Text>
             </Pressable>
             <Pressable onPress={() => {setMenuVisible(false); setAboutVisible(true);}}>
               <Text style={{fontSize: 18, marginVertical: 8}}>{menuLanguage === 'en' ? 'About' : '關於'}</Text>
@@ -412,8 +417,9 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
       </View>
       <View style={styles.footer}>
         <Pressable style={styles.aboutButton} onPress={() => setAboutVisible(true)}>
-          <Text style={styles.aboutTitle}>About</Text>
+          <Text>{menuLanguage === 'en' ? 'About' : '關於'}</Text>
         </Pressable>
+        <Text>   </Text>
         <Text style={styles.bottomText}> presented by MikeChan@Kosaon</Text>
       </View>
      {/* Quiz Modal - fixed size with answers in boxed scroll area */}
@@ -509,7 +515,11 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
        </View>
      </Modal>
 
-
+     <Modal visible={JapLetterVisible} animationType="slide">
+          <Pressable onPress={() => setJapLetterVisible(false)} style={{width: '100%',height: '100%',resizeMode: 'contain',marginTop:10}}>
+            <Image source={require('./assets/images/japletter.png')} style={{width: '100%',height: '100%',resizeMode: 'contain'}} />
+          </Pressable>
+     </Modal>
 
       <Modal visible={aboutVisible} animationType="slide">
           <ScrollView contentContainerStyle={styles.aboutContainer}>
