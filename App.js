@@ -10,6 +10,7 @@ import * as Speech from 'expo-speech';
 import {setAudioModeAsync,createAudioPlayer} from 'expo-audio';
 import bgImg from "./assets/images/background.jpg";
 import styles from './AppStyle';
+import ShowLetters from './ShowLetters';
 
 import * as XLSX from 'xlsx';
 import { Asset } from 'expo-asset'; 
@@ -304,6 +305,44 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
         break;
     }
   }
+  function renderTranslation(card) {
+    if (!card || !showTranslate) return null;
+
+    return (
+      <>
+        <Text style={styles.blank} />
+        <Text style={[styles.description, { opacity: showTranslate }]}>
+          {menuLanguage === 'en' ? card.English : card.Chinese}
+        </Text>
+        <Text style={[styles.description, { opacity: showTranslate }]} />
+      </>
+    );
+  }
+  
+  function renderPronunciation(card) {
+    if (!card || !showPronoun) return null;
+
+    return (
+      <>
+        <Pressable style={styles.pronounBox} 
+              onPress={()=>readWord(card)}>
+              <MaterialIcons name={showPronoun===1?showPronounImg:""} size={24} color="#333" />
+            <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card.Pronoun}</Text>
+        </Pressable>
+      </>
+    );
+  }
+
+  function renderKanji(card) {
+    if (!card || !showKanji) return null;
+    return (
+      <>
+        <Text style={[styles.subtitle,{opacity:showKanji}]}>{card.Subtitle === "" ? "": "(" + card.Subtitle + ")"}</Text>
+        <Text style={styles.blank}></Text>
+      </>
+    );
+  }  
+
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground style={styles.img} source={bgImg} resizeMode='cover'>     
@@ -351,18 +390,11 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
       >
       <View style={styles.mainView}>
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
-        <Text style={[styles.subtitle,{opacity:showKanji}]}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
-        <Text style={styles.blank}></Text>
-        <Pressable style={styles.pronounBox} 
-              onPress={()=>readWord(card_database[itemSeq])}>
-              <MaterialIcons name={showPronoun===1?showPronounImg:""} size={24} color="#333" />
-            <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card_database[itemSeq].Pronoun}</Text>
-        </Pressable>
-        <Text style={styles.blank}></Text>
-        <Text style={[styles.description,{opacity:showTranslate}]}>{menuLanguage === 'en' ? card_database[itemSeq].English : card_database[itemSeq].Chinese}</Text>
-        <Text style={[styles.description,{opacity:showTranslate}]}></Text>
-        
-                <Text style={[styles.sampleTitle]}>{menuLanguage === 'en' ? 'Example' : '例文'}</Text>
+        {renderKanji(card_database[itemSeq])}
+        {renderPronunciation(card_database[itemSeq])}
+        {renderTranslation(card_database[itemSeq])}
+
+        <Text style={[styles.sampleTitle]}>{menuLanguage === 'en' ? 'Example' : '例文'}</Text>
         <Pressable style={styles.barView} 
               onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
         <Text style={[styles.sample_text1]}>{card_database[itemSeq].Sample_JP}</Text>
