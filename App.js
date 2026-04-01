@@ -55,15 +55,16 @@ export default function App() {
  const [quizResult, setQuizResult] = useState(null);
  const [quizCorrect, setQuizCorrect] = useState(0);
  const [quizTotal, setQuizTotal] = useState(0);
- 
+
 // Menu Language state
 const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
 
 // load Excel file and convert to JSON - this runs once when the app starts
-  const [dataLoaded, setDataLoaded] = useState(false);
-  const [loadError, setLoadError] = useState(null);
-  // Load Excel file on app start
-  useEffect(() => {
+const [dataLoaded, setDataLoaded] = useState(false);
+const [loadError, setLoadError] = useState(null);
+
+// Load Excel file on app start
+useEffect(() => {
     async function loadExcel() {
       try {
       console.log('Creating asset');  // Debug
@@ -403,7 +404,7 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
               onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
         <Text style={[styles.sample_text2,{opacity:showKanji}]}>{card_database[itemSeq].Sample_KJ}</Text>
         </Pressable>        
-        <Text style={[styles.sample_text3,{opacity:showTranslate}]}>{menuLanguage === 'en' ? card_database[itemSeq].Sample_En : ""}</Text>
+        <Text style={[styles.sample_text3,{opacity:showTranslate}]}>{menuLanguage === 'en' ? card_database[itemSeq].Sample_En : card_database[itemSeq].Sample_Zh}</Text>
 
 
         <StatusBar style="auto"/>
@@ -548,9 +549,8 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
      </Modal>
 
      <Modal visible={JapLetterVisible} animationType="slide">
-          <Pressable onPress={() => setJapLetterVisible(false)} style={{width: '100%',height: '100%',resizeMode: 'contain',marginTop:10}}>
-            <Image source={require('./assets/images/japletter.png')} style={{width: '100%',height: '100%',resizeMode: 'contain'}} />
-          </Pressable>
+          <ShowLetters />
+          <Button title="Close" onPress={() => setJapLetterVisible(false)} />
      </Modal>
 
       <Modal visible={aboutVisible} animationType="slide">

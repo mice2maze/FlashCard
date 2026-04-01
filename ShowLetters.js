@@ -5,18 +5,17 @@ import {
   View, 
   ScrollView, 
   TouchableOpacity, 
-  SafeAreaView, 
   StatusBar,
   Dimensions,
   Platform
 } from 'react-native';
-import { Languages, Info, Volume2, BookOpen, X } from 'lucide-react';
+import { Languages, Info, Volume2, BookOpen, X } from 'lucide-react-native';
 import { SEION, DAKUON, YOUON } from './constants';
 
 const { width } = Dimensions.get('window');
 const COLUMN_WIDTH = (width - 48) / 5; // Default for 5 columns
 
-export  function ShowLetters() {
+export default function ShowLetters() {
   const [mode, setMode] = useState('hiragana');
   const [selectedKana, setSelectedKana] = useState(null);
 
@@ -56,7 +55,7 @@ export  function ShowLetters() {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
+    <>
       <StatusBar barStyle="dark-content" />
       
       {/* Header */}
@@ -86,8 +85,8 @@ export  function ShowLetters() {
           </TouchableOpacity>
         </View>
       </View>
-
-      <ScrollView contentContainerStyle={styles.scrollContent}>
+<ScrollView contentContainerStyle={styles.scrollContent} horizontal={true}>
+      <ScrollView contentContainerStyle={styles.scrollContent} >
         {/* Seion */}
         <View style={styles.section}>
           <View style={styles.sectionHeader}>
@@ -124,7 +123,7 @@ export  function ShowLetters() {
           <Text style={styles.footerText}>Tap a character for details.</Text>
         </View>
       </ScrollView>
-
+</ScrollView>
       {/* Detail Modal */}
       {selectedKana && (
         <View style={styles.modalOverlay}>
@@ -156,7 +155,7 @@ export  function ShowLetters() {
           </View>
         </View>
       )}
-    </SafeAreaView>
+    </>
   );
 }
 
@@ -176,6 +175,7 @@ const styles = StyleSheet.create({
     borderBottomColor: '#F1F1F1',
     ...Platform.select({
       ios: {
+        marginTop: "10%",
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.05,

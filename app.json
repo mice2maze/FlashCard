@@ -2,7 +2,7 @@
   "expo": {
     "name": "FlashCard",
     "slug": "FlashCard",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/flashcard_512.png",
     "userInterfaceStyle": "light",
@@ -16,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "11",
+      "buildNumber": "12",
       "bundleIdentifier": "com.micemaze.FlashCard",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
