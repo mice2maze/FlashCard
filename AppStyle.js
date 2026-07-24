@@ -11,12 +11,13 @@ export default StyleSheet.create({
     height: screenHeight * 0.5,
     borderRadius: 20,
     padding: 15,
-    alignItems: 'center',
+    // alignItems: 'center',
     marginTop: 15,
     justifyContent: 'space-evenly',
     shadowColor: '#000',
     shadowOffset: { width: 2, height: 2 },
     shadowRadius: 4,
+    shadowOpacity: 0.1,
     elevation: 5,
     backgroundColor: 'rgba(255, 255, 255, 0.32)',
   },
@@ -54,6 +55,8 @@ export default StyleSheet.create({
     borderColor: '#D3D3D3',     // Optional: border color
     //alignSelf: 'flex-start',    // Prevents the box from stretching full-width
     marginVertical: 10,         // Space outside the box
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered        
   },
   middleView: {
     marginVertical: '2%',
@@ -91,26 +94,36 @@ export default StyleSheet.create({
   },
   title: {
     fontSize: 30,
-    alignItems: 'center',
+    //alignItems: 'center',
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered    
   },
   subtitle: {
     fontSize: 20,
     color: 'grey',
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
   },
   sampleTitle: {
     fontSize: 20,
     marginBottom: 8,
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered  
   },
   pronoun: {
     fontSize: 20,
     fontStyle: 'italic',
     //color: '#7560f1',
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
   },
   description: {
     fontSize: 16,
     fontStyle: 'italic',
     color: 'grey',
     marginTop: 0,
+    textAlign: 'center',
+    alignSelf: 'center',  
   },
   sample_text1: {
     fontSize: 20,
@@ -118,6 +131,8 @@ export default StyleSheet.create({
     color: '#333',
     //marginTop: -15,
     marginBottom:2,
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
   },
   sample_text2: {
     fontSize: 20,
@@ -125,6 +140,8 @@ export default StyleSheet.create({
     color: 'grey',
     //marginTop: -60,
     marginBottom:2,
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
   },
   sample_text3: {
     fontSize: 16,
@@ -132,6 +149,9 @@ export default StyleSheet.create({
     color: 'grey',
     //marginTop: -30,
     marginBottom: 2,
+    width: '100%',              // Spans full parent container width
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
   },    
   blank: {
     fontSize: 10,
