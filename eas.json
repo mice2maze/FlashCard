@@ -20,7 +20,7 @@
       "node": "20.10.0",
       "environment": "production",
       "ios": {
-          "image": "macos-sonoma-14.6-xcode-16.1"
+           "image": "macos-sequoia-15.6-xcode-26.2"
         }
     }
   },
