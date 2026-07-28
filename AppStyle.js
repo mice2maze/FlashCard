@@ -30,6 +30,17 @@ export default StyleSheet.create({
     justifyContent: 'space-evenly',
     
   },
+  japaneseContainer: {
+    alignItems: 'center',
+    marginVertical: 15,
+    marginLeft: '8%',
+    marginRight: '8%',
+    paddingVertical: 8,            // p-2
+    paddingHorizontal: 16,         // px-4    
+    borderRadius: 999,             // rounded-full
+    // borderWidth: 1,
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+  },
   buttonView: {
     marginVertical: '3%',
     marginLeft: '3%',
@@ -126,7 +137,7 @@ export default StyleSheet.create({
     alignSelf: 'center',  
   },
   sample_text1: {
-    fontSize: 20,
+    fontSize: 12,
     lineHeight: 24,
     color: '#333',
     //marginTop: -15,

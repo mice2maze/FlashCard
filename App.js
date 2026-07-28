@@ -62,9 +62,11 @@ const [menuLanguage, setMenuLanguage] = useState('en'); // 'en' or 'zh'
 // load Excel file and convert to JSON - this runs once when the app starts
 const [dataLoaded, setDataLoaded] = useState(false);
 const [loadError, setLoadError] = useState(null);
+const [refreshCounter, setRefreshCounter] = useState(0); // For forcing re-render after data load
 
 // Load Excel file on app start
 useEffect(() => {
+    if (dataLoaded) return; // Prevent re-loading if already loaded
     async function loadExcel() {
       try {
       console.log('Creating asset');  // Debug
@@ -95,7 +97,7 @@ useEffect(() => {
     }
 
     loadExcel();
-  }, []);
+  }, [refreshCounter]);
 
 // existing state and helpers …
 
@@ -128,7 +130,7 @@ useEffect(() => {
   }, [itemSeq, showPronoun]);
 
   // Show loading screen while data loads
-  if (!dataLoaded) {
+  if (!dataLoaded) {    
     return (
       <SafeAreaView style={styles.mainView}>
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
@@ -136,7 +138,7 @@ useEffect(() => {
         </View>
       </SafeAreaView>
     );
-  }
+  } 
 
  function startQuiz() {
    // pick random question
@@ -395,24 +397,24 @@ useEffect(() => {
         {renderPronunciation(card_database[itemSeq])}
         {renderTranslation(card_database[itemSeq])}
 
-        <Text style={[styles.sampleTitle]}>{menuLanguage === 'en' ? 'Example' : '例文'}</Text>
-        <Pressable style={styles.barView} 
-              onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
-        <Text style={[styles.sample_text1]}>{card_database[itemSeq].Sample_JP}</Text>
-        </Pressable>
-        <Pressable style={styles.barView} 
-              onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
-        <Text style={[styles.sample_text2,{opacity:showKanji}]}>{card_database[itemSeq].Sample_KJ}</Text>
-        </Pressable>        
-        <Text style={[styles.sample_text3,{opacity:showTranslate}]}>{menuLanguage === 'en' ? card_database[itemSeq].Sample_En : card_database[itemSeq].Sample_Zh}</Text>
-
-
-        <StatusBar style="auto"/>
+        {/*<Text style={[styles.sampleTitle]}>{menuLanguage === 'en' ? 'Example' : '例文'}</Text> */}
+        <View style={{width: '90%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
+        <View style={styles.japaneseContainer}>
+          <Pressable style={styles.barView} 
+                onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
+          <Text style={[styles.sample_text1]}>{card_database[itemSeq].Sample_JP}</Text>
+          </Pressable>
+          <Pressable style={styles.barView} 
+                onPress={()=>readSample(card_database[itemSeq].Sample_KJ)}>
+          <Text style={[styles.sample_text2,{opacity:showKanji}]}>{card_database[itemSeq].Sample_KJ}</Text>
+          </Pressable>        
+          <Text style={[styles.sample_text3,{opacity:showTranslate}]}>
+                {menuLanguage === 'en' ? card_database[itemSeq].Sample_En : card_database[itemSeq].Sample_Zh}</Text>
+          <StatusBar style="auto"/>
+        </View>
+        <View style={{width: '90%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
       </View>
       </GestureRecognizer>
-
-      <View style={{width: '80%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
-
 
 
       <View style={styles.buttonView}>

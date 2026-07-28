@@ -19,10 +19,18 @@ export default function ShowLetters() {
   const [mode, setMode] = useState('hiragana');
   const [selectedKana, setSelectedKana] = useState(null);
 
+  const transpose = (data) => {
+    const maxCols = Math.max(...data.map(row => row.length));
+    return Array.from({ length: maxCols }, (_, colIndex) =>
+      data.map(row => row[colIndex] ?? null)
+    );
+  };
+
   const renderGrid = (data, columns) => {
+    const transposedData = transpose(data);
     return (
       <View style={styles.grid}>
-        {data.map((row, rowIndex) => (
+        {transposedData.map((row, rowIndex) => (
           <View key={`row-${rowIndex}`} style={styles.row}>
             {row.map((kana, colIndex) => (
               <View 
