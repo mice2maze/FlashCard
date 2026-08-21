@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { Text, View, Image, Pressable, ImageBackground,Modal, ScrollView, Button, Dimensions } from 'react-native';
+import { Text, View, Image, Pressable, ImageBackground,Modal, ScrollView, Button, Dimensions,TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import GestureRecognizer, {swipeDirections} from 'react-native-swipe-gestures';
 import { MaterialIcons } from '@expo/vector-icons';
+
 // import FontAwesomeIcon from "@expo/vector-icons/FontAwesome";
 // import card_database from "./assets/data/card_database.json";
+
 import * as Speech from 'expo-speech';
 import {setAudioModeAsync,createAudioPlayer} from 'expo-audio';
 import bgImg from "./assets/images/background.jpg";
@@ -18,11 +20,30 @@ import { Asset } from 'expo-asset';
 //import Tts from 'react-native-tts';
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
+// word type explaination
+// n. = noun
+// proper n. = proper noun
+// pron. = pronoun
+// v. trans. = transitive verb（他動詞）
+// v. intrans. = intransitive verb（自動詞）
+// v. trans./intrans. = both/depends on usage
+// adj. い = い-adjective
+// adj. な = な-adjective
+// adv. = adverb
+// particle = 助詞
+// conj. = conjunction
+// interj. = interjection
+// counter = counter/classifier
+// determiner = demonstrative/attributive word such as この/その/どの
+// suffix = 接尾辞
+// expression = fixed expression
+
 let card_database = [];
 
 export default function App() {
 
   // const card_database = "./assets/data/card_database.csv";
+  const card_database_xlsx = "./assets/data/card_database.xlsx";
   const nextButtonImg = "arrow-circle-right";
   const prevButtonImg = "arrow-circle-left";
   const showPronounImg = "volume-up";
@@ -70,7 +91,7 @@ useEffect(() => {
     async function loadExcel() {
       try {
       console.log('Creating asset');  // Debug
-      const asset = Asset.fromModule(require('./assets/data/card_database.xlsx'));
+      const asset = Asset.fromModule(require(card_database_xlsx));
       console.log('Asset created:', asset);  // Debug
       
       await asset.downloadAsync();  // Download to local storage
@@ -312,13 +333,10 @@ useEffect(() => {
     if (!card || !showTranslate) return null;
 
     return (
-      <>
-        <Text style={styles.blank} />
         <Text style={[styles.description, { opacity: showTranslate }]}>
           {menuLanguage === 'en' ? card.English : card.Chinese}
         </Text>
-        <Text style={[styles.description, { opacity: showTranslate }]} />
-      </>
+
     );
   }
   
@@ -329,7 +347,7 @@ useEffect(() => {
       <>
         <Pressable style={styles.pronounBox} 
               onPress={()=>readWord(card)}>
-              <MaterialIcons name={showPronoun===1?showPronounImg:""} size={24} color="#333" />
+              <MaterialIcons name={showPronoun===1?showPronounImg:""} size={24} color="#ffffff" />
             <Text style={[styles.pronoun,{opacity:showPronoun}]}>  {card.Pronoun}</Text>
         </Pressable>
       </>
@@ -339,10 +357,7 @@ useEffect(() => {
   function renderKanji(card) {
     if (!card || !showKanji) return null;
     return (
-      <>
         <Text style={[styles.subtitle,{opacity:showKanji}]}>{card.Subtitle === "" ? "": "(" + card.Subtitle + ")"}</Text>
-        <Text style={styles.blank}></Text>
-      </>
     );
   }  
 
@@ -350,10 +365,13 @@ useEffect(() => {
     <SafeAreaView style={styles.container}>
       <ImageBackground style={styles.img} source={bgImg} resizeMode='cover'>     
       
-      <Pressable style={{position: 'absolute', top: 40, left: 20, zIndex: 10}} onPress={() => setMenuVisible(true)}>
+      <Pressable style={{position: 'absolute', top: 30, left: 20, zIndex: 10}} onPress={() => setMenuVisible(true)}>
         <Text style={{fontSize: 28}}>☰</Text>
       </Pressable>
-      
+      <Pressable style={{position: 'absolute', top: 30, right: 20, zIndex: 10}} 
+         onPress={() => { setMenuLanguage(menuLanguage === 'en' ? 'zh' : 'en'); }}>
+        <Image source={require('./assets/images/translation.png')} style={styles.translateImgSize} />
+      </Pressable>      
       <Modal visible={menuVisible} transparent animationType="slide">
         <View style={{
           flex: 1,
@@ -387,6 +405,8 @@ useEffect(() => {
       
       <View style={styles.heading}> 
         <Text style={styles.heading}>{menuLanguage === 'en' ? 'Japanese N5 Vocabulary' : '日文N5單字'}</Text>
+                <Text style={styles.cardSeq}> {String(itemSeq + 1).padStart(4, ' ')} / {card_database.length} </Text>
+
       </View>
       <GestureRecognizer
         onSwipe={(direction) => onSwipe(direction,card_database[itemSeq])}
@@ -394,12 +414,13 @@ useEffect(() => {
       <View style={styles.mainView}>
         <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
         {renderKanji(card_database[itemSeq])}
-        {renderPronunciation(card_database[itemSeq])}
         {renderTranslation(card_database[itemSeq])}
+        {renderPronunciation(card_database[itemSeq])}        
 
         {/*<Text style={[styles.sampleTitle]}>{menuLanguage === 'en' ? 'Example' : '例文'}</Text> */}
-        <View style={{width: '90%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
+        {/*<View style={{width: '90%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 2}} />*/}
         <View style={styles.japaneseContainer}>
+          <View style={{width: '100%', alignSelf: 'center', height: 1, backgroundColor: '#bbb'}} />
           <Pressable style={styles.barView} 
                 onPress={()=>readSample(card_database[itemSeq].Sample_JP)}>
           <Text style={[styles.sample_text1]}>{card_database[itemSeq].Sample_JP}</Text>
@@ -411,8 +432,8 @@ useEffect(() => {
           <Text style={[styles.sample_text3,{opacity:showTranslate}]}>
                 {menuLanguage === 'en' ? card_database[itemSeq].Sample_En : card_database[itemSeq].Sample_Zh}</Text>
           <StatusBar style="auto"/>
+          <View style={{width: '100%', alignSelf: 'center', height: 1, backgroundColor: '#bbb'}} />
         </View>
-        <View style={{width: '90%', alignSelf: 'center', height: 1, backgroundColor: '#bbb', marginVertical: 10}} />
       </View>
       </GestureRecognizer>
 
@@ -439,11 +460,10 @@ useEffect(() => {
         </Pressable>
         <Text>   </Text>
         <Pressable onPress={prevCard}>
-          <MaterialIcons name={prevButtonImg} size={28} color={itemSeq===0?"#ccc":"#333"} />
+          <MaterialIcons name={prevButtonImg} size={28} color={itemSeq===0?"#999":"#333"} />
         </Pressable>
-        <Text> {itemSeq + 1} / {card_database.length}  </Text>
         <Pressable onPress={nextCard}>
-          <MaterialIcons name={nextButtonImg} size={28} color={itemSeq+1 === card_database.length ?"#ccc":"#333"} />
+          <MaterialIcons name={nextButtonImg} size={28} color={itemSeq+1 === card_database.length ?"#999":"#333"} />
         </Pressable>
 
       </View>
@@ -551,8 +571,9 @@ useEffect(() => {
      </Modal>
 
      <Modal visible={JapLetterVisible} animationType="slide">
-          <ShowLetters />
-          <Button title="Close" onPress={() => setJapLetterVisible(false)} />
+          <ShowLetters lang={menuLanguage} />
+          <Button title="Close" onPress={() => setJapLetterVisible(false)} /> 
+
      </Modal>
 
       <Modal visible={aboutVisible} animationType="slide">

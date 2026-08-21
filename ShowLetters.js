@@ -15,7 +15,7 @@ import { SEION, DAKUON, YOUON } from './constants';
 const { width } = Dimensions.get('window');
 const COLUMN_WIDTH = (width - 48) / 5; // Default for 5 columns
 
-export default function ShowLetters() {
+export default function ShowLetters({lang}) {
   const [mode, setMode] = useState('hiragana');
   const [selectedKana, setSelectedKana] = useState(null);
 
@@ -125,11 +125,12 @@ export default function ShowLetters() {
           </View>
           {renderGrid(YOUON, 4)}
         </View>
-
+{/*
         <View style={styles.footer}>
           <Text style={styles.footerText}>Designed for mobile learning.</Text>
           <Text style={styles.footerText}>Tap a character for details.</Text>
         </View>
+*/}
       </ScrollView>
 </ScrollView>
       {/* Detail Modal */}
@@ -138,7 +139,7 @@ export default function ShowLetters() {
           <View style={styles.modalContent}>
             <View style={styles.modalHeader}>
               <View>
-                <Text style={styles.modalLabel}>SELECTED CHARACTER</Text>
+                <Text style={styles.modalLabel}>{lang === 'en' ? 'SELECTED CHARACTER' : '選擇的字符'}</Text>
                 <Text style={styles.modalChar}>
                   {mode === 'hiragana' ? selectedKana.h : selectedKana.k}
                 </Text>
@@ -150,11 +151,11 @@ export default function ShowLetters() {
 
             <View style={styles.modalStats}>
               <View style={styles.statBox}>
-                <Text style={styles.statLabel}>ROMAJI</Text>
+                <Text style={styles.statLabel}> {lang === 'en' ? 'ROMAJI' : "羅馬拼音" }</Text>
                 <Text style={styles.statValue}>{selectedKana.r}</Text>
               </View>
               <View style={styles.statBox}>
-                <Text style={styles.statLabel}>OPPOSITE</Text>
+                <Text style={styles.statLabel}>{lang === 'en' ? (mode === 'hiragana' ? "KATAKANA" : "HIRAGANA") : (mode === 'hiragana' ? "片假名" : "平假名")}</Text>
                 <Text style={styles.statValue}>
                   {mode === 'hiragana' ? selectedKana.k : selectedKana.h}
                 </Text>
@@ -171,6 +172,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F8F9FA',
+    //backgroundColor: 'transparent',
+
   },
   header: {
     flexDirection: 'row',
@@ -178,7 +181,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingHorizontal: 20,
     paddingVertical: 16,
-    backgroundColor: '#FFF',
+    //backgroundColor: '#FFF',
     borderBottomWidth: 1,
     borderBottomColor: '#F1F1F1',
     ...Platform.select({
@@ -320,7 +323,7 @@ const styles = StyleSheet.create({
     right: 0,
     top: 0,
     backgroundColor: 'rgba(0,0,0,0.2)',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     padding: 16,
   },
   modalContent: {

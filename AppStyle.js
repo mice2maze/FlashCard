@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions, Platform } from 'react-native';
+
 const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 
 export default StyleSheet.create({
@@ -7,11 +8,11 @@ export default StyleSheet.create({
     marginTop: 30,
   },
   mainView: {
-    width: '90%',
+    width: '100%',
     height: screenHeight * 0.5,
     borderRadius: 20,
     padding: 15,
-    // alignItems: 'center',
+    alignItems: 'center',
     marginTop: 15,
     justifyContent: 'space-evenly',
     shadowColor: '#000',
@@ -19,7 +20,7 @@ export default StyleSheet.create({
     shadowRadius: 4,
     shadowOpacity: 0.1,
     elevation: 5,
-    backgroundColor: 'rgba(255, 255, 255, 0.32)',
+    backgroundColor: 'rgba(217, 212, 212, 0.18)',
   },
   barView: {
     marginVertical: '1%',
@@ -31,15 +32,17 @@ export default StyleSheet.create({
     
   },
   japaneseContainer: {
+    marginVertical: '1%',
+    width: '98%',
+    minHeight: 140,
     alignItems: 'center',
-    marginVertical: 15,
-    marginLeft: '8%',
-    marginRight: '8%',
-    paddingVertical: 8,            // p-2
-    paddingHorizontal: 16,         // px-4    
-    borderRadius: 999,             // rounded-full
-    // borderWidth: 1,
-    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    justifyContent: 'space-evenly',
+    //borderRadius: 20,
+    //paddingVertical: 16,
+    paddingHorizontal: 16,
+    //backgroundColor: 'rgba(84, 156, 238, 0.18)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
   },
   buttonView: {
     marginVertical: '3%',
@@ -58,17 +61,24 @@ export default StyleSheet.create({
   pronounBox: {
     flexDirection: 'row',       // Aligns Image and Text horizontally
     alignItems: 'center',       // Centers items vertically within the box
-    backgroundColor: '#c9c5d2', // Light grey background
+    backgroundColor: '#4F46E5', // Light grey background
     paddingVertical: 8,         // Space inside top/bottom
     paddingHorizontal: 16,      // Space inside left/right
     borderRadius: 25,           // The "Round" factor (tweak as needed)
     borderWidth: 1,             // Optional: thin border
     borderColor: '#D3D3D3',     // Optional: border color
     //alignSelf: 'flex-start',    // Prevents the box from stretching full-width
-    marginVertical: 10,         // Space outside the box
+    //marginVertical: 10,         // Space outside the box
     textAlign: 'center',        // Centers each line of text
     alignSelf: 'center',        // Ensures text block itself is centered        
   },
+  pronoun: {
+    fontSize: 15,
+    fontStyle: 'italic',
+    color: '#ffffff',
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
+  },  
   middleView: {
     marginVertical: '2%',
     marginLeft: '8%',
@@ -92,8 +102,8 @@ export default StyleSheet.create({
     height: 28,
   },
   translateImgSize: {
-    width: 28,
-    height: 28,
+    width: 20,
+    height: 20,
   },
   noPronounImgSize: {
     width: 28,
@@ -121,13 +131,7 @@ export default StyleSheet.create({
     textAlign: 'center',        // Centers each line of text
     alignSelf: 'center',        // Ensures text block itself is centered  
   },
-  pronoun: {
-    fontSize: 20,
-    fontStyle: 'italic',
-    //color: '#7560f1',
-    textAlign: 'center',        // Centers each line of text
-    alignSelf: 'center',        // Ensures text block itself is centered
-  },
+
   description: {
     fontSize: 16,
     fontStyle: 'italic',
@@ -137,7 +141,7 @@ export default StyleSheet.create({
     alignSelf: 'center',  
   },
   sample_text1: {
-    fontSize: 12,
+    fontSize: 15,
     lineHeight: 24,
     color: '#333',
     //marginTop: -15,
@@ -171,8 +175,15 @@ export default StyleSheet.create({
     width: '100%',
     height: '100%',
   },
+  cardSeq: {
+    marginTop: '3%',
+    fontSize: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },  
   heading: {
     fontSize: 20,
+    color: '#0f172a',
     justifyContent: 'center',
     alignItems: 'center',
   },
