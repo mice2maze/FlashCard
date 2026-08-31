@@ -125,6 +125,12 @@ export default StyleSheet.create({
     textAlign: 'center',        // Centers each line of text
     alignSelf: 'center',        // Ensures text block itself is centered
   },
+  showWordType: {
+    fontSize: 20,
+    color: 'grey',
+    textAlign: 'center',        // Centers each line of text
+    alignSelf: 'center',        // Ensures text block itself is centered
+  },  
   sampleTitle: {
     fontSize: 20,
     marginBottom: 8,
@@ -236,5 +242,14 @@ export default StyleSheet.create({
     paddingVertical: 1,
     borderRadius: 20,
     marginVertical: 0.5,
+  },
+  submitAnswerButton: {
+     width: '100%',
+     padding: 10,
+     borderRadius: 8,
+     marginVertical: 6,
+     alignItems: 'center',
+     borderWidth: 1,
+     borderColor: '#eee'
   },
 });

@@ -37,6 +37,7 @@ const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
 // determiner = demonstrative/attributive word such as この/その/どの
 // suffix = 接尾辞
 // expression = fixed expression
+// demonstrative pron. = A demonstrative pronoun is a word that points to or refers to a person, thing, place, or direction without directly naming it.
 
 let card_database = [];
 
@@ -361,6 +362,13 @@ useEffect(() => {
     );
   }  
 
+  function renderWordType(card) {
+    if (!card) return null;
+    return (
+        <Text style={styles.showWordType}>{card.WordType === "" ? "": "(" + card.WordType + ")"}</Text>
+    );
+  }
+  
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground style={styles.img} source={bgImg} resizeMode='cover'>     
@@ -412,8 +420,10 @@ useEffect(() => {
         onSwipe={(direction) => onSwipe(direction,card_database[itemSeq])}
       >
       <View style={styles.mainView}>
-        <Text style={styles.title}>{card_database[itemSeq].Title}</Text>
-        {renderKanji(card_database[itemSeq])}
+        <Text style={styles.title}>{card_database[itemSeq].Title} 
+        <Text style={[styles.subtitle,{opacity:showKanji}]}>{card_database[itemSeq].Subtitle === "" ? "": "(" + card_database[itemSeq].Subtitle + ")"}</Text>
+        </Text>
+        {renderWordType(card_database[itemSeq])}
         {renderTranslation(card_database[itemSeq])}
         {renderPronunciation(card_database[itemSeq])}        
 
@@ -513,20 +523,11 @@ useEffect(() => {
                            <Pressable
                              key={i}
                              onPress={() => submitAnswer(i)}
-                             style={{
-                               width: '100%',
-                               backgroundColor: bg,
-                               padding: 10,
-                               borderRadius: 8,
-                               marginVertical: 6,
-                               alignItems: 'center',
-                               borderWidth: 1,
-                               borderColor: '#eee'
-                             }}
+                             style={[styles.submitAnswerButton, { backgroundColor: bg }]}
                            >
                              <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center'}}>
                                <Text style={{fontSize:16}}>
-                                 {opt.English} {opt.Chinese ? ` / ${opt.Chinese}` : ''}
+                                 {menuLanguage === 'en' ? opt.English : opt.Chinese}
                                </Text>
                                {isSelected && (
                                  <MaterialIcons name={quizResult ? 'check-circle' : 'cancel'} size={20} color={quizResult ? '#2e7d32' : '#c62828'} style={{marginLeft:8}} />
@@ -550,7 +551,7 @@ useEffect(() => {
                      const correctIdx = quizOptions.findIndex(o => o.Title === quizQuestion.Title);
                      const correctOpt = quizOptions[correctIdx] || {};
                      return (
-                       <Text style={{marginTop:6}}>{correctOpt.English} {correctOpt.Chinese ? ` / ${correctOpt.Chinese}` : ''}</Text>
+                       <Text style={{marginTop:6}}>{menuLanguage === 'en' ? correctOpt.Japanese : correctOpt.English}</Text>
                      );
                    })()}
                  </View>
